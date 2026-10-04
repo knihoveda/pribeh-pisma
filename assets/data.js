@@ -73,7 +73,7 @@ window.SLIDES = [
     "id": 6,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Ukázka prvotisku, jehož výzdoba napodobuje rukopisnou knihu.",
+    "title": "Ukázka prvotisku, jehož výzdoba napodobuje rukopisnou knihu",
     "paragraphs": [
       "Prvotisk staršího období tištěný rotundou, bez titulního listu, s dvousloupcovou sazbou, patrným incipitem s červenou rubrikou, iluminovanou iniciálou a bordurou, s rubrikací v podobě barevného zvýraznění počátečních písmen jednotlivých vět, zato bez jakýchkoli tištěných čtenářských pomůcek, živá záhlaví doplněna rukopisně s barevnými rubrikami, v horní části vpravo rukopisné ex libris bývalého františkánského kláštera v Tachově z roku 1629."
     ],
@@ -126,7 +126,7 @@ window.SLIDES = [
     "id": 10,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Srovnání rukopisné a tištěné knihy.",
+    "title": "Srovnání rukopisné a tištěné knihy",
     "paragraphs": [
       "Latinský středověký papírový rukopis z přelomu 14.-15. století psaný bastardou ve dvou sloupcích, zvýrazněný incipit psán červenou barvou, dvoubarevná kolorovaná iniciála a patrná rubrikace červenou barvou."
     ],
@@ -143,7 +143,7 @@ window.SLIDES = [
     "id": 11,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Srovnání rukopisné a tištěné knihy.",
+    "title": "Srovnání rukopisné a tištěné knihy",
     "paragraphs": [
       "Prvotisk staršího období tištěný rotundou, bez titulního listu, s dvousloupcovou sazbou, nepříliš zřetelným incipitem, s kolorovanými lombardovými verzálami, s rubrikací v podobě barevného zvýraznění počátečních písmen jednotlivých vět, zato bez jakýchkoli tištěných čtenářských pomůcek a předtištěných reprezentant, živá záhlaví doplněna rukopisně s červenými rubrikami, v horní části vpravo rukopisné ex libris bývalého františkánského kláštera v Tachově z roku 1629"
     ],

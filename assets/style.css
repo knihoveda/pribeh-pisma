@@ -149,7 +149,7 @@ button { font: inherit; color: inherit; }
   font-size: var(--body-size, 26px);
   line-height: 1.5;
   color: var(--ink-soft);
-  hyphens: auto; -webkit-hyphens: auto;
+  hyphens: none; -webkit-hyphens: none;
   text-wrap: pretty;
 }
 .body p { margin: 0 0 .9em; }
@@ -177,7 +177,7 @@ button { font: inherit; color: inherit; }
   font-family: var(--sans);
   font-size: 17px; line-height: 1.42;
   color: var(--graphite);
-  hyphens: auto; -webkit-hyphens: auto;
+  hyphens: none; -webkit-hyphens: none;
 }
 .cap span { display: block; }
 .cap .cap-title { color: var(--ink); font-weight: 600; }
