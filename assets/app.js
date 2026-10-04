@@ -9,7 +9,7 @@
   // ---------------------------------------------------------------------------
 
   var SLIDES = window.SLIDES || [];
-  var ASSET_VERSION = "20261004-3";
+  var ASSET_VERSION = "20261004-4";
 
   var W = 1920, H = 1080;
   var M = 96;              // vnější okraj
@@ -50,8 +50,13 @@
     if (html != null) n.innerHTML = html;
     return n;
   }
+  // Česká typografie: jednopísmenné předložky a spojky (k, s, v, z, o, u, a, i)
+  // nesmí zůstat na konci řádku — za nimi následuje nezlomitelná mezera.
+  function orphans(s) {
+    return s.replace(/(^|[\s(„“"])([KkSsVvZzOoUuAaIi])[ \t]+(?=[^\s])/g, "$1$2\u00a0");
+  }
   function esc(s) {
-    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+    return orphans(String(s)).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   }
   function pad(n) { return n < 10 ? "0" + n : String(n); }
   function src(path) { return path + "?v=" + ASSET_VERSION; }
