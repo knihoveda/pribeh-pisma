@@ -5,7 +5,7 @@ window.SLIDES = [
   {
     "id": 1,
     "kind": "cover",
-    "eyebrow": "K 550. výročí českého knihtisku připravili Mgr. Alena Petruželková a Bc. Jan Kašpar",
+    "eyebrow": "K 550. výročí českého knihtisku připravili\nMgr. Alena Petruželková a Bc. Jan Kašpar",
     "title": "Příběh písma",
     "org": "Památník národního písemnictví\nMuzeum literatury"
   },

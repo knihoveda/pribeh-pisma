@@ -9,7 +9,7 @@
   // ---------------------------------------------------------------------------
 
   var SLIDES = window.SLIDES || [];
-  var ASSET_VERSION = "20261004-5";
+  var ASSET_VERSION = "20261004-6";
 
   var W = 1920, H = 1080;
   var M = 96;              // vnější okraj
@@ -334,7 +334,7 @@
       slide.insertBefore(art, slide.firstChild);
     }
     var text = el("div", "cover-text" + (im ? "" : " is-wide"));
-    text.appendChild(rv(el("div", "eyebrow", esc(data.eyebrow)), 0));
+    text.appendChild(rv(el("div", "eyebrow", esc(data.eyebrow).replace(/\n/g, "<br>")), 0));
     var words = data.title.split(/\s+/);
     var h = el("h1", "cover-title", esc(words[0]) + (words.length > 1 ? "<em>" + esc(words.slice(1).join(" ")) + "</em>" : ""));
     text.appendChild(rv(h, 1));
