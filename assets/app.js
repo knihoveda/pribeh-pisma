@@ -5,7 +5,7 @@
   // Bump this whenever an image file is replaced in place (same filename,
   // new bytes) so browsers that already cached the old bytes fetch fresh
   // ones instead of showing a stale (e.g. wrongly rotated) version.
-  var ASSET_VERSION = "20260921-2";
+  var ASSET_VERSION = "20261004-6";
   var world = document.getElementById("world");
   var viewportEl = document.getElementById("viewport");
   var stage = document.getElementById("stage");
@@ -34,8 +34,8 @@
     return e;
   }
 
-  function textBlock(paragraphs) {
-    var wrap = el("div", "body-text");
+  function textBlock(paragraphs, columns) {
+    var wrap = el("div", "body-text" + (columns ? " cols" : ""));
     (paragraphs || []).forEach(function (p) {
       wrap.appendChild(el("p", null, p));
     });
@@ -47,7 +47,7 @@
   }
 
   function figureEl(img) {
-    var fig = el("figure", "figure");
+    var fig = el("figure", "figure" + (img.w / img.h > 1.25 ? " landscape" : ""));
     var image = document.createElement("img");
     image.src = withVersion(img.src);
     image.loading = "eager";
@@ -67,39 +67,61 @@
     if (slide.width) frame.style.width = slide.width + "px";
 
     if (slide.kind === "cover") {
-      var textCol = el("div", "cover-text");
-      textCol.appendChild(el("div", "eyebrow", slide.eyebrow));
-      textCol.appendChild(el("h1", "cover-title", slide.title));
+      var coverText = el("div", "cover-text");
+      coverText.appendChild(el("div", "eyebrow", slide.eyebrow));
+      coverText.appendChild(el("h1", "cover-title", slide.title));
+      coverText.appendChild(el("div", "rule"));
+      coverText.appendChild(el("div", "cover-org", slide.org));
+      frame.appendChild(coverText);
+    } else if (slide.kind === "quote") {
+      var quoteText = el("div", "quote-text");
+      quoteText.appendChild(el("div", "eyebrow", slide.eyebrow));
+      quoteText.appendChild(el("h1", "title", slide.title));
       var q = el("blockquote", "quote");
       q.textContent = slide.quote.join("\n");
-      var author = el("cite", "quote-author", slide.quoteAuthor);
-      q.appendChild(author);
-      textCol.appendChild(q);
-      frame.appendChild(textCol);
-
-      if (slide.images && slide.images.length) {
-        var figCol = el("div", "cover-fig");
-        figCol.appendChild(figureEl(slide.images[0]));
-        frame.appendChild(figCol);
-      }
-    } else if (slide.kind === "section") {
+      q.appendChild(el("cite", "quote-author", slide.quoteAuthor));
+      quoteText.appendChild(q);
+      frame.appendChild(quoteText);
+      var quoteFig = el("div", "quote-fig");
+      quoteFig.appendChild(figureEl(slide.images[0]));
+      frame.appendChild(quoteFig);
+    } else if (slide.kind === "agenda") {
       frame.appendChild(el("div", "eyebrow", slide.eyebrow));
       frame.appendChild(el("h1", "title", slide.title));
-      if (slide.subtitle) frame.appendChild(el("div", "subtitle", slide.subtitle));
+      var agenda = el("div", "agenda");
+      slide.items.forEach(function (item) {
+        var row = el("div", "agenda-item");
+        row.appendChild(el("div", "agenda-label", item.label));
+        row.appendChild(el("p", null, item.text));
+        agenda.appendChild(row);
+      });
+      frame.appendChild(agenda);
+    } else if (slide.kind === "specimen") {
+      var specimen = el("div", "specimen");
+      var specimenText = el("div", "specimen-text");
+      specimenText.appendChild(el("div", "eyebrow", slide.eyebrow));
+      specimenText.appendChild(el("h1", "title", slide.title));
+      specimenText.appendChild(textBlock(slide.paragraphs));
+      specimenText.appendChild(el("div", "specimen-caption", slide.caption));
+      specimen.appendChild(specimenText);
+      var specimenMedia = el("div", "specimen-media");
+      specimenMedia.appendChild(figureEl(slide.images[0]));
+      specimen.appendChild(specimenMedia);
+      frame.appendChild(specimen);
     } else if (slide.kind === "closing") {
-      frame.appendChild(el("div", "eyebrow", slide.eyebrow));
-      frame.appendChild(el("h1", "title", slide.title));
-      frame.appendChild(textBlock(slide.paragraphs));
-      if (slide.images && slide.images.length) {
-        var logoWrap = el("div", "closing-logo");
-        var img = document.createElement("img");
-        img.src = withVersion(slide.images[0].src);
-        img.alt = "Logo";
-        img.style.maxWidth = "220px";
-        img.style.height = "auto";
-        logoWrap.appendChild(img);
-        frame.appendChild(logoWrap);
-      }
+      var closingText = el("div", "closing-text");
+      closingText.appendChild(el("div", "eyebrow", slide.eyebrow));
+      closingText.appendChild(el("h1", "title", slide.title));
+      closingText.appendChild(textBlock(slide.paragraphs));
+      var logo = document.createElement("img");
+      logo.className = "closing-logo";
+      logo.src = withVersion(slide.images[0].src);
+      logo.alt = "Památník národního písemnictví – Muzeum literatury";
+      closingText.appendChild(logo);
+      frame.appendChild(closingText);
+      var closingPhoto = el("div", "closing-photo");
+      closingPhoto.appendChild(figureEl(slide.images[1]));
+      frame.appendChild(closingPhoto);
     } else if (slide.kind === "table") {
       frame.appendChild(el("div", "eyebrow", slide.eyebrow));
       frame.appendChild(el("h1", "title", slide.title));
@@ -136,17 +158,16 @@
     } else {
       // "text" and "figure"
       var imgCount = slide.images ? slide.images.length : 0;
+      var hasText = !!(slide.paragraphs && slide.paragraphs.length);
       frame.appendChild(el("div", "eyebrow", slide.eyebrow));
       frame.appendChild(el("h1", "title", slide.title));
 
-      if (imgCount > 0 && imgCount <= 2) {
+      if (imgCount > 0 && imgCount <= 2 && hasText) {
         // Few images: put text and image(s) side by side so the
         // illustration reads large instead of stranded in empty space.
         var split = el("div", "figure-split");
         var textSide = el("div", "text-side");
-        if (slide.paragraphs && slide.paragraphs.length) {
-          textSide.appendChild(textBlock(slide.paragraphs));
-        }
+        textSide.appendChild(textBlock(slide.paragraphs));
         var mediaSide = el("div", "media-side" + (imgCount === 1 ? " single" : " double"));
         slide.images.forEach(function (img) {
           mediaSide.appendChild(figureEl(img));
@@ -158,8 +179,22 @@
           frame.appendChild(el("div", "group-caption", slide.groupCaption));
         }
       } else {
-        if (slide.paragraphs && slide.paragraphs.length) {
-          frame.appendChild(textBlock(slide.paragraphs));
+        if (hasText) {
+          frame.appendChild(textBlock(slide.paragraphs, slide.columns));
+        }
+        if (slide.groups) {
+          var groupRow = el("div", "group-row");
+          slide.groups.forEach(function (g) {
+            var col = el("div", "group");
+            var grow = el("div", "media-row");
+            g.images.forEach(function (img) {
+              grow.appendChild(figureEl(img));
+            });
+            col.appendChild(grow);
+            col.appendChild(el("div", "group-caption", g.caption));
+            groupRow.appendChild(col);
+          });
+          frame.appendChild(groupRow);
         }
         if (imgCount > 0) {
           var mrow = el("div", "media-row wrap");
@@ -190,7 +225,8 @@
   function computeLayout() {
     var gapX = 340;
     var gapY = 420;
-    var rowSize = 4;
+    // ~6 columns for 35 frames keeps the overview map close to 16:9
+    var rowSize = Math.max(4, Math.round(Math.sqrt(frames.length * 1.1)));
     var dir = 1;
     var prevX = 0, prevY = 0, prevW = 0, prevH = 0;
     positions = [];
@@ -233,13 +269,18 @@
 
   // ---------- Camera ----------
 
+  // vertical room reserved for the top and bottom HUD controls
+  function hudPadY(vh) {
+    return Math.min(96, vh * 0.13);
+  }
+
   function focusIndex(index, animate) {
     var pos = positions[index];
     if (!pos) return;
     var vw = viewportEl.clientWidth;
     var vh = viewportEl.clientHeight;
-    var margin = 0.86;
-    var scale = Math.min((vw * margin) / pos.w, (vh * margin) / pos.h);
+    // keep tall frames clear of the top and bottom HUD controls
+    var scale = Math.min((vw * 0.9) / pos.w, (vh - 2 * hudPadY(vh)) / pos.h);
     scale = Math.max(0.08, Math.min(scale, 2.2));
 
     var tx = vw / 2 - pos.x * scale;
@@ -267,8 +308,7 @@
     var totalH = maxY - minY;
     var vw = viewportEl.clientWidth;
     var vh = viewportEl.clientHeight;
-    var margin = 0.9;
-    var scale = Math.min((vw * margin) / totalW, (vh * margin) / totalH);
+    var scale = Math.min((vw * 0.9) / totalW, (vh - 2 * hudPadY(vh)) / totalH);
     scale = Math.max(0.01, Math.min(scale, 2));
     var centerX = (minX + maxX) / 2;
     var centerY = (minY + maxY) / 2;
@@ -309,7 +349,7 @@
     nextBtn.disabled = current === frames.length - 1;
 
     var slide = SLIDES[current];
-    sectionLabel.textContent = slide.eyebrow || slide.title || "";
+    sectionLabel.textContent = slide.label || slide.eyebrow || slide.title || "";
   }
 
   function goTo(index, animate) {

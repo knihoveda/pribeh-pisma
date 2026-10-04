@@ -123,15 +123,6 @@ body{
   white-space: pre-line;
 }
 
-.subtitle{
-  font-family: var(--serif);
-  font-style: italic;
-  font-weight: 400;
-  font-size: 26px;
-  color: var(--ink-soft);
-  margin: -6px 0 0;
-}
-
 .body-text{
   font-size: 18px;
   line-height: 1.62;
@@ -149,66 +140,155 @@ body{
   margin: 0 0 26px;
 }
 
+/* ---- long text in two columns ---- */
+.body-text.cols{
+  max-width: none;
+  column-count: 2;
+  column-gap: 72px;
+  font-size: 19px;
+}
+.body-text.cols p{ orphans: 2; widows: 2; }
+
 /* ---- cover ---- */
 .frame-cover{
-  flex-direction: row;
-  align-items: center;
-  gap: 64px;
+  min-height: 780px;
+  overflow: hidden;
 }
-.frame-cover .cover-text{ flex: 1.1; min-width: 0; }
-.frame-cover .cover-title{
-  font-family: var(--serif);
-  font-weight: 600;
-  font-size: 78px;
-  line-height: 1.02;
-  margin: 10px 0 34px;
-  color: var(--ink);
-}
-.frame-cover .quote{
+.frame-cover::after{
+  content: "Aa";
+  position: absolute;
+  right: 110px;
+  top: 50%;
+  transform: translateY(-50%);
   font-family: var(--serif);
   font-style: italic;
-  font-size: 22px;
-  line-height: 1.55;
+  font-weight: 600;
+  font-size: 640px;
+  line-height: 1;
+  color: var(--gold);
+  opacity: 0.1;
+  pointer-events: none;
+}
+.cover-text{ position: relative; z-index: 1; max-width: 1500px; }
+.cover-text .eyebrow{ font-size: 15px; margin-bottom: 30px; }
+.cover-title{
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 150px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  margin: 0 0 36px;
+  color: var(--ink);
+}
+.cover-org{
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 32px;
+  line-height: 1.4;
+  color: var(--ink-soft);
+  white-space: pre-line;
+}
+
+/* ---- quote ---- */
+.frame-quote{
+  flex-direction: row;
+  align-items: center;
+  gap: 72px;
+}
+.quote-text{ flex: 1.1; min-width: 0; }
+.quote{
+  margin: 30px 0 0;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 30px;
+  line-height: 1.5;
   color: var(--ink-soft);
   border-left: 3px solid var(--gold);
-  padding-left: 22px;
+  padding-left: 28px;
   white-space: pre-line;
-  max-width: 46ch;
 }
-.frame-cover .quote-author{
+.quote-author{
   display: block;
-  margin-top: 14px;
+  margin-top: 18px;
   font-family: var(--sans);
   font-style: normal;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--gold-deep);
 }
-.frame-cover .cover-fig{ flex: 0.8; display:flex; justify-content:center; }
+.quote-fig{ flex: 0.8; display: flex; justify-content: center; }
+.quote-fig .figure img{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 640px;
+}
+.quote-fig .figure figcaption{ max-width: 340px; }
 
-/* ---- section divider ---- */
-.frame-section{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+/* ---- agenda ---- */
+.agenda{ margin-top: 14px; max-width: 1100px; }
+.agenda-item{
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+  padding: 26px 0;
+  border-top: 1px solid var(--line);
 }
-.frame-section .eyebrow{ text-align:center; }
-.frame-section .title{
-  font-size: 88px;
-  margin-bottom: 10px;
+.agenda-label{
+  flex: 0 0 90px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--gold-deep);
 }
-.frame-section .subtitle{ font-size: 30px; }
+.agenda-item p{
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 28px;
+  line-height: 1.4;
+  color: var(--ink);
+}
+
+/* ---- specimen: manuscript/incunabula page next to its description ---- */
+.specimen{
+  display: flex;
+  align-items: flex-start;
+  gap: 72px;
+}
+.specimen-text{ flex: 1.1; min-width: 0; }
+.specimen-text .body-text{ max-width: none; font-size: 19px; }
+.specimen-caption{
+  margin-top: 30px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--ink-faint);
+  white-space: pre-line;
+}
+.specimen-media{ flex: 0.9; display: flex; justify-content: center; }
+.specimen-media .figure img{
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 800px;
+}
 
 /* ---- closing ---- */
 .frame-closing{
+  flex-direction: row;
   align-items: center;
-  text-align: center;
+  gap: 72px;
 }
-.frame-closing .title{ font-size: 34px; }
-.frame-closing .body-text{ max-width: 40ch; margin: 0 auto; }
-.frame-closing .closing-logo{ margin-top: 34px; opacity: .85; }
+.closing-text{ flex: 1; min-width: 0; }
+.closing-text .title{ font-size: 38px; }
+.closing-text .body-text{ max-width: none; font-size: 21px; }
+.closing-logo{ display: block; margin-top: 44px; width: 300px; height: auto; opacity: 0.9; }
+.closing-photo{ flex: 1; display: flex; justify-content: center; }
+.closing-photo .figure img{ width: 100%; max-width: 700px; }
 
 /* ---- figure with 1-2 images: side-by-side composition ---- */
 .figure-split{
@@ -232,7 +312,7 @@ body{
   flex-direction: column;
 }
 .figure-split .media-side.single .figure{
-  max-width: 380px;
+  max-width: 420px;
   width: 100%;
 }
 .figure-split .media-side.single .figure img{
@@ -242,11 +322,12 @@ body{
   width: auto;
   height: auto;
   max-width: 100%;
-  max-height: 360px;
+  max-height: 440px;
 }
 .figure-split .media-side.single .figure figcaption{
   max-width: 340px;
 }
+.figure-split .media-side.double{ flex: 1.5; }
 .figure-split .media-side.double .figure{
   flex: 1 1 0;
   min-width: 0;
@@ -275,7 +356,7 @@ body{
 }
 .figure img{
   width: 100%;
-  max-width: 260px;
+  max-width: 320px;
   height: auto;
   object-fit: contain;
   background: #fff;
@@ -290,7 +371,7 @@ body{
   color: var(--ink-faint);
   text-align: center;
   white-space: pre-line;
-  max-width: 240px;
+  max-width: 300px;
 }
 
 .group-caption{
@@ -303,9 +384,21 @@ body{
   padding-top: 16px;
 }
 
-/* ---- gallery (slide 12) ---- */
+.media-row .figure.landscape img{ max-width: 480px; }
+.media-row .figure.landscape figcaption{ max-width: 400px; }
+
+/* two image groups side by side, each with its own caption */
+.group-row{
+  display: flex;
+  gap: 64px;
+  margin-top: 34px;
+}
+.group{ flex: 1 1 0; min-width: 0; }
+.group .media-row{ margin-top: 0; }
+
+/* ---- gallery ---- */
 .frame-gallery .media-row{ justify-content: center; gap: 60px; }
-.frame-gallery .figure img{ max-width: 300px; }
+.frame-gallery .figure img{ max-width: 380px; }
 
 /* ---- table ---- */
 .table-wrap{ margin-top: 26px; overflow: hidden; border: 1px solid var(--line); border-radius: 4px; }

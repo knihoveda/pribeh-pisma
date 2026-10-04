@@ -1,10 +1,10 @@
 # Příběh písma — interaktivní prezentace (Prezi styl)
 
 Statická webová aplikace bez závislostí (vanilla HTML/CSS/JS), vytvořená z obsahu
-`Prezentace_Vyroci_knihtisku_email.pptx`. Texty a obrázky jsou beze změny, pořadí
-kapitol odpovídá originální prezentaci. Místo klasického "slide vpřed/vzad" kamera
-plynule panoramuje a přibližuje/oddaluje mezi jednotlivými "rámy" rozmístěnými na
-velkém plátně — efekt podobný Prezi.
+PowerPointové prezentace k 550. výročí českého knihtisku (35 slajdů). Texty a obrázky
+jsou beze změny, pořadí slajdů odpovídá originální prezentaci. Místo klasického
+"slide vpřed/vzad" kamera plynule panoramuje a přibližuje/oddaluje mezi jednotlivými
+"rámy" rozmístěnými na velkém plátně — efekt podobný Prezi.
 
 ## Struktura
 
@@ -26,7 +26,8 @@ prezi-vyroci-knihtisku/
 - tlačítka prev/next v dolní liště
 - `Home` / `End` — skok na první/poslední slajd
 - `F` nebo tlačítko vpravo nahoře — fullscreen
-- `Esc` — opuštění fullscreen
+- kliknutí na tmavé pozadí — přehled všech slajdů, kliknutím na slajd se do něj přiblížíte
+- `Esc` — opuštění přehledu / fullscreenu
 
 ## Embedování do jiného webu
 
@@ -48,6 +49,12 @@ prezi-vyroci-knihtisku/
 ## Úprava obsahu
 
 Veškerý text a přiřazení obrázků je v `assets/data.js` — jde o pole objektů, jedno
-na slajd, s poli `kind`, `eyebrow`, `title`, `paragraphs`, `images`, případně
-`table`. Rozložení "plátna" (pozice jednotlivých rámů) se počítá automaticky v
-`app.js` (`computeLayout`), není třeba jej ručně upravovat.
+na slajd. Pole `kind` určuje rozložení (`cover`, `quote`, `agenda`, `text`,
+`specimen`, `figure`, `table`, `gallery`, `closing`), dále se používají `eyebrow`,
+`title`, `paragraphs`, `images`, `groups`, `table`; `columns: true` rozdělí dlouhý
+text do dvou sloupců a `width` určuje šířku rámu (volte tak, aby měl poměr stran
+zhruba 16:9 — kamera se pak přiblíží nejvíc). Rozložení "plátna" (pozice jednotlivých
+rámů) se počítá automaticky v `app.js` (`computeLayout`).
+
+Při výměně obrázku pod stejným názvem zvyšte verzi v `ASSET_VERSION` (`app.js`) a
+v odkazech `?v=` v `index.html`, ať prohlížeče nezobrazují starou cache.
