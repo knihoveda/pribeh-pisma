@@ -9,7 +9,7 @@
   // ---------------------------------------------------------------------------
 
   var SLIDES = window.SLIDES || [];
-  var ASSET_VERSION = "20261004-4";
+  var ASSET_VERSION = "20261004-5";
 
   var W = 1920, H = 1080;
   var M = 96;              // vnější okraj
@@ -53,7 +53,13 @@
   // Česká typografie: jednopísmenné předložky a spojky (k, s, v, z, o, u, a, i)
   // nesmí zůstat na konci řádku — za nimi následuje nezlomitelná mezera.
   function orphans(s) {
-    return s.replace(/(^|[\s(„“"])([KkSsVvZzOoUuAaIi])[ \t]+(?=[^\s])/g, "$1$2\u00a0");
+    var prev;
+    do {
+      prev = s;
+      // opakovaně: u „i v …“ první náhrada spotřebuje mezeru, kterou druhé slovo potřebuje jako hranici
+      s = s.replace(/(^|[\s(„“"])([KkSsVvZzOoUuAaIi])[ \t]+(?=[^\s])/g, "$1$2\u00a0");
+    } while (s !== prev);
+    return s;
   }
   function esc(s) {
     return orphans(String(s)).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
