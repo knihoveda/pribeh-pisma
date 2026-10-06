@@ -9,7 +9,7 @@
   // ---------------------------------------------------------------------------
 
   var SLIDES = window.SLIDES || [];
-  var ASSET_VERSION = "20261004-6";
+  var ASSET_VERSION = "20261006-2";
 
   var W = 1920, H = 1080;
   var M = 96;              // vnější okraj
@@ -58,6 +58,14 @@
       prev = s;
       // opakovaně: u „i v …“ první náhrada spotřebuje mezeru, kterou druhé slovo potřebuje jako hranici
       s = s.replace(/(^|[\s(„“"])([KkSsVvZzOoUuAaIi])[ \t]+(?=[^\s])/g, "$1$2\u00a0");
+      // čísla: tisícové skupiny („3 000“), číslo + měna/jednotka/slovo („3 000 Kč“, „52 barevných“),
+      // řadové číslovky před slovem („15. století“)
+      s = s.replace(/(\d)[ \t]+(?=\d{3}(?!\d))/g, "$1\u00a0");
+      s = s.replace(/(\d)[ \t]+(?=[A-Za-zÀ-ž%€$°(])/g, "$1\u00a0");
+      s = s.replace(/(\d\.)[ \t]+(?=[a-zà-ž])/g, "$1\u00a0");
+      // zkratky a tituly s hodnotou za nimi, iniciály se jménem („IČ 9/68-349“, „sv. 5“, „Mgr. Alena“, „T. G. Masaryk“)
+      s = s.replace(/(^|[\s(])(IČ|č\.|sv\.|r\.|obr\.|fol\.|sign\.|str\.|Mgr\.|Bc\.)[ \t]+(?=\S)/g, "$1$2\u00a0");
+      s = s.replace(/(^|[\s(])([A-ZÁ-Ž]\.)[ \t]+(?=[A-ZÁ-Ž])/g, "$1$2\u00a0");
     } while (s !== prev);
     return s;
   }
@@ -269,7 +277,7 @@
     var head = el("div", "runhead");
     head.innerHTML =
       '<span><span class="dot"></span>Příběh písma</span>' +
-      "<span>550 let českého knihtisku</span>";
+      "<span>" + esc("550 let českého knihtisku") + "</span>";
     if (opts.noHead) head.style.display = "none";
     slide.appendChild(head);
     slide.appendChild(el("div", "folio", "<b>" + pad(index + 1) + "</b> — " + pad(SLIDES.length)));
@@ -334,7 +342,7 @@
       slide.insertBefore(art, slide.firstChild);
     }
     var text = el("div", "cover-text" + (im ? "" : " is-wide"));
-    text.appendChild(rv(el("div", "eyebrow", esc(data.eyebrow).replace(/\n/g, "<br>")), 0));
+    if (data.eyebrow) text.appendChild(rv(el("div", "eyebrow", esc(data.eyebrow).replace(/\n/g, "<br>")), 0));
     var words = data.title.split(/\s+/);
     var h = el("h1", "cover-title", esc(words[0]) + (words.length > 1 ? "<em>" + esc(words.slice(1).join(" ")) + "</em>" : ""));
     text.appendChild(rv(h, 1));
@@ -347,6 +355,7 @@
       var org = data.org.split("\n").map(function (l) { return "<span>" + esc(l) + "</span>"; }).join("");
       text.appendChild(rv(el("div", "cover-org", org), 3));
     }
+    if (data.intro) text.appendChild(rv(el("p", "cover-intro", esc(data.intro)), 4));
     slide.appendChild(text);
     if (!im) slide.appendChild(rv(glyphEl(), 2, "rv-img"));
   }

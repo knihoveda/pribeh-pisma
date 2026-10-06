@@ -1,7 +1,7 @@
 # Příběh písma — interaktivní prezentace
 
 Statická webová aplikace bez závislostí (vanilla HTML/CSS/JS), vytvořená z obsahu
-PowerPointové prezentace k 550. výročí českého knihtisku (35 slajdů). Texty a obrázky
+PowerPointové prezentace k 550. výročí českého knihtisku (34 slajdů). Texty a obrázky
 jsou beze změny, pořadí slajdů odpovídá originální prezentaci.
 
 ## Vizuální systém „Rubrika“
@@ -49,7 +49,7 @@ key visual v `design/rubrika-key-visual.png`.
 
 Veškerý text a přiřazení obrázků je v `assets/data.js` — jde o pole objektů, jedno
 na slajd, s poli `kind`, `eyebrow`, `title`, `paragraphs`, `images` (u obrázku `caption`),
-případně `groupCaption`, `table`. Druhy slajdů: `cover` (obal, volitelně `org`), `quote`
+případně `groupCaption`, `table`. Druhy slajdů: `cover` (obal, volitelně `org` a `intro`), `quote`
 (citát s obrázkem), `agenda` (`items`), `text`, `figure`/`gallery` (text a obrázky),
 `table`, `closing`. Rozložení každého slajdu se počítá automaticky v `app.js`
 (`buildText`, `buildFigure`, `arrange`): dlouhý text se sám rozdělí do dvou sloupců
@@ -58,3 +58,11 @@ ručně polohovat.
 
 Při výměně obrázku pod stejným názvem zvyšte verzi v `ASSET_VERSION` (`app.js`) a v
 odkazech `?v=` v `index.html`, ať prohlížeče nezobrazují starou cache.
+
+## Sazba
+
+Při vykreslení (`orphans()` v `app.js`) se do textu vkládají pevné mezery: za jednopísmennými
+předložkami a spojkami (k, s, v, z, o, u, a, i), v tisícových skupinách („3 000“), mezi
+číslem a měnou/jednotkou/slovem („3 000 Kč“, „52 barevných“, „15. století“), u zkratek
+(IČ, č., sv., obr.), titulů (Mgr., Bc.) a iniciál („T. G. Masaryk“). Automatické dělení
+slov je vypnuté.

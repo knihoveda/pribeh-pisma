@@ -5,9 +5,9 @@ window.SLIDES = [
   {
     "id": 1,
     "kind": "cover",
-    "eyebrow": "K 550. výročí českého knihtisku připravili\nMgr. Alena Petruželková a Bc. Jan Kašpar",
     "title": "Příběh písma",
-    "org": "Památník národního písemnictví\nMuzeum literatury"
+    "org": "Památník národního písemnictví\nMuzeum literatury",
+    "intro": "V roce 2026 si připomínáme 550. výročí českého knihtisku. Knihovna Památníku národního písemnictví k tomuto jubileu připravila příspěvek, který ve dvou částech představí exponáty se zaměřením na písmo ze sbírky PNP."
   },
   {
     "id": 2,
@@ -25,8 +25,8 @@ window.SLIDES = [
     "images": [
       {
         "src": "assets/img/s02-1.jpg",
-        "w": 1235,
-        "h": 1500,
+        "w": 1187,
+        "h": 1118,
         "caption": "Viktor Oliva: Písař\nakvarel\nUS/PNP\nIČ 90/73-109"
       }
     ]
@@ -92,7 +92,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Rukopisný kodex a tištěná kniha. Vývoj čtenářského aparátu",
     "paragraphs": [
-      "Čtenářský aparát, známý z pozdějších tisků i moderních knih, který měl usnadnit orientaci v textu, se vyvíjel teprve postupně. Nejstarší pomůcka tohoto typu, archová signatura, se v tištěné knize objevila na začátku 60. let 15. století. Původně sloužila především knihařům k správnému kompletování složek. Po vzoru středověkých kodexů se vpisovala se ručně na spodní okraje archů a při oříznutí svázaného knižního bloku částečně nebo zcela zmizela. Signatury archů jako součást sazby použil poprvé Johann Koelhoff st. v Kolíně nad Rýnem roku 1472, do Čech je záhy nato zavedl Tiskař Arnoštových Statut v Plzni po roce 1476 a na Moravě se objevily v Brně o deset let později. Některé tisky pro lepší orientaci obsahovaly také rejstřík archových signatur zvaný tabula chartarum, otiskovaný na konci knihy. Jako první s ním přišel německý tiskař působící v Římě a v Neapoli Sixt Riessinger již okolo roku 1467 a u nás pak Tiskař žaltáře v Praze roku 1487.",
+      "Čtenářský aparát, známý z pozdějších tisků i moderních knih, který měl usnadnit orientaci v textu, se vyvíjel teprve postupně. Nejstarší pomůcka tohoto typu, archová signatura, se v tištěné knize objevila na začátku 60. let 15. století. Původně sloužila především knihařům k správnému kompletování složek. Po vzoru středověkých kodexů se vpisovala ručně na spodní okraje archů a při oříznutí svázaného knižního bloku částečně nebo zcela zmizela. Signatury archů jako součást sazby použil poprvé Johann Koelhoff st. v Kolíně nad Rýnem roku 1472, do Čech je záhy nato zavedl Tiskař Arnoštových Statut v Plzni po roce 1476 a na Moravě se objevily v Brně o deset let později. Některé tisky pro lepší orientaci obsahovaly také rejstřík archových signatur zvaný tabula chartarum, otiskovaný na konci knihy. Jako první s ním přišel německý tiskař působící v Římě a v Neapoli Sixt Riessinger již okolo roku 1467 a u nás pak Tiskař žaltáře v Praze roku 1487.",
       "Jakkoli mělo signování archů význam spíše technologický, pro soudobé i současné čtenáře může fungovat i jako orientační pomůcka v knize, i když v tomto směru bezesporu lépe slouží foliace, kolumnace a paginace, tedy číslování listů, sloupců nebo stran. Středověké rukopisy obsahovaly taková číslování jen zřídka a stejně tomu bylo u raných prvotisků. Tištěné číslování listů jako první použil Arnold Therhoernen v Kolíně nad Rýnem roku 1470, kolumnaci německý tiskař Helias Heliae ve švýcarském Beromünsteru v témže roce a paginaci Aldo Manuzio st. v Benátkách roku 1499. V našem prostředí zavedli foliaci němečtí tiskaři Konrad Stahel a Mathias Preinlein v Brně roku 1491 a Tiskař Pražské bible v roce 1501 v Praze, zatímco číslování sloupců a stran se vžívalo velmi pozvolna až během 16. století. Paginace se poprvé objevila okolo roku 1530 u pražských tiskařů Kašpara Aorga a Pavla Severýna z Kapí Hory, kolumnace pak dokonce až v roce 1570 u Jiřího Melantricha z Aventýna. Jakousi českou specialitu, i když spíše ojediněle praktikovanou, představovalo číslování apertur, tedy otevřených dvoustran knihy (sudá a lichá stránka). V Čechách jako první zavedli toto číslování Tiskař Arnoštových Statut v Plzni okolo roku 1476 a Tiskař Pražské bible v Praze roku 1495."
     ]
   },
@@ -135,7 +135,7 @@ window.SLIDES = [
         "src": "assets/img/s10-1.jpg",
         "w": 960,
         "h": 1313,
-        "caption": "Joanni a Sancto Geminiano Sermones dominicales in epistolas de tempore, praeter quadragesimale. Jacobi de Lausanna Compendium moralitatum. Sermones prolixiores. Jacobi de Voragine Sermones dominicales per circulum anni. Cod. chart., XIVex – XVin.\nKnihovna PNP, sign. RKP III 74, fol. [1]r."
+        "caption": "Joannes a Sancto Geminiano Sermones dominicales in epistolas de tempore, praeter quadragesimale. Jacobi de Lausanna Compendium moralitatum. Sermones prolixiores. Jacobi de Voragine Sermones dominicales per circulum anni. Cod. chart., XIVex – XVin.\nKnihovna PNP, sign. RKP III 74, fol. [1]r."
       }
     ]
   },
@@ -145,7 +145,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Srovnání rukopisné a tištěné knihy",
     "paragraphs": [
-      "Prvotisk staršího období tištěný rotundou, bez titulního listu, s dvousloupcovou sazbou, nepříliš zřetelným incipitem, s kolorovanými lombardovými verzálami, s rubrikací v podobě barevného zvýraznění počátečních písmen jednotlivých vět, zato bez jakýchkoli tištěných čtenářských pomůcek a předtištěných reprezentant, živá záhlaví doplněna rukopisně s červenými rubrikami, v horní části vpravo rukopisné ex libris bývalého františkánského kláštera v Tachově z roku 1629"
+      "Prvotisk staršího období tištěný gotikoantikvou, bez titulního listu, s dvousloupcovou sazbou, nepříliš zřetelným incipitem, s kolorovanými lombardovými verzálami, s rubrikací v podobě barevného zvýraznění počátečních písmen jednotlivých vět, zato bez jakýchkoli tištěných čtenářských pomůcek a předtištěných reprezentant, živá záhlaví doplněna rukopisně s červenými rubrikami, v horní části vpravo rukopisné ex libris bývalého františkánského kláštera v Tachově z roku 1629"
     ],
     "images": [
       {
@@ -180,7 +180,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Titulní list",
     "paragraphs": [
-      "Rovněž i tak samozřejmá součást knihy, jakou představuje titulní list, prošla určitým vývojem. Nejstarší prvotisky žádný titulní list neměly a podle vzoru středověkých rukopisů zahrnoval informace o autorovi a název díla incipit na první potištěné straně, který byl posléze oddělován od vlastního textu a získával tak podobu hlavního nadpisu. Podobným způsobem se z dílčích incipitů postupně vyvíjely i nadpisy jednotlivých kapitol. Explicit neboli kolofon, situovaný dle středověké rukopisné tradice na konec tištěné knihy, pak obsahoval, kromě autora a názvu knihy, další podstatné údaje týkající se především místa tisku, datace a jména tiskaře či nakladatele, čímž vlastně předjímal funkce pozdější titulní strany. Nejstarší tištěný explicit se objevil již roku 1457 u Johanna Fusta a Petera Schöffera st. v Mohuči, do Čech jej zavedl Tiskař Arnoštových statut v Plzni roku 1476. Ovšem již nejstarší tiskaři v 15. století záhy zjistili, že první list knižního bloku je zbytečně vystavován možnosti mechanického poškození a začali proto sazbu na prvním archu vyřazovat tak, aby první list zůstal prázdný a fungoval coby ochrana první potištěné strany. Záhy došlo k dalšímu vylepšení, na lícovou stranu tohoto prázdného listu, který ostatně knihaři během převazby ze šetrnosti a v zájmu dalšího užití relativně drahého papíru beztak většinou vyřízli, začal být sázen incipit, respektive zkrácený název díla spolu s údajem o autorovi. Tato praxi zavedli například Fust a Schöffer st. v Mohuči roku 1463, na Moravě Konrad Stahel a Mathias Preinlein v Brně roku 1488 a v Čechách pražský Tiskař Korandy v roce 1493. První úplný titulní list v podobě, jakou známe dodnes, tedy obsahující název, jméno autora a údaje o tiskaři čili impressum, vytiskl v Benátkách německý tiskař Erhard Ratdolt roku 1476, v německé oblasti pak Wolfgang Stöckel roku 1500 a v Čechách Mikuláš Bakalář Štětina v Plzni roku 1513."
+      "Rovněž i tak samozřejmá součást knihy, jakou představuje titulní list, prošla určitým vývojem. Nejstarší prvotisky žádný titulní list neměly a podle vzoru středověkých rukopisů zahrnoval informace o autorovi a název díla incipit na první potištěné straně, který byl posléze oddělován od vlastního textu a získával tak podobu hlavního nadpisu. Podobným způsobem se z dílčích incipitů postupně vyvíjely i nadpisy jednotlivých kapitol. Explicit neboli kolofon, situovaný dle středověké rukopisné tradice na konec tištěné knihy, pak obsahoval, kromě autora a názvu knihy, další podstatné údaje týkající se především místa tisku, datace a jména tiskaře či nakladatele, čímž vlastně předjímal funkce pozdější titulní strany. Nejstarší tištěný explicit se objevil již roku 1457 u Johanna Fusta a Petera Schöffera st. v Mohuči, do Čech jej zavedl Tiskař Arnoštových statut v Plzni roku 1476. Ovšem již nejstarší tiskaři v 15. století záhy zjistili, že první list knižního bloku je zbytečně vystavován možnosti mechanického poškození a začali proto sazbu na prvním archu vyřazovat tak, aby první list zůstal prázdný a fungoval coby ochrana první potištěné strany. Záhy došlo k dalšímu vylepšení, na lícovou stranu tohoto prázdného listu, který ostatně knihaři během převazby ze šetrnosti a v zájmu dalšího užití relativně drahého papíru beztak většinou vyřízli, začal být sázen incipit, respektive zkrácený název díla spolu s údajem o autorovi. Tuto praxi zavedli například Fust a Schöffer st. v Mohuči roku 1463, na Moravě Konrad Stahel a Mathias Preinlein v Brně roku 1488 a v Čechách pražský Tiskař Korandy v roce 1493. První úplný titulní list v podobě, jakou známe dodnes, tedy obsahující název, jméno autora a údaje o tiskaři čili impressum, vytiskl v Benátkách německý tiskař Erhard Ratdolt roku 1476, v německé oblasti pak Wolfgang Stöckel roku 1500 a v Čechách Mikuláš Bakalář Štětina v Plzni roku 1513."
     ]
   },
   {
@@ -341,122 +341,20 @@ window.SLIDES = [
     "images": [
       {
         "src": "assets/img/s21-1.jpg",
-        "w": 717,
-        "h": 1017,
+        "w": 689,
+        "h": 978,
         "caption": "Jean Cocteau: Chvála knihtisku\nPreissigovo písmo, 1930\nPNP/OK\nIČ AHO 675"
       },
       {
         "src": "assets/img/s21-2.jpg",
-        "w": 759,
-        "h": 1038,
+        "w": 717,
+        "h": 1000,
         "caption": "Jaroslav Durych: Panenky\nPísmo Goudy s akcenty V. Preissiga, 1927\nPNP/OK\nIČ C12 d 64"
       }
     ]
   },
   {
     "id": 22,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Josef Váchal (1884–1969)",
-    "paragraphs": [
-      "Malíř, grafik, ilustrátor, spisovatel a básník se vymyká běžným kategoriím, do nichž bývá zařazován. Mezi písmaři zaujímá jedinečné místo, neboť neusiloval o vytvoření moderního typografického písma, ale tvorbu podřizoval vlastním uměleckým konceptům.",
-      "Váchalovy knihy jsou originální ve všech ohledech – z hlediska obsahu, způsobu provedení, techniky zhotovení dřevorytů a linořezů, úpravy, sazby i tisku. Originalita spočívá rovněž ve stylové jednotnosti jednotlivých složek knihy. Pozoruhodný je zejména souzvuk písma a ilustrací. U některých titulů vyřezával písmo zároveň s obrázkem, čímž vznikal takzvaný tabulový tisk. Váchal graficky upravil a vyzdobil přes 50 knih, přičemž písma sám navrhoval, ryl i odléval."
-    ],
-    "images": [
-      {
-        "src": "assets/img/s22-1.jpg",
-        "w": 290,
-        "h": 406,
-        "caption": "Josef Váchal\nKorčula (1927), kniha obsahující 52 barevných dřevorytů a 78 stran textu.\nVáchal pro tuto publikaci vyřezal 3 000 písmen a odlil 4 500 liter.\nVznikl tak soubor několika druhů písem bohaté rozmanitosti, od tučných až po slabé litery."
-      }
-    ]
-  },
-  {
-    "id": 23,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Jaroslav Benda (1882–1965)",
-    "paragraphs": [
-      "Kreslíř, typograf a písmař. Už jako student VŠUP a AVU se podílel na zkvalitnění knižní produkce. Po vzniku samostatného Československa pracovali s VHB a Kyselou na návrhu písma, jehož tvarosloví by reflektovalo národní charakter. Ačkoliv se návrhům písem věnoval po celou dobu svého profesního života, realizace jeho návrhů tiskového písma se uskutečnila až v 60. letech. Benda navrhl pouze čtyři písma pro ruční a řádkovou sazbu. Na knižním písmu začal pracovat v roce 1913, předlohy byly dokončeny v roce 1923, realizace se ale neuskutečnila."
-    ],
-    "images": [
-      {
-        "src": "assets/img/s23-1.jpg",
-        "w": 811,
-        "h": 1326,
-        "caption": "Jaroslav Benda\nNávrh typografického písma\nKresebné návrhy, akcenty VI\nlepená kompozice, korektury, tuš a běloba\nIČ 32/68-10"
-      },
-      {
-        "src": "assets/img/s23-2.jpg",
-        "w": 1318,
-        "h": 803,
-        "caption": "Jaroslav Benda\nNávrh typografického písma\nStrojová knižní Romana, pro srovnání uveden Plantin (Monotype), 1968\nIČ 32/68-11"
-      },
-      {
-        "src": "assets/img/s23-3.jpg",
-        "w": 1500,
-        "h": 1059,
-        "caption": "Jaroslav Benda\nKresebný návrh Romany se dvěma alternativami akcentů, 1962, 1968\nIČ 32/68-12"
-      }
-    ]
-  },
-  {
-    "id": 24,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Jaroslav Benda (1882–1965)",
-    "paragraphs": [
-      "V roce 1935 zaslal Benda návrhy písma do anglické firmy Monotype, kde byly objeveny v archivu až v roce 2013. Bendovy nerealizované návrhy písem se uplatnily v knižních grafických úpravách a rovněž v akcidenčních tiscích (např. plakátové písmo Mánes z r. 1919 vydané Grafií patří k jednomu z prvních písem kompletně provedených v Československu)."
-    ],
-    "images": [
-      {
-        "src": "assets/img/s24-1.jpg",
-        "w": 586,
-        "h": 950,
-        "caption": "Jaroslav Benda\nNávrh obálky\nKamil Krofta: Naše staré legendy, 1947\nIČ 11/2018-102"
-      },
-      {
-        "src": "assets/img/s24-2.jpg",
-        "w": 567,
-        "h": 751,
-        "caption": "Jaroslav Benda\nNávrh obálky\nKarel Buchterla a Lubor Niederle: Příručka české archeologie, Umění a řemesla sv. 5, 1910, na rubu přípis Štencovi\nIČ 11/2018-20 (1,2)"
-      },
-      {
-        "src": "assets/img/s24-3.jpg",
-        "w": 736,
-        "h": 841,
-        "caption": "Jaroslav Benda\nNávrh obálky\nLuděk Bradáč: Knihvazačství, Umění a řemesla sv. 7, 1912, poznámky\nIČ 11/2018-67"
-      }
-    ]
-  },
-  {
-    "id": 25,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Jaroslav Benda (1882–1965)",
-    "images": [
-      {
-        "src": "assets/img/s25-1.jpg",
-        "w": 898,
-        "h": 840,
-        "caption": "Návrh obálky\nJan Laichter: V žáru vzpoury, 1938\nIČ 11/2018-30"
-      },
-      {
-        "src": "assets/img/s25-2.jpg",
-        "w": 788,
-        "h": 1257,
-        "caption": "Jaroslav Benda\nNávrh obálky\nS. K. Neumann: Anti-Gide, 1950, Cicero\nIČ 70/57-1382 (1,2)"
-      },
-      {
-        "src": "assets/img/s25-3.jpg",
-        "w": 681,
-        "h": 1017,
-        "caption": "Jaroslav Benda\nTitulní list\nHonoré de Balzacc: Dívka se zlatýma očima, 1907\n(Přelom století – bezserifová písma kompaktních bloků v secesním stylu)"
-      }
-    ]
-  },
-  {
-    "id": 26,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
@@ -466,71 +364,71 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s26-1.jpg",
-        "w": 508,
-        "h": 754,
+        "src": "assets/img/s22-1.jpg",
+        "w": 438,
+        "h": 650,
         "caption": "Vojtěch Preissig\nAkcidenční písmo\nTisk\nIČ 9/68-395"
       },
       {
-        "src": "assets/img/s26-2.jpg",
-        "w": 722,
-        "h": 509,
+        "src": "assets/img/s22-2.jpg",
+        "w": 773,
+        "h": 545,
         "caption": "Vojtěch Preissig\nNávrh písma pro knihu The House, 1914\nTuš na papíře\nIČ 9/68-349"
       },
       {
-        "src": "assets/img/s26-3.jpg",
-        "w": 400,
-        "h": 605,
+        "src": "assets/img/s22-3.jpg",
+        "w": 438,
+        "h": 663,
         "caption": "Vojtěch Preissig\nStudie písma pro knihu The House, 1914\nTuš na papíře\nIČ 9/68-353"
       }
     ]
   },
   {
-    "id": 27,
+    "id": 23,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
     "images": [
       {
-        "src": "assets/img/s27-1.jpg",
-        "w": 603,
-        "h": 906,
+        "src": "assets/img/s23-1.jpg",
+        "w": 526,
+        "h": 791,
         "caption": "Vojtěch Preissig\nPreissigova antikva, pracovní verze, 1923–1925\nTisk\nIČ 9/68-360"
       },
       {
-        "src": "assets/img/s27-2.jpg",
-        "w": 606,
-        "h": 905,
+        "src": "assets/img/s23-2.jpg",
+        "w": 624,
+        "h": 930,
         "caption": "Vojtěch Preissig\nProspekt k vydání Slezských písní; Zprávy Spolku bibliofilů r. I. č. 2\nLept\nIČ 9/68-691"
       },
       {
-        "src": "assets/img/s27-3.jpg",
-        "w": 599,
-        "h": 950,
+        "src": "assets/img/s23-3.jpg",
+        "w": 578,
+        "h": 918,
         "caption": "Vojtěch Preissig\nPlakát k výstavě grafiky Wentworth Institute\nTisk\nIČ 9/68-746"
       }
     ]
   },
   {
-    "id": 28,
+    "id": 24,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
     "images": [
       {
-        "src": "assets/img/s28-1.jpg",
-        "w": 601,
-        "h": 959,
+        "src": "assets/img/s24-1.jpg",
+        "w": 614,
+        "h": 809,
         "caption": "Vojtěch Preissig\nStudie písma\nTuš na papíře\nIČ 9/68-844"
       },
       {
-        "src": "assets/img/s28-2.jpg",
+        "src": "assets/img/s24-2.jpg",
         "w": 608,
         "h": 944,
         "caption": "Vojtěch Preissig\nBarevný lept a barevná rytina, 1909\nTisk\nIČ ZD 1E/35"
       },
       {
-        "src": "assets/img/s28-3.jpg",
+        "src": "assets/img/s24-3.jpg",
         "w": 690,
         "h": 970,
         "caption": "Vojtěch Preissig\nAnatol France: Místodržitel judský, 1929\nPísmo vysazeno z původní Italiky Vojtěcha Preissiga, jež byla pantograficky vyryta a vylita Státní tiskárnou v Praze\nIČ VZinková 819"
@@ -538,7 +436,91 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 29,
+    "id": 25,
+    "kind": "figure",
+    "eyebrow": "Osobnosti",
+    "title": "Jaroslav Benda (1882–1965)",
+    "paragraphs": [
+      "Kreslíř, typograf a písmař. Už jako student VŠUP a AVU se podílel na zkvalitnění knižní produkce. Po vzniku samostatného Československa pracovali s VHB a Kyselou na návrhu písma, jehož tvarosloví by reflektovalo národní charakter. Ačkoliv se návrhům písem věnoval po celou dobu svého profesního života, realizace jeho návrhů tiskového písma se uskutečnila až v 60. letech. Benda navrhl pouze čtyři písma pro ruční a řádkovou sazbu. Na knižním písmu začal pracovat v roce 1913, předlohy byly dokončeny v roce 1923, realizace se ale neuskutečnila."
+    ],
+    "images": [
+      {
+        "src": "assets/img/s25-1.jpg",
+        "w": 762,
+        "h": 1121,
+        "caption": "Jaroslav Benda\nNávrh typografického písma\nKresebné návrhy, akcenty VI\nlepená kompozice, korektury, tuš a běloba\nIČ 32/68-10"
+      },
+      {
+        "src": "assets/img/s25-2.jpg",
+        "w": 1091,
+        "h": 751,
+        "caption": "Jaroslav Benda\nNávrh typografického písma\nStrojová knižní Romana, pro srovnání uveden Plantin (Monotype), 1968\nIČ 32/68-11"
+      },
+      {
+        "src": "assets/img/s25-3.jpg",
+        "w": 1374,
+        "h": 981,
+        "caption": "Jaroslav Benda\nKresebný návrh Romany se dvěma alternativami akcentů, 1962, 1968\nIČ 32/68-12"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "kind": "figure",
+    "eyebrow": "Osobnosti",
+    "title": "Jaroslav Benda (1882–1965)",
+    "paragraphs": [
+      "V roce 1935 zaslal Benda návrhy písma do anglické firmy Monotype, kde byly objeveny v archivu až v roce 2013. Bendovy nerealizované návrhy písem se uplatnily v knižních grafických úpravách a rovněž v akcidenčních tiscích (např. plakátové písmo Mánes z r. 1919 vydané Grafií patří k jednomu z prvních písem kompletně provedených v Československu)."
+    ],
+    "images": [
+      {
+        "src": "assets/img/s26-1.jpg",
+        "w": 737,
+        "h": 1196,
+        "caption": "Jaroslav Benda\nNávrh obálky\nKamil Krofta: Naše staré legendy, 1947\nIČ 11/2018-102"
+      },
+      {
+        "src": "assets/img/s26-2.jpg",
+        "w": 895,
+        "h": 911,
+        "caption": "Jaroslav Benda\nNávrh obálky\nKarel Buchterla a Lubor Niederle: Příručka české archeologie, Umění a řemesla sv. 5, 1910, na rubu přípis Štencovi\nIČ 11/2018-20 (1,2)"
+      },
+      {
+        "src": "assets/img/s26-3.jpg",
+        "w": 916,
+        "h": 847,
+        "caption": "Jaroslav Benda\nNávrh obálky\nLuděk Bradáč: Knihvazačství, Umění a řemesla sv. 7, 1912, poznámky\nIČ 11/2018-67"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "kind": "figure",
+    "eyebrow": "Osobnosti",
+    "title": "Jaroslav Benda (1882–1965)",
+    "images": [
+      {
+        "src": "assets/img/s27-1.jpg",
+        "w": 1092,
+        "h": 845,
+        "caption": "Návrh obálky\nJan Laichter: V žáru vzpoury, 1938\nIČ 11/2018-30"
+      },
+      {
+        "src": "assets/img/s27-2.jpg",
+        "w": 788,
+        "h": 1040,
+        "caption": "Jaroslav Benda\nNávrh obálky\nS. K. Neumann: Anti-Gide, 1950, Cicero\nIČ 70/57-1382 (1,2)"
+      },
+      {
+        "src": "assets/img/s27-3.jpg",
+        "w": 681,
+        "h": 1017,
+        "caption": "Jaroslav Benda\nTitulní list\nHonoré de Balzacc: Dívka se zlatýma očima, 1907\n(Přelom století – bezserifová písma kompaktních bloků v secesním stylu)\nIČ Hoffmeister 0376"
+      }
+    ]
+  },
+  {
+    "id": 28,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
@@ -547,17 +529,41 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s29-1.jpg",
+        "src": "assets/img/s28-1.jpg",
         "w": 446,
         "h": 730
       },
       {
-        "src": "assets/img/s29-2.jpg",
+        "src": "assets/img/s28-2.jpg",
         "w": 456,
         "h": 627
       }
     ],
     "groupCaption": "Karel Dyrynk\nMalostranská antikva (1927) (2 obr.)\nAnatole France: Laeta Acilia, 1929\nPísmo: první, zkušební tisk Malostranskou antikvou, původním písmem navrženým, řezaným i vylitým slévárnou Státní tiskárny\nIČ Topič 0340\nV návrhu z roku 1927 se Dyrynk přiblížil ke klasické antikvě aldinského typu.\nPoprvé byla aplikována k tisku členské prémie SČB (T. G. Masaryk: Vybrané eseje, 1930). Italiku nakreslil v roce 1928."
+  },
+  {
+    "id": 29,
+    "kind": "figure",
+    "eyebrow": "Osobnosti",
+    "title": "Karel Dyrynk (1876–1949)",
+    "images": [
+      {
+        "src": "assets/img/s29-1.jpg",
+        "w": 568,
+        "h": 780
+      },
+      {
+        "src": "assets/img/s29-2.jpg",
+        "w": 570,
+        "h": 783
+      },
+      {
+        "src": "assets/img/s29-3.jpg",
+        "w": 598,
+        "h": 977
+      }
+    ],
+    "groupCaption": "Karel Dyrynk\nDyrynkova latinka (1929) (3 obr.)\nAnatole France: Dcera Lilitina, 1930\nPísmo: Dyrynkova latinka, řezaná ve Státní tiskárně pro Grégrovu slévárnu\nIČ Topič 0576\nLatinka byla odlita v roce 1929 novou slévárnou Arnošta Grégra, která písmo rovněž uvedla na trh pro všechny domácí tiskárny.\nKurzíva byla Dyrynkem navržena rovněž v roce 1929."
   },
   {
     "id": 30,
@@ -567,45 +573,21 @@ window.SLIDES = [
     "images": [
       {
         "src": "assets/img/s30-1.jpg",
-        "w": 568,
-        "h": 780
-      },
-      {
-        "src": "assets/img/s30-2.jpg",
-        "w": 570,
-        "h": 783
-      },
-      {
-        "src": "assets/img/s30-3.jpg",
-        "w": 598,
-        "h": 977
-      }
-    ],
-    "groupCaption": "Karel Dyrynk\nDyrynkova latinka (1929) (3 obr.)\nAnatole France: Dcera Lilitina, 1930\nPísmo: Dyrynkova latinka, řezaná ve Státní tiskárně pro Grégrovu slévárnu\nIČ Topič 0576\nLatinka byla odlita v roce 1929 novou slévárnou Arnošta Grégra, která písmo rovněž uvedla na trh pro všechny domácí tiskárny.\nKurzíva byla Dyrynkem navržena rovněž v roce 1929."
-  },
-  {
-    "id": 31,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Karel Dyrynk (1876–1949)",
-    "images": [
-      {
-        "src": "assets/img/s31-1.jpg",
         "w": 590,
         "h": 978
       },
       {
-        "src": "assets/img/s31-2.jpg",
+        "src": "assets/img/s30-2.jpg",
         "w": 600,
         "h": 972
       },
       {
-        "src": "assets/img/s31-3.jpg",
+        "src": "assets/img/s30-3.jpg",
         "w": 592,
         "h": 970
       },
       {
-        "src": "assets/img/s31-4.jpg",
+        "src": "assets/img/s30-4.jpg",
         "w": 595,
         "h": 974
       }
@@ -613,21 +595,36 @@ window.SLIDES = [
     "groupCaption": "Grégrova romana (1930) (2 obr.)\nDyrynkova romana III, později opravena na Grégrovu romanu, byla vytvořena v roce 1930. Písmo svými tvary bylo vhodné pro tisk bibliofilií. V roce 1931 byla vytvořena kurzíva\n\nNávrhy dalších písem (2 obr.):\n1. Písmo biblické (1934)\n2. Hetitské znaky (1932–1934)"
   },
   {
-    "id": 32,
+    "id": 31,
     "kind": "figure",
     "eyebrow": "Osobnosti",
-    "title": "Karel Dyrynk (1876–1949)",
+    "title": "Oldřich Menhart (1897–1962)",
+    "paragraphs": [
+      "Patří k nejvýznamnějším osobnostem české typografie, kaligrafie a knižní grafiky. Písmo vnímal jako jeden z nejstarších uměleckých projevů v dějinách lidstva a prosazoval myšlenku takzvané „služebnosti písma“. Je autorem teoretických prací a praktických příruček, vypracoval řadu návrhů písem včetně písem akcidenčních. Jeho praktická tvorba zahrnovala širokou škálu návrhů, od akcidenčních písem – jako bylo jeho plakátové písmo z roku 1922 – až po ucelené soubory, se kterými jako první český autor uspěl v mezinárodním měřítku. Prvním takovým úspěchem byla Menhartova antikva a kurzíva z roku 1929. Tento soubor vydala v roce 1932 renomovaná německá písmolijna Bauersche Giesserei ve Frankfurtu nad Mohanem. Na tento úspěch Menhart navázal v letech 1934–1935 návrhem Menhartovy romany a italiky, kterou následně v letech 1935–1936 vydala anglická firma Lanston Monotype Co. v Londýně. Za jeden z vrcholů Menhartovy písmařské tvorby je považováno písmo Figural romana. Menhart jej vytvořil v roce 1940, avšak kvůli historickým okolnostem bylo realizováno až v roce 1948 Státní tiskárnou v Praze. Celý soubor, včetně dynamické kurzívy, pak kompletně vydal národní podnik Grafotechna v roce 1950."
+    ],
     "images": [
       {
-        "src": "assets/img/s32-1.jpg",
-        "w": 263,
-        "h": 452,
-        "caption": "F. L. Čelakovský: Ohlas písní ruských a českých, 1913\nIČ Topič 655"
+        "src": "assets/img/s31-1.jpg",
+        "w": 983,
+        "h": 684,
+        "caption": "Oldřich Menhart\nMenhartova antikva s kurzívou, 1932–1935, Bauersche Giesserei"
+      },
+      {
+        "src": "assets/img/s31-2.jpg",
+        "w": 1017,
+        "h": 822,
+        "caption": "Oldřich Menhart\nMenhartova romana s italikou, 1934–1936, Lanston Monotype"
+      },
+      {
+        "src": "assets/img/s31-3.jpg",
+        "w": 1156,
+        "h": 639,
+        "caption": "Oldřich Menhart\nMenhartův Figural romana, 1948–1949, Státní tiskárna a Grafotechna"
       }
     ]
   },
   {
-    "id": 33,
+    "id": 32,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Method Kaláb (1885–1963)",
@@ -636,13 +633,13 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s33-1.jpg",
+        "src": "assets/img/s32-1.jpg",
         "w": 546,
         "h": 976,
         "caption": "Method Kaláb\nNávrhy antikvy z pozůstalosti, 1930, Grafotechna"
       },
       {
-        "src": "assets/img/s33-2.jpg",
+        "src": "assets/img/s32-2.jpg",
         "w": 556,
         "h": 979,
         "caption": "Karel Svolinský\nWenceslas, 1934, Monotype"
@@ -650,36 +647,25 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 34,
+    "id": 33,
     "kind": "figure",
     "eyebrow": "Osobnosti",
-    "title": "Oldřich Menhart (1897–1962)",
+    "title": "Josef Váchal (1884–1969)",
     "paragraphs": [
-      "Patří k nejvýznamnějším osobnostem české typografie, kaligrafie a knižní grafiky. Písmo vnímal jako jeden z nejstarších uměleckých projevů v dějinách lidstva a prosazoval myšlenku takzvané „služebnosti písma“. Je autorem teoretických prací a praktických příruček, vypracoval řadu návrhů písem včetně písem akcidenčních. Jeho praktická tvorba zahrnovala širokou škálu návrhů, od akcidenčních písem – jako bylo jeho plakátové písmo z roku 1922 – až po ucelené soubory, se kterými jako první český autor uspěl v mezinárodním měřítku. Prvním takovým úspěchem byla Menhartova antikva a kurziva z roku 1929. Tento soubor vydala v roce 1932 renomovaná německá písmolijna Bauersche Giesserei ve Frankfurtu nad Mohanem. Na tento úspěch Menhart navázal v letech 1934–1935 návrhem Menhartovy romany a italiky, kterou následně v letech 1935–1936 vydala anglická firma Lanston Monotype Co. v Londýně. Za jeden z vrcholů Menhartovy písmařské tvorby je považováno písmo Figural romana. Menhart jej vytvořil v roce 1940, avšak kvůli historickým okolnostem bylo realizováno až v roce 1948 Státní tiskárnou v Praze. Celý soubor, včetně dynamické kurzívy, pak kompletně vydal národní podnik Grafotechna v roce 1950."
+      "Malíř, grafik, ilustrátor, spisovatel a básník se vymyká běžným kategoriím, do nichž bývá zařazován. Mezi písmaři zaujímá jedinečné místo, neboť neusiloval o vytvoření moderního typografického písma, ale tvorbu podřizoval vlastním uměleckým konceptům.",
+      "Váchalovy knihy jsou originální ve všech ohledech – z hlediska obsahu, způsobu provedení, techniky zhotovení dřevorytů a linořezů, úpravy, sazby i tisku. Originalita spočívá rovněž ve stylové jednotnosti jednotlivých složek knihy. Pozoruhodný je zejména souzvuk písma a ilustrací. U některých titulů vyřezával písmo zároveň s obrázkem, čímž vznikal takzvaný tabulový tisk. Váchal graficky upravil a vyzdobil přes 50 knih, přičemž písma sám navrhoval, ryl i odléval."
     ],
     "images": [
       {
-        "src": "assets/img/s34-1.jpg",
-        "w": 983,
-        "h": 684,
-        "caption": "Oldřich Menhart\nMenhartova antikva s kurzívou, 1932–1935, Bauersche Giesserei"
-      },
-      {
-        "src": "assets/img/s34-2.jpg",
-        "w": 1017,
-        "h": 822,
-        "caption": "Oldřich Menhart\nMenhartova romana s italikou, 1934–1936, Lanston Monotype"
-      },
-      {
-        "src": "assets/img/s34-3.jpg",
-        "w": 1156,
-        "h": 639,
-        "caption": "Oldřich Menhart\nMenhartův Figural romana, 1948–1949, Státní tiskárna a Grafotechna"
+        "src": "assets/img/s33-1.jpg",
+        "w": 277,
+        "h": 376,
+        "caption": "Josef Váchal\nKorčula (1927), kniha obsahující 52 barevných dřevorytů a 78 stran textu.\nVáchal pro tuto publikaci vyřezal 3 000 písmen a odlil 4 500 liter.\nVznikl tak soubor několika druhů písem bohaté rozmanitosti, od tučných až po slabé litery."
       }
     ]
   },
   {
-    "id": 35,
+    "id": 34,
     "kind": "closing",
     "eyebrow": "Děkujeme",
     "title": "Mgr. Alena Petruželková\nBc. Jan Kašpar",
@@ -689,12 +675,12 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s35-1.png",
+        "src": "assets/img/s34-1.png",
         "w": 297,
         "h": 64
       },
       {
-        "src": "assets/img/s35-2.jpg",
+        "src": "assets/img/s34-2.jpg",
         "w": 767,
         "h": 431
       }
