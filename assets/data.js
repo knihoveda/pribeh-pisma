@@ -539,7 +539,7 @@ window.SLIDES = [
         "h": 627
       }
     ],
-    "groupCaption": "Karel Dyrynk\nMalostranská antikva (1927) (2 obr.)\nAnatole France: Laeta Acilia, 1929\nPísmo: první, zkušební tisk Malostranskou antikvou, původním písmem navrženým, řezaným i vylitým slévárnou Státní tiskárny\nIČ Topič 0340\nV návrhu z roku 1927 se Dyrynk přiblížil ke klasické antikvě aldinského typu.\nPoprvé byla aplikována k tisku členské prémie SČB (T. G. Masaryk: Vybrané eseje, 1930). Italiku nakreslil v roce 1928."
+    "groupCaption": "Karel Dyrynk\nMalostranská antikva (1927) (2 obr.)\nAnatole France: Laeta Acilia, 1929\nPísmo: první, zkušební tisk Malostranskou antikvou, původním písmem navrženým, řezaným i vylitým slévárnou Státní tiskárny\nV návrhu z roku 1927 se Dyrynk přiblížil ke klasické antikvě aldinského typu.\nPoprvé byla aplikována k tisku členské prémie SČB (T. G. Masaryk: Vybrané eseje, 1930). Italiku nakreslil v roce 1928.\nIČ Topič 0340"
   },
   {
     "id": 29,
@@ -563,7 +563,7 @@ window.SLIDES = [
         "h": 977
       }
     ],
-    "groupCaption": "Karel Dyrynk\nDyrynkova latinka (1929) (3 obr.)\nAnatole France: Dcera Lilitina, 1930\nPísmo: Dyrynkova latinka, řezaná ve Státní tiskárně pro Grégrovu slévárnu\nIČ Topič 0576\nLatinka byla odlita v roce 1929 novou slévárnou Arnošta Grégra, která písmo rovněž uvedla na trh pro všechny domácí tiskárny.\nKurzíva byla Dyrynkem navržena rovněž v roce 1929."
+    "groupCaption": "Karel Dyrynk\nDyrynkova latinka (1929) (3 obr.)\nAnatole France: Dcera Lilitina, 1930\nPísmo: Dyrynkova latinka, řezaná ve Státní tiskárně pro Grégrovu slévárnu\nLatinka byla odlita v roce 1929 novou slévárnou Arnošta Grégra, která písmo rovněž uvedla na trh pro všechny domácí tiskárny.\nKurzíva byla Dyrynkem navržena rovněž v roce 1929.\nIČ Topič 0576"
   },
   {
     "id": 30,
