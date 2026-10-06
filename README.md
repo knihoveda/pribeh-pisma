@@ -66,3 +66,8 @@ předložkami a spojkami (k, s, v, z, o, u, a, i), v tisícových skupinách (�
 číslem a měnou/jednotkou/slovem („3 000 Kč“, „52 barevných“, „15. století“), u zkratek
 (IČ, č., sv., obr.), titulů (Mgr., Bc.) a iniciál („T. G. Masaryk“). Automatické dělení
 slov je vypnuté.
+
+## Kontrola textu proti PDF
+
+`python3 tools/verify-text.py "prezentace.pdf"` (vyžaduje `pip install pymupdf`) porovná
+text v `assets/data.js` s textovou vrstvou PDF v obou směrech a vypíše každou odchylku.

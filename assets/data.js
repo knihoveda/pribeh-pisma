@@ -503,7 +503,7 @@ window.SLIDES = [
         "src": "assets/img/s27-1.jpg",
         "w": 1092,
         "h": 845,
-        "caption": "Návrh obálky\nJan Laichter: V žáru vzpoury, 1938\nIČ 11/2018-30"
+        "caption": "Jaroslav Benda\nNávrh obálky\nJan Laichter: V žáru vzpoury, 1938\nIČ 11/2018-30"
       },
       {
         "src": "assets/img/s27-2.jpg",
