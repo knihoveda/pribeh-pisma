@@ -312,6 +312,12 @@ button { font: inherit; color: inherit; }
 
 .ui { position: absolute; left: 0; right: 0; bottom: 0; z-index: 20; pointer-events: none; transition: opacity .45s var(--ease); }
 .app.is-idle .ui { opacity: 0; }
+.ui-top {
+  position: absolute; top: clamp(10px, 2vw, 24px); right: clamp(10px, 2.2vw, 28px); z-index: 20;
+  pointer-events: none; transition: opacity .45s var(--ease);
+}
+.app.is-idle .ui-top { opacity: 0; }
+a.ui-btn { text-decoration: none; }
 .ui-progress { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: rgba(133, 125, 110, .18); }
 .ui-progress span { display: block; height: 100%; width: 0; background: var(--red); transition: width .7s var(--ease); }
 .ui-bar {
