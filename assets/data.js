@@ -152,7 +152,7 @@ window.SLIDES = [
         "src": "assets/img/s11-1.jpg",
         "w": 1034,
         "h": 1500,
-        "caption": "Nicolai de Lyra Postilla super totam Bibliam. Cum Additionibus Pauli Burgensis. In lucem edidit Mathias Doerinck. Volumen III. ; Vetus Testamentum. Isaias – Libri Machabeorum. – [Štrasburk] : [Johann Mentelin], [non post 1472]. Knihovna PNP, sign. INC I 7, list [1]a"
+        "caption": "Nicolai de Lyra Postilla super totam Bibliam. Cum Additionibus Pauli Burgensis. In lucem edidit Mathias Doerinck. Volumen III. ; Vetus Testamentum. Isaias – Libri Machabeorum. – [Štrasburk] : [Johann Mentelin], [non post 1472].\nKnihovna PNP, sign. INC I 7, list [1]a"
       }
     ]
   },
