@@ -45,23 +45,35 @@ def fields(s):
     return out
 
 
+# Text, který PDF ořezává na okraji strany (v prezentaci přesahuje mimo slajd):
+# {číslo strany: [(úsek v PDF, skutečný text)]}
+CLIPPED = {24: [("ve vývoj latinky", "ve vývoji latinky")]}
+
+
+def split_words(x):
+    # PDF zalamuje i na pomlčce („1477-“ / „1478“), proto se slova dělí i na pomlčkách
+    return [norm(w) for w in re.split(r"[\s\-–—]+", x) if norm(w)]
+
+
 problems = []
 for i, s in enumerate(slides):
     words = sorted(pdf[i].get_text("words"), key=lambda w: (w[5], w[6], w[7]))
     stream = norm("".join(w[4] for w in words))
+    for a, b in CLIPPED.get(i + 1, []):
+        stream = stream.replace(norm(a), norm(b))
     for text in fields(s):
         for line in (l for l in text.split("\n") if l.strip()):
             if norm(line) and norm(line) not in stream:
                 problems.append("slajd %d: na webu, ale ne v PDF: %s" % (i + 1, line[:90]))
-    have = Counter(norm(w) for text in fields(s) for w in re.split(r"\s+", text) if norm(w))
-    for w in pdf[i].get_text("words"):
-        k = norm(w[4])
-        if not k:
-            continue
-        if have[k] > 0:
-            have[k] -= 1
-        elif i != 0:  # strana 1 má v PDF písmo s mezerami mezi písmeny
-            problems.append("slajd %d: v PDF, ale ne na webu: %s" % (i + 1, w[4]))
+    have = Counter(k for text in fields(s) for k in split_words(text))
+    pdf_words = [w[4] for w in pdf[i].get_text("words")]
+    clipped_fix = {a.split()[1]: b.split()[1] for a, b in CLIPPED.get(i + 1, [])}
+    for w in pdf_words:
+        for k in split_words(clipped_fix.get(w, w)):
+            if have[k] > 0:
+                have[k] -= 1
+            elif i != 0:  # strana 1 má v PDF písmo s mezerami mezi písmeny
+                problems.append("slajd %d: v PDF, ale ne na webu: %s" % (i + 1, w))
 
 print("\n".join(problems) if problems else "OK: text na webu odpovídá PDF (%d slajdů)." % len(slides))
 sys.exit(1 if problems else 0)
