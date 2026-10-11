@@ -47,7 +47,9 @@ def fields(s):
 
 # Text, který PDF ořezává na okraji strany (v prezentaci přesahuje mimo slajd):
 # {číslo strany: [(úsek v PDF, skutečný text)]}
-CLIPPED = {24: [("ve vývoj latinky", "ve vývoji latinky")]}
+CLIPPED = {24: [("ve vývoj latinky", "ve vývoji latinky")],
+           # záměrná oprava překlepu z prezentace
+           31: [("kde roku od roku 1465", "kde od roku 1465")]}
 
 
 def split_words(x):
@@ -67,7 +69,9 @@ for i, s in enumerate(slides):
                 problems.append("slajd %d: na webu, ale ne v PDF: %s" % (i + 1, line[:90]))
     have = Counter(k for text in fields(s) for k in split_words(text))
     pdf_words = [w[4] for w in pdf[i].get_text("words")]
-    clipped_fix = {a.split()[1]: b.split()[1] for a, b in CLIPPED.get(i + 1, [])}
+    clipped_fix = {a.split()[1]: b.split()[1] for a, b in CLIPPED.get(i + 1, []) if i + 1 == 24}
+    if i + 1 == 31:  # opravený překlep: v PDF přebývá jedno „roku“
+        pdf_words.remove("roku")
     for w in pdf_words:
         for k in split_words(clipped_fix.get(w, w)):
             if have[k] > 0:
