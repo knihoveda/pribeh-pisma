@@ -49,7 +49,8 @@ def fields(s):
 # {číslo strany: [(úsek v PDF, skutečný text)]}
 CLIPPED = {24: [("ve vývoj latinky", "ve vývoji latinky")],
            # záměrná oprava překlepu z prezentace
-           31: [("kde roku od roku 1465", "kde od roku 1465")]}
+           31: [("kde roku od roku 1465", "kde od roku 1465")],
+           29: [("až se 17. století", "až v 17. století")]}
 
 
 def split_words(x):
@@ -72,6 +73,8 @@ for i, s in enumerate(slides):
     clipped_fix = {a.split()[1]: b.split()[1] for a, b in CLIPPED.get(i + 1, []) if i + 1 == 24}
     if i + 1 == 31:  # opravený překlep: v PDF přebývá jedno „roku“
         pdf_words.remove("roku")
+    if i + 1 == 29:  # opravený překlep „až se 17. století“ -> „až v 17. století“
+        pdf_words.remove("se")
     for w in pdf_words:
         for k in split_words(clipped_fix.get(w, w)):
             if have[k] > 0:
