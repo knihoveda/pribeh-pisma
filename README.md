@@ -1,7 +1,7 @@
 # Příběh písma — interaktivní prezentace
 
 Statická webová aplikace bez závislostí (vanilla HTML/CSS/JS), vytvořená z obsahu
-PowerPointové prezentace k 550. výročí českého knihtisku (83 slajdů). Texty a obrázky
+PowerPointové prezentace k 550. výročí českého knihtisku (85 slajdů). Texty a obrázky
 jsou beze změny, pořadí slajdů odpovídá originální prezentaci.
 
 ## Vizuální systém „Rubrika“

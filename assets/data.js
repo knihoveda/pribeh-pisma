@@ -1,5 +1,5 @@
 // Obsahová data prezentace „Příběh písma“ — 550. výročí českého knihtisku.
-// Texty a obrázky převzaty z PowerPointové prezentace (83 slajdů), pořadí zachováno.
+// Texty a obrázky převzaty z PowerPointové prezentace (85 slajdů), pořadí zachováno.
 // Vygenerováno z původního .pptx; upravujte volně — layout se dopočítá v app.js.
 window.SLIDES = [
   {
@@ -54,7 +54,7 @@ window.SLIDES = [
     "title": "Od tělesnosti rukopisu k mechanickému stroji",
     "paragraphs": [
       "Dokud nebyl vynalezen knihtisk, bylo písmo určitým druhem tělesného projevu. Po rozšíření nové technologie knihtisku se vnímání tělesnosti promítlo do díla dvou klíčových renesančních typografů:",
-      "Geoffroy Tory (Champfleury, pojednání o kaligrafii a typografii, 1529) ve svém zásadním pojednání o kaligrafii a typografii tvrdil, že se proporce lidského těla se promítají do konstrukce a ideální geometrie jednotlivých písmen abecedy. Tory stanovil pravidla pro moderní knižní sazbu a estetiku latinky.",
+      "Geoffroy Tory (Champfleury, pojednání o kaligrafii a typografii, 1529) ve svém zásadním pojednání o kaligrafii a typografii tvrdil, že se proporce lidského těla promítají do konstrukce a ideální geometrie jednotlivých písmen abecedy. Tory stanovil pravidla pro moderní knižní sazbu a estetiku latinky.",
       "Aldo Manuzio st. byl první, kdo zavedl italiku (1501) jako typografické písmo, a sblížil tak tiskové písmo s rukopisem tehdejších humanistů – tedy se způsobem přenosu myšlenek, který byl standardem před vynálezem knihtisku.",
       "Teprve v době osvícenství se ustálil rozdíl mezi rukopisem a tiskem.",
       "V moderní době se původní gesto lidské ruky proměnilo v mechanický pohyb stroje. Od tohoto zlomového okamžiku lze zkoumat, jak se vztah mezi lidskou tělesností a technologií proměňuje a odcizuje. Jednou z hlavních kapitol dějin českého knihtisku je v tomto kontextu vývoj tiskového písma od vzniku individuálních typografických forem raných tisků 15. století až po současné digitální počítačové fonty."
@@ -190,7 +190,7 @@ window.SLIDES = [
     "title": "Tisková písma v historickém vývoji. Gotická písma. Gotikoantikva. Humanistické písmo. Novogotická písma.",
     "paragraphs": [
       "Historie tiskového písma je nerozlučně spjata s vývojem písma rukopisného a obě formy se vzájemně ovlivňovaly. Zatímco v počátcích knihtisku rukopis představoval východisko pro podobu písma tištěného, v pozdějším období tomu bylo také naopak, což se týká zejména skupiny písem novogotických. Ovšem i v moderní době měly na vývoj knihtisku nezanedbatelný vliv události týkající se vývoje humanistického písma.",
-      "Nejstarší skupinu představovala písma gotická vznikající coby důsledné napodobeniny rukopisných písem středověkých kodexů. Příznačná je pro ně rozdílná tloušťka jednotlivých tahů a lomené dříky písmen. Od 14. století byla na západě Evropy především v liturgických rukopisech užívána dekorativní kaligrafická textura s pravidelným čtvercovým půdorysem, s kolmými dříky malých písmen zakončenými malými kosočtverci a na pohled vyvolávající iluzi tkaniny. Pro obyčejnou každodenní kancelářskou potřebu, v korespondenci a v obchodních zápiscích nebylo toto monumentální písmo praktické a užívalo se jeho kursivní, zběžné formy, jejímž základním rysem je spojitost tahů. Přechodným typem se pak stala bastarda představující gotickou polokursivu s jen částečně spojitými tahy. Ta se uplatnila jednak coby písmo kancelářské, ale i rukopisné knižní. U méně výpravných kodexů byly její výhodou menší nároky kladené na písařskou práci a větší rychlost, s jakou mohl být rukopis napsán.",
+      "Nejstarší skupinu představovala písma gotická vznikající jako důsledné napodobeniny rukopisných písem středověkých kodexů. Příznačná je pro ně rozdílná tloušťka jednotlivých tahů a lomené dříky písmen. Od 14. století byla na západě Evropy především v liturgických rukopisech užívána dekorativní kaligrafická textura s pravidelným čtvercovým půdorysem, s kolmými dříky malých písmen zakončenými malými kosočtverci a na pohled vyvolávající iluzi tkaniny. Pro obyčejnou každodenní kancelářskou potřebu, v korespondenci a v obchodních zápiscích nebylo toto monumentální písmo praktické a užívalo se jeho kursivní, zběžné formy, jejímž základním rysem je spojitost tahů. Přechodným typem se pak stala bastarda představující gotickou polokursivu s jen částečně spojitými tahy. Ta se uplatnila jednak coby písmo kancelářské, ale i rukopisné knižní. U méně výpravných kodexů byly její výhodou menší nároky kladené na písařskou práci a větší rychlost, s jakou mohl být rukopis napsán.",
       "V jižní Evropě se ve stejném období objevila rotunda, která se rovněž vyvinula z rané gotické minuskuly. Na rozdíl od textury je okrouhlejší, mírněji lomená a s rovně seříznutými dříky."
     ]
   },
@@ -288,7 +288,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Textura",
     "paragraphs": [
-      "Textura se coby tiskové písmo objevila již na samém počátku knihtisku v Gutenbergově bibli v polovině 50. let 15. století. Roku 1477 ji zavedl londýnský tiskař William Caxton v Anglii, kde byla používána pro tisk nejen latinských, ale též anglických textů až do konce 17. století. Ve Francii texturu poprvé použil Jean Dupré v Paříži roku 1481, zde ovšem přetrvala jako písmo pro latinské texty jen do poloviny 16. století. V Nizozemí se pak uplatňovala coby univerzální tiskové písmo podobně jako v Anglii také až do sklonku 17. století, zatímco v Itálii a ve Španělsku nezdomácněla nikdy. Do Polska ji uvedl v letech 1473-1474 Tiskař Sermones papeže Lva I. V Čechách texturu jako první dvakrát použil Tiskař Arnoštových Statut v Plzni v letech 1476-1479, na Moravě pak Konrad Baumgarten v Olomouci roku 1500, který navíc jako první tiskař na našem území používal více druhů tiskového písma najednou. V našem prostředí se však, na rozdíl od bastardy, textura během 15. století nijak výrazněji neprosadila a podobně jako ve většině evropských zemí se začala i u nás během 16. století stávat písmem vyznačovacím a v této roli setrvala až do 70. let 16. století."
+      "Textura se coby tiskové písmo objevila již na samém počátku knihtisku v Gutenbergově bibli v polovině 50. let 15. století. Roku 1477 ji zavedl londýnský tiskař William Caxton v Anglii, kde byla používána pro tisk nejen latinských, ale též anglických textů až do konce 17. století. Ve Francii texturu poprvé použil Jean Dupré v Paříži roku 1481, zde ovšem přetrvala jako písmo pro latinské texty jen do poloviny 16. století. V Nizozemí pak sloužila jako univerzální tiskové písmo podobně jako v Anglii také až do sklonku 17. století, zatímco v Itálii a ve Španělsku nezdomácněla nikdy. Do Polska ji uvedl v letech 1473-1474 Tiskař Sermones papeže Lva I. V Čechách texturu jako první dvakrát použil Tiskař Arnoštových Statut v Plzni v letech 1476-1479, na Moravě pak Konrad Baumgarten v Olomouci roku 1500, který navíc jako první tiskař na našem území používal více druhů tiskového písma najednou. V našem prostředí se však, na rozdíl od bastardy, textura během 15. století nijak výrazněji neprosadila a podobně jako ve většině evropských zemí se začala i u nás během 16. století stávat písmem vyznačovacím a v této roli setrvala až do 70. let 16. století."
     ]
   },
   {
@@ -311,7 +311,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Bastarda",
     "paragraphs": [
-      "Bastarda napodobující gotickou polokursivu byla v Německu poprvé použita Janem Gutenbergem v Mohuči již roku 1454 v tisku odpustkové listiny. Do Francie ji uvedl až roku 1475 Pasquier Bonhomme v Paříži a jinak zdomácněla jen v zemích na sever od Alp. Z Francie se rozšířila do Anglie a Nizozemí a pod francouzským vlivem se začala znovu a mnohem výrazněji uplatňovat v Německu na konci 15. století. Všude byla používána výhradně pro tisk textů v národních jazycích. To byl důvod, proč se neujala v Polsku, kde se první souvislé texty v polštině objevily až po roce 1500, přičemž jejich krakovští tiskaři užili již modernějších písem, Johann Haller roku 1508 a Florian Ungler v roce 1513 rotundu, následně Ungler v roce 1522 švabach a Hieronym Wietor téhož roku frakturu. Zcela specifická situace pak byla v Čechách, kde od počátku 15. století bastarda coby rukopisné písmo v jazykově českých náboženských kodexech nahrazovala texturu. Ve snaze co nejvěrněji napodobit rukopisnou knihu naši nejstarší tiskaři užívali litery zhotovené podle několika domácích rukopisných předloh a tato česká varianta bastardy zůstala až do počátku 20. století jediným písmem vzniklým pro potřeby knihtisku přímo na našem území. Objevila se již v nejstarším tisku roku 1476 u Tiskaře Arnoštových statut. Bastardou je tištěna většina všech jazykově latinských i českých inkunábulí do roku 1500. Tiskař Arnoštových statut v Plzni uskutečnil vydání dvou knih v latině a čtyř v češtině, v Praze pak Tiskař Pražské bible užil od roku 1488 ve třinácti edicích dvou mírně odlišných forem bastardy a Tiskař Žaltáře měl ve dvou tiscích další typ, v tomto případě však silně ovlivněný rotundou. Počátkem 20. let 16. století éra bastardy v českých tiscích skončila."
+      "Bastarda napodobující gotickou polokursivu byla v Německu poprvé použita Janem Gutenbergem v Mohuči již roku 1454 v tisku odpustkové listiny. Do Francie ji uvedl až roku 1475 Pasquier Bonhomme v Paříži a jinak zdomácněla jen v zemích na sever od Alp. Z Francie se rozšířila do Anglie a Nizozemí a pod francouzským vlivem se začala znovu a mnohem výrazněji uplatňovat v Německu na konci 15. století. Všude byla používána výhradně pro tisk textů v národních jazycích. To byl důvod, proč se neujala v Polsku, kde se první souvislé texty v polštině objevily až po roce 1500, přičemž jejich krakovští tiskaři užili již modernějších písem, Johann Haller roku 1508 a Florian Ungler v roce 1513 rotundu, následně Ungler v roce 1522 švabach a Hieronym Wietor téhož roku frakturu. Zcela specifická situace pak byla v Čechách, kde od počátku 15. století bastarda jako rukopisné písmo v jazykově českých náboženských kodexech nahrazovala texturu. Ve snaze co nejvěrněji napodobit rukopisnou knihu naši nejstarší tiskaři užívali litery zhotovené podle několika domácích rukopisných předloh a tato česká varianta bastardy zůstala až do počátku 20. století jediným písmem vzniklým pro potřeby knihtisku přímo na našem území. Objevila se již v nejstarším tisku roku 1476 u Tiskaře Arnoštových statut. Bastardou je tištěna většina všech jazykově latinských i českých inkunábulí do roku 1500. Tiskař Arnoštových statut v Plzni uskutečnil vydání dvou knih v latině a čtyř v češtině, v Praze pak Tiskař Pražské bible užil od roku 1488 ve třinácti edicích dvou mírně odlišných forem bastardy a Tiskař Žaltáře měl ve dvou tiscích další typ, v tomto případě však silně ovlivněný rotundou. Počátkem 20. let 16. století éra bastardy v českých tiscích skončila."
     ]
   },
   {
@@ -340,7 +340,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Rotunda",
     "paragraphs": [
-      "Rotunda jako tiskové písmo vznikla v Itálii poněkud paradoxně prací německých tiskařů, coby vyznačovací písmo ji poprvé použil Ulrich Han v Římě roku 1467 a první knihu kompletně vysázenou rotundou vydal Vendelín ze Špýru v Benátkách v roce 1471. Nejvýznamnější a pro celou Evropu určující vzor ovšem vytvořil tamtéž roku 1474 francouzský tiskař Nicolas Jenson. Díky němu rotunda v Itálii zcela zastínila ostatní gotická písma, ač její dominantní postavení zde poněkud narušovala antikva, jejíž na další čas ustálenou podobu představil o čtyři roky dříve rovněž Jenson. Ve Španělsku ovšem rotunda získala postavení vyloženě národního písma, zatímco v Anglii se nikdy neujala. V Německu se poprvé objevila v Kolíně nad Rýnem u Johanna Koelhoffa st. roku 1472 a rovněž během 70. let 15. století se dostala do Švýcarska a do Francie. V Polsku ji zavedl německý tiskař Kaspar Straube v Krakově zhruba roku 1473, kde se výrazně uplatňovala u Mathiase Scharffenberga ještě ve druhé čtvrtině 16. století. Do Čech a na Moravu rotundu přinesli němečtí tiskaři, a sice Johann Alacraw do Vimperka v roce 1484, Konrad Stahel s Mathiasem Preinleinem do Brna po roce 1486 a Konrad Baumgarten do Olomouce roku 1501. V Praze se rotunda poprvé objevila až roku 1514 pouze v roli vyznačovacího písma u Mikuláše Konáče z Hodiškova. Tato okolnost byla v souladu s vývojem v západní Evropě, kde byla rotunda tímto způsobem využívána již od samého počátku 16. století a kde před polovinou téhož století zcela vymizela. V našich zemích se takto naposledy objevila v Praze u Bartoloměje Netolického z Netolic krátce po roce 1540."
+      "Rotunda jako tiskové písmo vznikla v Itálii poněkud paradoxně prací německých tiskařů, jako vyznačovací písmo ji poprvé použil Ulrich Han v Římě roku 1467 a první knihu kompletně vysázenou rotundou vydal Vendelín ze Špýru v Benátkách v roce 1471. Nejvýznamnější a pro celou Evropu určující vzor ovšem vytvořil tamtéž roku 1474 francouzský tiskař Nicolas Jenson. Díky němu rotunda v Itálii zcela zastínila ostatní gotická písma, ač její dominantní postavení zde poněkud narušovala antikva, jejíž na další čas ustálenou podobu představil o čtyři roky dříve rovněž Jenson. Ve Španělsku ovšem rotunda získala postavení vyloženě národního písma, zatímco v Anglii se nikdy neujala. V Německu se poprvé objevila v Kolíně nad Rýnem u Johanna Koelhoffa st. roku 1472 a rovněž během 70. let 15. století se dostala do Švýcarska a do Francie. V Polsku ji zavedl německý tiskař Kaspar Straube v Krakově zhruba roku 1473, kde se výrazně uplatňovala u Mathiase Scharffenberga ještě ve druhé čtvrtině 16. století. Do Čech a na Moravu rotundu přinesli němečtí tiskaři, a sice Johann Alacraw do Vimperka v roce 1484, Konrad Stahel s Mathiasem Preinleinem do Brna po roce 1486 a Konrad Baumgarten do Olomouce roku 1501. V Praze se rotunda poprvé objevila až roku 1514 pouze v roli vyznačovacího písma u Mikuláše Konáče z Hodiškova. Tato okolnost byla v souladu s vývojem v západní Evropě, kde byla rotunda tímto způsobem využívána již od samého počátku 16. století a kde před polovinou téhož století zcela vymizela. V našich zemích se takto naposledy objevila v Praze u Bartoloměje Netolického z Netolic krátce po roce 1540."
     ]
   },
   {
@@ -367,7 +367,7 @@ window.SLIDES = [
     "id": 27,
     "kind": "text",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Gotikantikva",
+    "title": "Gotikoantikva",
     "paragraphs": [
       "Gotikoantikva, typologicky poněkud příbuzná s rotundou, představuje jakýsi přechodový typ mezi písmem gotickým a humanistickým, či spíše jakýsi vedlejší produkt úsilí o realizaci tiskové antikvy. Na rozdíl od rotundy, která i přes svoje oblé tvary zachovává gotický ráz, gotikoantikva v sobě zahrnuje výraznější antikvové prvky, zůstává však slohově nejednotná a částečně poplatná starší tradici, již nebylo možno naráz potlačit. S tímto písmem přišli jako první Johann Fust a Peter Schöffer st. v Mohuči roku 1459 a po nich Johann Mentelin ve Štrasburku, který zde působil rovněž od konce 50. let 15. století. Gotikoantikva se pak velmi rychle rozšířila v německé oblasti, kde sloužila pro tisk latinských i německých textů, kupříkladu Mentelin ji použil ve svém prvním vydání německé Bible z roku 1466. V Itálii tento druh písma vytvořili němečtí tiskaři Konrad Sweynheym a Arnold Pannartz v dílně benediktinského kláštera v Subiacu roku 1465, přičemž někteří badatelé tento jejich počin označují za ranou antikvu. Ve Francii a v Anglii byla gotikoantikva méně obvyklá. Do Čech, v nichž převládala domácí bastarda, ani na Moravu, kde němečtí tiskaři užívali rotundu, nepronikla vůbec. Počátkem 16. století se gotikoantikva z evropských tiskáren vytratila úplně. Při svém úsilí o obnovu tradičního knihtisku se však o znovuoživení tohoto písma pokoušel anglický spisovatel, kreslíř, návrhář a tiskař William Morris ve své tiskárně Kelmscott Press ještě během posledního desetiletí 19. století."
     ]
@@ -398,7 +398,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Humanistické písmo",
     "paragraphs": [
-      "Humanistické písmo rukopisné vzniklo spojením římské kapitály coby velkých písmen (majuskula) a karolinské minuskuly jako písmen malých okolo poloviny 15. století v Itálii. Tamní humanisté usilovali o jakýsi návrat ke klasickému antickému období a lomené tvary gotického písma považovali za barbarské. Nové písmo, tradičně nazývané latinka, přetrvalo jako jediný užívaný typ latinského písma až dodnes. Jeho základní a nejstarší formu představovalo nespojité kaligrafické knižní okrouhlé humanistické písmo. Právě ono dalo základ tiskovému písmu zvanému antikva. Potřeba rychlejšího psaní především pro kancelářské účely si záhy vynutila vznik polokursivní formy, jejíž písmo sice zůstalo nespojité, ale je pro ně příznačné celkové zaoblení spolu s náklonem doprava. Tento typ se stal východiskem pro tiskové písmo, pro které se vžil název italika, ačkoli jeho dnešní podoba je poněkud nepřesně označována jako kurzíva. Rukopisné spojité humanistické písmo kursivní, které si většina z nás osvojila v rámci školního vzdělání, nemělo dlouhou dobu ustálenou formu a až v 17. století se vyvíjelo spíše živelně."
+      "Humanistické písmo rukopisné vzniklo spojením římské kapitály coby velkých písmen (majuskula) a karolinské minuskuly jako písmen malých okolo poloviny 15. století v Itálii. Tamní humanisté usilovali o jakýsi návrat ke klasickému antickému období a lomené tvary gotického písma považovali za barbarské. Nové písmo, tradičně nazývané latinka, přetrvalo jako jediný užívaný typ latinského písma až dodnes. Jeho základní a nejstarší formu představovalo nespojité kaligrafické knižní okrouhlé humanistické písmo. Právě ono dalo základ tiskovému písmu zvanému antikva. Potřeba rychlejšího psaní především pro kancelářské účely si záhy vynutila vznik polokursivní formy, jejíž písmo sice zůstalo nespojité, ale je pro ně příznačné celkové zaoblení spolu s náklonem doprava. Tento typ se stal východiskem pro tiskové písmo, pro které se vžil název italika, ačkoli jeho dnešní podoba je poněkud nepřesně označována jako kurzíva. Rukopisné spojité humanistické písmo kursivní, které si většina z nás osvojila v rámci školního vzdělání, nemělo dlouhou dobu ustálenou formu a až do 17. století se vyvíjelo spíše živelně."
     ]
   },
   {
@@ -421,7 +421,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Antikva a italika",
     "paragraphs": [
-      "Antikva a italika vytvořené pod vlivem latinských humanistických rukopisů se nejprve ustálily coby písma pro díla tištěná v latině, zatímco k textům v národních jazycích se dostávaly tu dříve, tam později v závislosti na místních podmínkách a zvyklostech. Nejrychlejší vývoj v tomto směru zaznamenala Itálie, kde již roku 1470 v Benátkách použil antikvu německý tiskař Vendelín ze Špýru pro tisk básnické sbírky Francesca Petrarcy. Naopak v jazykově německém prostředí, severských zemích a u nás se antikva a italika začala pro sazbu textů vernakulárních jazyků výrazněji uplatňovat až od počátku 19. století.",
+      "Antikva a italika vytvořené pod vlivem latinských humanistických rukopisů se nejprve ustálily coby písma pro díla tištěná v latině, zatímco k textům v národních jazycích se dostávaly tu dříve, tam později v závislosti na místních podmínkách a zvyklostech. Nejrychlejší vývoj v tomto směru zaznamenala Itálie, kde již roku 1470 v Benátkách použil antikvu německý tiskař Vendelín ze Špýru pro tisk básnické sbírky Francesca Petrarky. Naopak v jazykově německém prostředí, severských zemích a u nás se antikva a italika začala pro sazbu textů vernakulárních jazyků výrazněji uplatňovat až od počátku 19. století.",
       "Ve vývoji těchto písem lze zaznamenat několik období. Když Konrad Sweynheym a Arnold Pannartz opustili Subiaco, kde od roku 1465 tiskli gotikoantikvou, a kvůli lepším obchodním možnostem přesídlili do Říma, tak zde v roce 1467 poprvé představili jiný svůj typ písma, tentokrát již čistou antikvu. S propracovanější verzí pak přišel roku 1470 Nicolas Jenson v Benátkách. V témže roce zavedli antikvu ve Francii němečtí tiskaři Ulrich Gering, Michael Friburger a Martin Crantz, kteří zde z podnětu představitelů pařížské Sorbonny založili vůbec první tiskárnu v zemi. Zdejší univerzitní učenci ovlivnění humanismem se dožadovali právě tohoto nového písma pro tisk antických a humanistických děl. Rovněž okolo roku 1470 se antikva poprvé objevila v jazykově německé oblasti, kde ji použil zeť Johanna Mentelina Adolf Rusch ve Štrasburku okolo roku 1470 (ve starší literatuře se často objevuje chybná datace 1464 s tím, že jde o první antikvu vůbec), zatímco v Anglii s tímto písmem jako první přišel londýnský tiskař Richard Pynson až v roce 1518. Do východní Evropy antikva rovněž pronikla poměrně záhy, do Uher ji uvedl německý tiskař Andreas Hess roku 1473 v Budíně a toto jeho vystoupení zároveň znamenalo počátek historie maďarského knihtisku. Zato v Polsku jako první představil antikvu a také švabach Florian Ungler, německý tiskař působící v Krakově, až roku 1513."
     ]
   },
@@ -445,7 +445,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Antikva a italika",
     "paragraphs": [
-      "Vrcholné období humanistického tiskového písma souviselo s dílem italského rytce, písmolijce a pozdějšího samostatného tiskaře, jímž byl Francesco Griffo, který pracoval pro Alda Manuzia st. v Benátkách. Roku 1499 pro něho navrhl nový typ antikvy a roku 1501 pak přišel s italikou, která byla tehdy použita vůbec poprvé. Obě tato písma se záhy staly napodobovanými vzory uplatnily se jako písma textová i vyznačovací. Ve Francii pak sehrál během první poloviny 16. století podobnou roli tiskař a písmolijec Claude Garamond, který vytvořil nadčasovou a dodnes užívanou sadu antikvového písma. Třetí vývojová fáze spadající do období baroka je spjata s tvorbou především nizozemských a anglických písmolijců, jako byli Christoffel van Dijck v první polovině 17. století a William Caslon a John Baskerville zhruba o sto let později. Tehdy se již začaly projevovat tendence k většímu zjednodušení a unifikaci tohoto písma, které se plně uplatnily na počátku čtvrtého a posledního období, jehož počátek spadá do éry klasicismu poslední čtvrtiny 18. století. Tehdy byl vývoj humanistického tiskového písma v podstatě ukončen, přičemž charakteristickým rysem této epochy ovlivněné stále se zdokonalující technologií knihtisku se stalo definitivní upřednostnění sazebných aspektů písma a upuštění od kaligrafických rukopisných norem. Tehdy svá písma představili typografové Giovanni Battista Bodoni a Firmin Didot, jejichž jména spolu se jménem Baskervillovým zůstala známá dodnes. Během první poloviny 19. století pak vznikaly, především v Anglii, již jen úpadková písma typu egyptienka, italienka, toskánka či grotesk, která mohla jakousi roli sehrát pouze v oblasti akcidenční typografie, příležitostného tisku. Moderní typografie od poloviny 19. pak již jen vycházela z klasicistních i některých starších vzorů.",
+      "Vrcholné období humanistického tiskového písma souviselo s dílem italského rytce, písmolijce a pozdějšího samostatného tiskaře, jímž byl Francesco Griffo, který pracoval pro Alda Manuzia st. v Benátkách. Roku 1499 pro něho navrhl nový typ antikvy a roku 1501 pak přišel s italikou, která byla tehdy použita vůbec poprvé. Obě tato písma se záhy stala napodobovanými vzory a uplatnila se jako písma textová i vyznačovací. Ve Francii pak sehrál během první poloviny 16. století podobnou roli tiskař a písmolijec Claude Garamond, který vytvořil nadčasovou a dodnes užívanou sadu antikvového písma. Třetí vývojová fáze spadající do období baroka je spjata s tvorbou především nizozemských a anglických písmolijců, jako byli Christoffel van Dijck v první polovině 17. století a William Caslon a John Baskerville zhruba o sto let později. Tehdy se již začaly projevovat tendence k většímu zjednodušení a unifikaci tohoto písma, které se plně uplatnily na počátku čtvrtého a posledního období, jehož počátek spadá do éry klasicismu poslední čtvrtiny 18. století. Tehdy byl vývoj humanistického tiskového písma v podstatě ukončen, přičemž charakteristickým rysem této epochy ovlivněné stále se zdokonalující technologií knihtisku se stalo definitivní upřednostnění sazebných aspektů písma a upuštění od kaligrafických rukopisných norem. Tehdy svá písma představili typografové Giovanni Battista Bodoni a Firmin Didot, jejichž jména spolu se jménem Baskervillovým zůstala známá dodnes. Během první poloviny 19. století pak vznikaly, především v Anglii, již jen úpadková písma typu egyptienka, italienka, toskánka či grotesk, která mohla jakousi roli sehrát pouze v oblasti akcidenční typografie, tedy příležitostného tisku. Moderní typografie od poloviny 19. pak již jen vycházela z klasicistních i některých starších vzorů.",
       "V Čechách a na Moravě se antikva dlouhou dobu uplatňovala stejným způsobem jako v Německu, totiž pro sazbu jazykově latinských textů nebo jednotlivých latinských slov, s tím rozdílem, že k nám dorazila se značným zpožděním. Jako první ji pro sazbu souvislého textu latinského díla použil až v roce 1536 německý tiskař působící v Praze Hans Haden (Hayd), zeť norimberského Fridricha Peypuse, v našem prostředí známý jako Jan Had. Vůbec poprvé u nás však byla antikva využita jako vyznačovací písmo kupodivu při tisku jazykově českého spisu, a to roku 1533 u Kašpara Aorga v Náměšti nad Oslavou."
     ]
   },
@@ -517,7 +517,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Švabach",
     "paragraphs": [
-      "Švabach, ačkoli jeví stopy určitého vlivu německé rukopisné bastardy, vznikl coby novogotické tiskové písmo již výhradně pro potřeby typografie. Poprvé ho užil v roce 1485 Friedrich Creussner v Norimberku a od té doby se stal až do druhé poloviny 16. století nejrozšířenějším tiskovým písmem v Německu, částečně i v Nizozemí a v Anglii. Poté jeho význam postupně klesal ve prospěch fraktury a během 18. století plnil v německy mluvících zemích již jen funkci písma vyznačovacího. V Polsku si jako první opatřil švabach pro tisk německých textů Jakob Karweyse v Malborku a od roku 1522 jej Florian Ungler prosazoval coby tiskové písmo pro díla v polštině. Do Čech se dostal švabach rovněž velmi brzy, již v roce 1492 jej v Praze uplatnil Tiskař Korandy, roku 1498 v Plzni Mikuláš Bakalář Štětina a v roce 1513 Tiskař Pražské bible, načež se z Německa dovážené a dodatečně pro tisk v češtině diakritizované matrice švabachu rozšířily po všech českých i moravských tiskárnách. Ve 20. letech 16. století u pražského tiskaře Pavla Severýna z Kapí Hory švabach s konečnou platností zastínil druhdy oblíbenou českou bastardu. Na rozdíl od situace v zahraničí, kde bylo švabachu užíváno pro tisk děl v národních jazycích, české tiskárny jím čas od času tiskly kvůli nedostatku antikvy i latinské texty, poprvé tak učinil humanistický spisovatel a tiskař Mikuláš Konáč z Hodiškova v Praze roku 1516. Jako písmo textové u nás švabach přetrval nejdéle ze všech evropských zemí, až do první třetiny 19. století, kdy jej v této úloze již jen poměrně nakrátko vystřídala fraktura, přičemž od počátku téhož století byla obě tato písma postupně nahrazována antikvou."
+      "Švabach, ačkoli jeví stopy určitého vlivu německé rukopisné bastardy, vznikl coby novogotické tiskové písmo již výhradně pro potřeby typografie. Poprvé ho užil v roce 1485 Friedrich Creussner v Norimberku a od té doby se stal až do druhé poloviny 16. století nejrozšířenějším tiskovým písmem v Německu, částečně i v Nizozemí a v Anglii. Poté jeho význam postupně klesal ve prospěch fraktury a během 18. století plnil v německy mluvících zemích již jen funkci písma vyznačovacího. V Polsku si jako první opatřil švabach pro tisk německých textů Jakob Karweyse v Malborku a od roku 1522 jej Florian Ungler prosazoval jako tiskové písmo pro díla v polštině. Do Čech se dostal švabach rovněž velmi brzy, již v roce 1492 jej v Praze uplatnil Tiskař Korandy, roku 1498 v Plzni Mikuláš Bakalář Štětina a v roce 1513 Tiskař Pražské bible, načež se z Německa dovážené a dodatečně pro tisk v češtině diakritizované matrice švabachu rozšířily po všech českých i moravských tiskárnách. Ve 20. letech 16. století u pražského tiskaře Pavla Severýna z Kapí Hory švabach s konečnou platností zastínil druhdy oblíbenou českou bastardu. Na rozdíl od situace v zahraničí, kde bylo švabachu užíváno pro tisk děl v národních jazycích, české tiskárny jím čas od času tiskly kvůli nedostatku antikvy i latinské texty, poprvé tak učinil humanistický spisovatel a tiskař Mikuláš Konáč z Hodiškova v Praze roku 1516. Jako písmo textové u nás švabach přetrval nejdéle ze všech evropských zemí, a to až do první třetiny 19. století, kdy jej v této úloze již jen poměrně nakrátko vystřídala fraktura, přičemž od počátku téhož století byla obě tato písma postupně nahrazována antikvou."
     ]
   },
   {
@@ -563,7 +563,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Fraktura",
     "paragraphs": [
-      "Fraktura jako novogotické písmo byla určena v první řadě pro účely knihtisku a lze ji s trochou sázky vnímat coby vylepšený švabach, od něhož se na první pohled odlišuje užším písmovým obrazem a díky své štíhlejší formě jakousi celkovou větší elegancí. Frakturu vytvořil Johann Schönsperger st., tou dobou dvorní tiskař císaře Maxmiliána I., který pro císaře vytvářel vůbec první bibliofilské tisky na světě, výpravná typograficky a ilustračně náročná díla vydávaná v malých nákladech několika desítek kusů, s přednostními výtisky tištěnými na pergamenu a s užitím ojedinělých forem vlastního tiskového písma. V rámci této činnosti Schönsperger dle různých návrhů zhotovil a použil v letech 1514-1520 tři nejstarší typy fraktury. Přes takto výrazný nástup však fraktura následující půlstoletí v sazbě německých textů sloužila fraktura jen jako vyznačovací písmo, teprve roku 1560 ji pro tisk německých spisů zavedl Sigmund Feyerabend ve Frankfurtu nad Mohanem. Velmi dlouhou dobu se těšila oblibě fraktura, s níž přišel na trh roku 1678 frankfurtský písmolijec Johann Erasmus Luther. V 18. století se coby „německé národní písmo“ prosadila její konzervativní varianta, kterou roku 1750 vytvořil lipský tiskař a nakladatel Johann Gottlob Emmanuel Breitkopf. Oproti ní ovšem písmo, s nímž přišel vídeňský tiskař a nakladatel Johann Thomas von Trattner st. roku 1787, působí ještě robustněji a zastaraleji, poplatné barokním formám. V 19. století se uplatnila klasicistní jemněji provedená fraktura, již navrhl berlínský tiskař a písmolijec Johann Friedrich Gottlieb Unger roku 1793, ale též méně subtilní písmo lipského typografa Theodora Walbauma z let 1808-1818. Ještě ve 20. století vznikaly v Německu nové typy, zejména v epoše národního socialismu, mnohdy značně modernizované, z nichž některé nabyly až úpadkových forem. Počátkem roku 1941 Adolf Hitler prostřednictvím neveřejného oběžníku podepsaného Martinem Bormannem nařídil zavedení antikvy a latinky, přičemž používání gotických písem v Německu zakázal. Hovořil o „švabachovém židovském [!] písmu“, důvody však byly ryze praktické a týkaly se především usnadnění správy okupovaných území a styku se zahraničím. Nutno dodat, že mnohým Němcům toto opatření nebylo po chuti, zejména příslušníkům zahraničních menšin, kteří si stále zakládali na svém „národním písmu“."
+      "Fraktura jako novogotické písmo byla určena v první řadě pro účely knihtisku a lze ji s trochou nadsázky vnímat jako vylepšený švabach, od něhož se na první pohled odlišuje užším písmovým obrazem a díky své štíhlejší formě jakousi celkovou větší elegancí. Frakturu vytvořil Johann Schönsperger st., tou dobou dvorní tiskař císaře Maxmiliána I., který pro císaře vytvářel vůbec první bibliofilské tisky na světě, výpravná typograficky a ilustračně náročná díla vydávaná v malých nákladech několika desítek kusů, s přednostními výtisky tištěnými na pergamenu a s užitím ojedinělých forem vlastního tiskového písma. V rámci této činnosti Schönsperger dle různých návrhů zhotovil a použil v letech 1514-1520 tři nejstarší typy fraktury. Přes takto výrazný nástup však fraktura následující půlstoletí v sazbě německých textů sloužila jen jako vyznačovací písmo, teprve roku 1560 ji pro tisk německých spisů zavedl Sigmund Feyerabend ve Frankfurtu nad Mohanem. Velmi dlouhou dobu se těšila oblibě fraktura, s níž přišel na trh roku 1678 frankfurtský písmolijec Johann Erasmus Luther. V 18. století se jako „německé národní písmo“ prosadila její konzervativní varianta, kterou roku 1750 vytvořil lipský tiskař a nakladatel Johann Gottlob Emmanuel Breitkopf. Oproti ní ovšem písmo, s nímž přišel vídeňský tiskař a nakladatel Johann Thomas von Trattner st. roku 1787, působí ještě robustněji a zastaraleji, poplatné barokním formám. V 19. století se uplatnila klasicistní jemněji provedená fraktura, kterou navrhl berlínský tiskař a písmolijec Johann Friedrich Gottlieb Unger roku 1793, ale též méně subtilní písmo lipského typografa Theodora Walbauma z let 1808-1818. Ještě ve 20. století vznikaly v Německu nové typy, zejména v epoše národního socialismu, mnohdy značně modernizované, z nichž některé nabyly až úpadkových forem. Počátkem roku 1941 Adolf Hitler prostřednictvím neveřejného oběžníku podepsaného Martinem Bormannem nařídil zavedení antikvy a latinky, přičemž používání gotických písem v Německu zakázal. Hovořil o „švabachovém židovském [!] písmu“, důvody však byly ryze praktické a týkaly se především usnadnění správy okupovaných území a styku se zahraničím. Nutno dodat, že mnohým Němcům toto opatření nebylo po chuti, zejména příslušníkům zahraničních menšin, kteří si stále zakládali na svém „národním písmu“."
     ]
   },
   {
@@ -576,7 +576,7 @@ window.SLIDES = [
         "src": "assets/img/s42-1.jpg",
         "w": 1097,
         "h": 1500,
-        "caption": "Ukázka vzorníku tiskového písma, Johann Schönsperger, Augšburk, 1514. Předlohu vytvořil německý benediktina kaligraf Leonard Wagner\nReprodukce z knihy Františka Muziky Krásné písmo ve vývoji latinky 1., Praha 1958, s. 481, č. 342. Muzika uvádí s vročením 1513\nKnihovna PNP, sign. R XVI a 31/1"
+        "caption": "Ukázka vzorníku tiskového písma, Johann Schönsperger, Augšburk, 1514. Předlohu vytvořil německý benediktin a kaligraf Leonard Wagner\nReprodukce z knihy Františka Muziky Krásné písmo ve vývoji latinky 1., Praha 1958, s. 481, č. 342. Muzika uvádí s vročením 1513\nKnihovna PNP, sign. R XVI a 31/1"
       }
     ]
   },
@@ -872,7 +872,7 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Písařská příručka z druhé poloviny 18. století",
     "paragraphs": [
-      "Nesignovaná mědirytinová příloha z téže knihy poučující rovněž o technice samotného psaní, k níž se vztahují i tato dvě vyobrazení, které demonstrují dva způsoby držení pera"
+      "Nesignovaná mědirytinová příloha z téže knihy poučující rovněž o technice samotného psaní, k níž se vztahují i tato dvě vyobrazení, která demonstrují dva způsoby držení pera"
     ],
     "images": [
       {
@@ -902,6 +902,44 @@ window.SLIDES = [
   },
   {
     "id": 64,
+    "kind": "gallery",
+    "eyebrow": "Část I — Raný knihtisk",
+    "title": "",
+    "images": [
+      {
+        "src": "assets/img/s64-1.jpg",
+        "w": 989,
+        "h": 323
+      },
+      {
+        "src": "assets/img/s64-2.jpg",
+        "w": 831,
+        "h": 362
+      },
+      {
+        "src": "assets/img/s64-3.jpg",
+        "w": 998,
+        "h": 415
+      },
+      {
+        "src": "assets/img/s64-4.jpg",
+        "w": 1000,
+        "h": 324
+      },
+      {
+        "src": "assets/img/s64-5.jpg",
+        "w": 1008,
+        "h": 298
+      },
+      {
+        "src": "assets/img/s64-6.jpg",
+        "w": 1063,
+        "h": 321
+      }
+    ]
+  },
+  {
+    "id": 65,
     "kind": "text",
     "eyebrow": "Část II — 20. století",
     "title": "Zrod moderního českého typografického písma",
@@ -911,7 +949,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 65,
+    "id": 66,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -920,27 +958,10 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s65-1.jpg",
+        "src": "assets/img/s66-1.jpg",
         "w": 743,
         "h": 480,
         "caption": "Vojtěch Preissig\nAkcidenční písmo, nedatováno,\nIČ: 9/68-349"
-      }
-    ]
-  },
-  {
-    "id": 66,
-    "kind": "figure",
-    "eyebrow": "Část II — 20. století",
-    "title": "Z historie prvních pokusů",
-    "paragraphs": [
-      "Jako jeden z prvních usiloval o vytvoření moderního českého písma grafik, písmař a ilustrátor Vojtěch Pressig. Chybějící finanční zdroje a nedostatečné technické vybavení byly nepochybně hlavní příčinou, proč Preissigovy návrhy písem rovněž ztroskotaly. Důležitými místy, kde vznikala nová písma, byly tiskárny řízené významnými osobnostmi. Byl to např. Karel Dyrynk ve Státní tiskárně, jenž v období od roku 1927–1946 vytvořil celkem osm nových písem. V Průmyslové tiskárně působil Method Kaláb a v Melantrichu Slavoboj Tusar."
-    ],
-    "images": [
-      {
-        "src": "assets/img/s66-1.jpg",
-        "w": 636,
-        "h": 835,
-        "caption": "Vojtěch Preissig\nOtisk Preissigova akcidenčního písma a zkušební sazba, nedatováno,\nIČ: 9/68-395"
       }
     ]
   },
@@ -950,11 +971,28 @@ window.SLIDES = [
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
     "paragraphs": [
-      "Věcí prestiže byly návrhy příležitostných písem pro Světovou výstavu v Paříži v roce 1925. Státní tiskárnu zde reprezentovaly Preissigovy návrhy dvou knižních titulů (Projev T. G. Masaryka a Barevný lept a barevná rytina). Průmyslová tiskárna v Paříži prezentovala unikátní Máchův Máj (písmo Karla Svolinského) a Weinerovu Ulice- Boulevard (písmo Slavoboje Tusara bylo překresleno a v roce 1926 přijato londýnskou továrnou Monotype do výroby jako první české písmo pro sázecí stroje. Tusar později navrhl pro Průmyslovou tiskárnu akcidenční písmo)."
+      "Jako jeden z prvních usiloval o vytvoření moderního českého písma grafik, písmař a ilustrátor Vojtěch Pressig. Chybějící finanční zdroje a nedostatečné technické vybavení byly nepochybně hlavní příčinou, proč Preissigovy návrhy písem rovněž ztroskotaly. Důležitými místy, kde vznikala nová písma, byly tiskárny řízené významnými osobnostmi. Byl to např. Karel Dyrynk ve Státní tiskárně, jenž v období od roku 1927–1946 vytvořil celkem osm nových písem. V Průmyslové tiskárně působil Method Kaláb a v Melantrichu Slavoboj Tusar."
     ],
     "images": [
       {
         "src": "assets/img/s67-1.jpg",
+        "w": 636,
+        "h": 835,
+        "caption": "Vojtěch Preissig\nOtisk Preissigova akcidenčního písma a zkušební sazba, nedatováno,\nIČ: 9/68-395"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "kind": "figure",
+    "eyebrow": "Část II — 20. století",
+    "title": "Z historie prvních pokusů",
+    "paragraphs": [
+      "Věcí prestiže byly návrhy příležitostných písem pro Světovou výstavu v Paříži v roce 1925. Státní tiskárnu zde reprezentovaly Preissigovy návrhy dvou knižních titulů (Projev T. G. Masaryka a Barevný lept a barevná rytina). Průmyslová tiskárna v Paříži prezentovala unikátní Máchův Máj (písmo Karla Svolinského) a Weinerovu Ulice- Boulevard (písmo Slavoboje Tusara bylo překresleno a v roce 1926 přijato londýnskou továrnou Monotype do výroby jako první české písmo pro sázecí stroje. Tusar později navrhl pro Průmyslovou tiskárnu akcidenční písmo)."
+    ],
+    "images": [
+      {
+        "src": "assets/img/s68-1.jpg",
         "w": 555,
         "h": 984,
         "caption": "Karel Svolinský\nAntikva pro výstavu v Paříži, 1924,\nPrůmyslová tiskárna\n\nSlavoboj Tusar\nAntikva s alternativními znaky, 1926,\nMonotype"
@@ -962,7 +1000,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 68,
+    "id": 69,
     "kind": "text",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -971,7 +1009,25 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 69,
+    "id": 70,
+    "kind": "figure",
+    "eyebrow": "Osobnosti",
+    "title": "Josef Váchal (1884–1969)",
+    "paragraphs": [
+      "Malíř, grafik, ilustrátor, spisovatel a básník se vymyká běžným kategoriím, do nichž bývá zařazován. Mezi písmaři zaujímá jedinečné místo, neboť neusiloval o vytvoření moderního typografického písma, ale tvorbu podřizoval vlastním uměleckým konceptům.",
+      "Váchalovy knihy jsou originální ve všech ohledech – z hlediska obsahu, způsobu provedení, techniky zhotovení dřevorytů a linořezů, úpravy, sazby i tisku. Originalita spočívá rovněž ve stylové jednotnosti jednotlivých složek knihy. Pozoruhodný je zejména souzvuk písma a ilustrací. U některých titulů vyřezával písmo zároveň s obrázkem, čímž vznikal takzvaný tabulový tisk. Váchal graficky upravil a vyzdobil přes 50 knih, přičemž písma sám navrhoval, ryl i odléval."
+    ],
+    "images": [
+      {
+        "src": "assets/img/s70-1.jpg",
+        "w": 277,
+        "h": 376,
+        "caption": "Josef Váchal\nKorčula (1927), kniha obsahující 52 barevných dřevorytů a 78 stran textu.\nVáchal pro tuto publikaci vyřezal 3 000 písmen a odlil 4 500 liter.\nVznikl tak soubor několika druhů písem bohaté rozmanitosti, od tučných až po slabé litery."
+      }
+    ]
+  },
+  {
+    "id": 71,
     "kind": "table",
     "eyebrow": "Část II — 20. století",
     "title": "Chronologický přehled vývoje českých písem (1915–1940)",
@@ -1051,78 +1107,22 @@ window.SLIDES = [
     }
   },
   {
-    "id": 70,
+    "id": 72,
     "kind": "gallery",
     "eyebrow": "Část II — 20. století",
     "title": "Obrazové ukázky",
     "images": [
       {
-        "src": "assets/img/s70-1.jpg",
+        "src": "assets/img/s72-1.jpg",
         "w": 689,
         "h": 978,
         "caption": "Jean Cocteau: Chvála knihtisku\nPreissigovo písmo, 1930\nPNP/OK\nIČ AHO 675"
       },
       {
-        "src": "assets/img/s70-2.jpg",
+        "src": "assets/img/s72-2.jpg",
         "w": 717,
         "h": 1000,
         "caption": "Jaroslav Durych: Panenky\nPísmo Goudy s akcenty V. Preissiga, 1927\nPNP/OK\nIČ C12 d 64"
-      }
-    ]
-  },
-  {
-    "id": 71,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Vojtěch Preissig (1873–1944)",
-    "paragraphs": [
-      "O vytvoření původního typografického písma usiloval grafik, písmař a ilustrátor Vojtěch Preissig (1873–1944). Preissigovými prvními návrhy byla tzv. upravovaná písma pro tisk knih a akcidencií. Jednalo se o písma cizího původu (např. Cheltenham) doplněná o diakritická znaménka pro českou sazbu. Takto upraveným písmem byla vysázena a vytištěna např. kniha Barevný lept a rytina. Dalším upraveným písmem, Arlington, byly vysázeny Bezručovy Slezské písně.",
-      "Během pobytu v USA (1910–1931) Preissig vypracoval četné návrhy ručně kreslených písem pro řezbu do linolea. První Preissigovo realizované typografické písmo vydala Státní tiskárna v Praze. Toto písmo s názvem Preissigova antikva (1923–1925) je považováno za první moderní a ušlechtilé české knižní písmo, které integrovalo diakritická znaménka přímo do výtvarné struktury znaků. Tuto antikvu doplnila kurzíva. Kompletní sadu vydala v roce 1928 Grafotechna. Jedná se o výjimečný typ písma určený pro slavnostní tisky. První knihou vytištěnou tímto původním českým písmem byla přednáška T. G. Masaryka u příležitosti otevření Ústavu slovanských studií v Paříži."
-    ],
-    "images": [
-      {
-        "src": "assets/img/s71-1.jpg",
-        "w": 438,
-        "h": 650,
-        "caption": "Vojtěch Preissig\nAkcidenční písmo\nTisk\nIČ 9/68-395"
-      },
-      {
-        "src": "assets/img/s71-2.jpg",
-        "w": 773,
-        "h": 545,
-        "caption": "Vojtěch Preissig\nNávrh písma pro knihu The House, 1914\nTuš na papíře\nIČ 9/68-349"
-      },
-      {
-        "src": "assets/img/s71-3.jpg",
-        "w": 438,
-        "h": 663,
-        "caption": "Vojtěch Preissig\nStudie písma pro knihu The House, 1914\nTuš na papíře\nIČ 9/68-353"
-      }
-    ]
-  },
-  {
-    "id": 72,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Vojtěch Preissig (1873–1944)",
-    "images": [
-      {
-        "src": "assets/img/s72-1.jpg",
-        "w": 526,
-        "h": 791,
-        "caption": "Vojtěch Preissig\nPreissigova antikva, pracovní verze, 1923–1925\nTisk\nIČ 9/68-360"
-      },
-      {
-        "src": "assets/img/s72-2.jpg",
-        "w": 624,
-        "h": 930,
-        "caption": "Vojtěch Preissig\nProspekt k vydání Slezských písní; Zprávy Spolku bibliofilů r. I. č. 2\nLept\nIČ 9/68-691"
-      },
-      {
-        "src": "assets/img/s72-3.jpg",
-        "w": 578,
-        "h": 918,
-        "caption": "Vojtěch Preissig\nPlakát k výstavě grafiky Wentworth Institute\nTisk\nIČ 9/68-746"
       }
     ]
   },
@@ -1131,24 +1131,28 @@ window.SLIDES = [
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
+    "paragraphs": [
+      "O vytvoření původního typografického písma usiloval grafik, písmař a ilustrátor Vojtěch Preissig. Preissigovými prvními návrhy byla tzv. upravovaná písma pro tisk knih a akcidencií. Jednalo se o písma cizího původu (např. Cheltenham) doplněná o diakritická znaménka pro českou sazbu. Takto upraveným písmem byla vysázena a vytištěna např. kniha Barevný lept a rytina. Dalším upraveným písmem, Arlington, byly vysázeny Bezručovy Slezské písně.",
+      "Během pobytu v USA (1910–1931) Preissig vypracoval četné návrhy ručně kreslených písem pro řezbu do linolea. První Preissigovo realizované typografické písmo vydala Státní tiskárna v Praze. Toto písmo s názvem Preissigova antikva (1923–1925) je považováno za první moderní a ušlechtilé české knižní písmo, které integrovalo diakritická znaménka přímo do výtvarné struktury znaků. Tuto antikvu doplnila kurzíva. Kompletní sadu vydala v roce 1928 Grafotechna. Jedná se o výjimečný typ písma určený pro slavnostní tisky. První knihou vytištěnou tímto původním českým písmem byla přednáška T. G. Masaryka u příležitosti otevření Ústavu slovanských studií v Paříži."
+    ],
     "images": [
       {
         "src": "assets/img/s73-1.jpg",
-        "w": 614,
-        "h": 809,
-        "caption": "Vojtěch Preissig\nStudie písma\nTuš na papíře\nIČ 9/68-844"
+        "w": 438,
+        "h": 650,
+        "caption": "Vojtěch Preissig\nAkcidenční písmo\nTisk\nIČ 9/68-395"
       },
       {
         "src": "assets/img/s73-2.jpg",
-        "w": 608,
-        "h": 944,
-        "caption": "Vojtěch Preissig\nBarevný lept a barevná rytina, 1909\nTisk\nIČ ZD 1E/35"
+        "w": 773,
+        "h": 545,
+        "caption": "Vojtěch Preissig\nNávrh písma pro knihu The House, 1914\nTuš na papíře\nIČ 9/68-349"
       },
       {
         "src": "assets/img/s73-3.jpg",
-        "w": 690,
-        "h": 970,
-        "caption": "Vojtěch Preissig\nAnatol France: Místodržitel judský, 1929\nPísmo vysazeno z původní Italiky Vojtěcha Preissiga, jež byla pantograficky vyryta a vylita Státní tiskárnou v Praze\nIČ VZinková 819"
+        "w": 438,
+        "h": 663,
+        "caption": "Vojtěch Preissig\nStudie písma pro knihu The House, 1914\nTuš na papíře\nIČ 9/68-353"
       }
     ]
   },
@@ -1156,28 +1160,25 @@ window.SLIDES = [
     "id": 74,
     "kind": "figure",
     "eyebrow": "Osobnosti",
-    "title": "Jaroslav Benda (1882–1965)",
-    "paragraphs": [
-      "Kreslíř, typograf a písmař. Už jako student VŠUP a AVU se podílel na zkvalitnění knižní produkce. Po vzniku samostatného Československa pracovali s VHB a Kyselou na návrhu písma, jehož tvarosloví by reflektovalo národní charakter. Ačkoliv se návrhům písem věnoval po celou dobu svého profesního života, realizace jeho návrhů tiskového písma se uskutečnila až v 60. letech. Benda navrhl pouze čtyři písma pro ruční a řádkovou sazbu. Na knižním písmu začal pracovat v roce 1913, předlohy byly dokončeny v roce 1923, realizace se ale neuskutečnila."
-    ],
+    "title": "Vojtěch Preissig (1873–1944)",
     "images": [
       {
         "src": "assets/img/s74-1.jpg",
-        "w": 762,
-        "h": 1121,
-        "caption": "Jaroslav Benda\nNávrh typografického písma\nKresebné návrhy, akcenty VI\nlepená kompozice, korektury, tuš a běloba\nIČ 32/68-10"
+        "w": 526,
+        "h": 791,
+        "caption": "Vojtěch Preissig\nPreissigova antikva, pracovní verze, 1923–1925\nTisk\nIČ 9/68-360"
       },
       {
         "src": "assets/img/s74-2.jpg",
-        "w": 1091,
-        "h": 751,
-        "caption": "Jaroslav Benda\nNávrh typografického písma\nStrojová knižní Romana, pro srovnání uveden Plantin (Monotype), 1968\nIČ 32/68-11"
+        "w": 624,
+        "h": 930,
+        "caption": "Vojtěch Preissig\nProspekt k vydání Slezských písní; Zprávy Spolku bibliofilů r. I. č. 2\nLept\nIČ 9/68-691"
       },
       {
         "src": "assets/img/s74-3.jpg",
-        "w": 1374,
-        "h": 981,
-        "caption": "Jaroslav Benda\nKresebný návrh Romany se dvěma alternativami akcentů, 1962, 1968\nIČ 32/68-12"
+        "w": 578,
+        "h": 918,
+        "caption": "Vojtěch Preissig\nPlakát k výstavě grafiky Wentworth Institute\nTisk\nIČ 9/68-746"
       }
     ]
   },
@@ -1185,28 +1186,25 @@ window.SLIDES = [
     "id": 75,
     "kind": "figure",
     "eyebrow": "Osobnosti",
-    "title": "Jaroslav Benda (1882–1965)",
-    "paragraphs": [
-      "V roce 1935 zaslal Benda návrhy písma do anglické firmy Monotype, kde byly objeveny v archivu až v roce 2013. Bendovy nerealizované návrhy písem se uplatnily v knižních grafických úpravách a rovněž v akcidenčních tiscích (např. plakátové písmo Mánes z r. 1919 vydané Grafií patří k jednomu z prvních písem kompletně provedených v Československu)."
-    ],
+    "title": "Vojtěch Preissig (1873–1944)",
     "images": [
       {
         "src": "assets/img/s75-1.jpg",
-        "w": 737,
-        "h": 1196,
-        "caption": "Jaroslav Benda\nNávrh obálky\nKamil Krofta: Naše staré legendy, 1947\nIČ 11/2018-102"
+        "w": 614,
+        "h": 809,
+        "caption": "Vojtěch Preissig\nStudie písma\nTuš na papíře\nIČ 9/68-844"
       },
       {
         "src": "assets/img/s75-2.jpg",
-        "w": 895,
-        "h": 911,
-        "caption": "Jaroslav Benda\nNávrh obálky\nKarel Buchterla a Lubor Niederle: Příručka české archeologie, Umění a řemesla sv. 5, 1910, na rubu přípis Štencovi\nIČ 11/2018-20 (1,2)"
+        "w": 608,
+        "h": 944,
+        "caption": "Vojtěch Preissig\nBarevný lept a barevná rytina, 1909\nTisk\nIČ ZD 1E/35"
       },
       {
         "src": "assets/img/s75-3.jpg",
-        "w": 916,
-        "h": 847,
-        "caption": "Jaroslav Benda\nNávrh obálky\nLuděk Bradáč: Knihvazačství, Umění a řemesla sv. 7, 1912, poznámky\nIČ 11/2018-67"
+        "w": 690,
+        "h": 970,
+        "caption": "Vojtěch Preissig\nAnatol France: Místodržitel judský, 1929\nPísmo vysazeno z původní Italiky Vojtěcha Preissiga, jež byla pantograficky vyryta a vylita Státní tiskárnou v Praze\nIČ VZinková 819"
       }
     ]
   },
@@ -1215,21 +1213,79 @@ window.SLIDES = [
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Jaroslav Benda (1882–1965)",
+    "paragraphs": [
+      "Kreslíř, typograf a písmař. Už jako student VŠUP a AVU se podílel na zkvalitnění knižní produkce. Po vzniku samostatného Československa pracovali s Vratislavem Hugo Brunnerem a Františkem Kyselou na návrhu písma, jehož tvarosloví by reflektovalo národní charakter. Ačkoliv se návrhům písem věnoval po celou dobu svého profesního života, realizace jeho návrhů tiskového písma se uskutečnila až v 60. letech. Benda navrhl pouze čtyři písma pro ruční a řádkovou sazbu. Na knižním písmu začal pracovat v roce 1913, předlohy byly dokončeny v roce 1923, realizace se ale neuskutečnila."
+    ],
     "images": [
       {
         "src": "assets/img/s76-1.jpg",
+        "w": 762,
+        "h": 1121,
+        "caption": "Jaroslav Benda\nNávrh typografického písma\nKresebné návrhy, akcenty VI\nlepená kompozice, korektury, tuš a běloba\nIČ 32/68-10"
+      },
+      {
+        "src": "assets/img/s76-2.jpg",
+        "w": 1091,
+        "h": 751,
+        "caption": "Jaroslav Benda\nNávrh typografického písma\nStrojová knižní Romana, pro srovnání uveden Plantin (Monotype), 1968\nIČ 32/68-11"
+      },
+      {
+        "src": "assets/img/s76-3.jpg",
+        "w": 1374,
+        "h": 981,
+        "caption": "Jaroslav Benda\nKresebný návrh Romany se dvěma alternativami akcentů, 1962, 1968\nIČ 32/68-12"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "kind": "figure",
+    "eyebrow": "Osobnosti",
+    "title": "Jaroslav Benda (1882–1965)",
+    "paragraphs": [
+      "V roce 1935 zaslal Benda návrhy písma do anglické firmy Monotype, kde byly objeveny v archivu až v roce 2013. Bendovy nerealizované návrhy písem se uplatnily v knižních grafických úpravách a rovněž v akcidenčních tiscích (např. plakátové písmo Mánes z r. 1919 vydané Grafií patří k jednomu z prvních písem kompletně provedených v Československu)."
+    ],
+    "images": [
+      {
+        "src": "assets/img/s77-1.jpg",
+        "w": 737,
+        "h": 1196,
+        "caption": "Jaroslav Benda\nNávrh obálky\nKamil Krofta: Naše staré legendy, 1947\nIČ 11/2018-102"
+      },
+      {
+        "src": "assets/img/s77-2.jpg",
+        "w": 895,
+        "h": 911,
+        "caption": "Jaroslav Benda\nNávrh obálky\nKarel Buchterla a Lubor Niederle: Příručka české archeologie, Umění a řemesla sv. 5, 1910, na rubu přípis Štencovi\nIČ 11/2018-20 (1,2)"
+      },
+      {
+        "src": "assets/img/s77-3.jpg",
+        "w": 916,
+        "h": 847,
+        "caption": "Jaroslav Benda\nNávrh obálky\nLuděk Bradáč: Knihvazačství, Umění a řemesla sv. 7, 1912, poznámky\nIČ 11/2018-67"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "kind": "figure",
+    "eyebrow": "Osobnosti",
+    "title": "Jaroslav Benda (1882–1965)",
+    "images": [
+      {
+        "src": "assets/img/s78-1.jpg",
         "w": 1092,
         "h": 845,
         "caption": "Jaroslav Benda\nNávrh obálky\nJan Laichter: V žáru vzpoury, 1938\nIČ 11/2018-30"
       },
       {
-        "src": "assets/img/s76-2.jpg",
+        "src": "assets/img/s78-2.jpg",
         "w": 788,
         "h": 1040,
         "caption": "Jaroslav Benda\nNávrh obálky\nS. K. Neumann: Anti-Gide, 1950, Cicero\nIČ 70/57-1382 (1,2)"
       },
       {
-        "src": "assets/img/s76-3.jpg",
+        "src": "assets/img/s78-3.jpg",
         "w": 681,
         "h": 1017,
         "caption": "Jaroslav Benda\nTitulní list\nHonoré de Balzacc: Dívka se zlatýma očima, 1907\n(Přelom století – bezserifová písma kompaktních bloků v secesním stylu)\nIČ Hoffmeister 0376"
@@ -1237,7 +1293,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 77,
+    "id": 79,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
@@ -1246,12 +1302,12 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s77-1.jpg",
+        "src": "assets/img/s79-1.jpg",
         "w": 446,
         "h": 730
       },
       {
-        "src": "assets/img/s77-2.jpg",
+        "src": "assets/img/s79-2.jpg",
         "w": 456,
         "h": 627
       }
@@ -1259,23 +1315,23 @@ window.SLIDES = [
     "groupCaption": "Karel Dyrynk\nMalostranská antikva (1927) (2 obr.)\nAnatole France: Laeta Acilia, 1929\nPísmo: první, zkušební tisk Malostranskou antikvou, původním písmem navrženým, řezaným i vylitým slévárnou Státní tiskárny\nV návrhu z roku 1927 se Dyrynk přiblížil ke klasické antikvě aldinského typu.\nPoprvé byla aplikována k tisku členské prémie SČB (T. G. Masaryk: Vybrané eseje, 1930). Italiku nakreslil v roce 1928.\nIČ Topič 0340"
   },
   {
-    "id": 78,
+    "id": 80,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
     "images": [
       {
-        "src": "assets/img/s78-1.jpg",
+        "src": "assets/img/s80-1.jpg",
         "w": 568,
         "h": 780
       },
       {
-        "src": "assets/img/s78-2.jpg",
+        "src": "assets/img/s80-2.jpg",
         "w": 570,
         "h": 783
       },
       {
-        "src": "assets/img/s78-3.jpg",
+        "src": "assets/img/s80-3.jpg",
         "w": 598,
         "h": 977
       }
@@ -1283,28 +1339,28 @@ window.SLIDES = [
     "groupCaption": "Karel Dyrynk\nDyrynkova latinka (1929) (3 obr.)\nAnatole France: Dcera Lilitina, 1930\nPísmo: Dyrynkova latinka, řezaná ve Státní tiskárně pro Grégrovu slévárnu\nLatinka byla odlita v roce 1929 novou slévárnou Arnošta Grégra, která písmo rovněž uvedla na trh pro všechny domácí tiskárny.\nKurzíva byla Dyrynkem navržena rovněž v roce 1929.\nIČ Topič 0576"
   },
   {
-    "id": 79,
+    "id": 81,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
     "images": [
       {
-        "src": "assets/img/s79-1.jpg",
+        "src": "assets/img/s81-1.jpg",
         "w": 590,
         "h": 978
       },
       {
-        "src": "assets/img/s79-2.jpg",
+        "src": "assets/img/s81-2.jpg",
         "w": 600,
         "h": 972
       },
       {
-        "src": "assets/img/s79-3.jpg",
+        "src": "assets/img/s81-3.jpg",
         "w": 592,
         "h": 970
       },
       {
-        "src": "assets/img/s79-4.jpg",
+        "src": "assets/img/s81-4.jpg",
         "w": 595,
         "h": 974
       }
@@ -1312,7 +1368,7 @@ window.SLIDES = [
     "groupCaption": "Grégrova romana (1930) (2 obr.)\nDyrynkova romana III, později opravena na Grégrovu romanu, byla vytvořena v roce 1930. Písmo svými tvary bylo vhodné pro tisk bibliofilií. V roce 1931 byla vytvořena kurzíva\n\nNávrhy dalších písem (2 obr.):\n1. Písmo biblické (1934)\n2. Hetitské znaky (1932–1934)"
   },
   {
-    "id": 80,
+    "id": 82,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Oldřich Menhart (1897–1962)",
@@ -1321,19 +1377,19 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s80-1.jpg",
+        "src": "assets/img/s82-1.jpg",
         "w": 983,
         "h": 684,
         "caption": "Oldřich Menhart\nMenhartova antikva s kurzívou, 1932–1935, Bauersche Giesserei"
       },
       {
-        "src": "assets/img/s80-2.jpg",
+        "src": "assets/img/s82-2.jpg",
         "w": 1017,
         "h": 822,
         "caption": "Oldřich Menhart\nMenhartova romana s italikou, 1934–1936, Lanston Monotype"
       },
       {
-        "src": "assets/img/s80-3.jpg",
+        "src": "assets/img/s82-3.jpg",
         "w": 1156,
         "h": 639,
         "caption": "Oldřich Menhart\nMenhartův Figural romana, 1948–1949, Státní tiskárna a Grafotechna"
@@ -1341,7 +1397,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 81,
+    "id": 83,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Method Kaláb (1885–1963)",
@@ -1350,13 +1406,13 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s81-1.jpg",
+        "src": "assets/img/s83-1.jpg",
         "w": 546,
         "h": 976,
         "caption": "Method Kaláb\nNávrhy antikvy z pozůstalosti, 1930, Grafotechna"
       },
       {
-        "src": "assets/img/s81-2.jpg",
+        "src": "assets/img/s83-2.jpg",
         "w": 556,
         "h": 979,
         "caption": "Karel Svolinský\nWenceslas, 1934, Monotype"
@@ -1364,25 +1420,13 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 82,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Josef Váchal (1884–1969)",
-    "paragraphs": [
-      "Malíř, grafik, ilustrátor, spisovatel a básník se vymyká běžným kategoriím, do nichž bývá zařazován. Mezi písmaři zaujímá jedinečné místo, neboť neusiloval o vytvoření moderního typografického písma, ale tvorbu podřizoval vlastním uměleckým konceptům.",
-      "Váchalovy knihy jsou originální ve všech ohledech – z hlediska obsahu, způsobu provedení, techniky zhotovení dřevorytů a linořezů, úpravy, sazby i tisku. Originalita spočívá rovněž ve stylové jednotnosti jednotlivých složek knihy. Pozoruhodný je zejména souzvuk písma a ilustrací. U některých titulů vyřezával písmo zároveň s obrázkem, čímž vznikal takzvaný tabulový tisk. Váchal graficky upravil a vyzdobil přes 50 knih, přičemž písma sám navrhoval, ryl i odléval."
-    ],
-    "images": [
-      {
-        "src": "assets/img/s82-1.jpg",
-        "w": 277,
-        "h": 376,
-        "caption": "Josef Váchal\nKorčula (1927), kniha obsahující 52 barevných dřevorytů a 78 stran textu.\nVáchal pro tuto publikaci vyřezal 3 000 písmen a odlil 4 500 liter.\nVznikl tak soubor několika druhů písem bohaté rozmanitosti, od tučných až po slabé litery."
-      }
-    ]
+    "id": 84,
+    "kind": "text",
+    "eyebrow": "Závěr",
+    "title": "Závěr"
   },
   {
-    "id": 83,
+    "id": 85,
     "kind": "closing",
     "eyebrow": "Děkujeme",
     "title": "Mgr. Alena Petruželková\nBc. Jan Kašpar",
@@ -1392,12 +1436,12 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s83-1.png",
+        "src": "assets/img/s85-1.png",
         "w": 297,
         "h": 64
       },
       {
-        "src": "assets/img/s83-2.jpg",
+        "src": "assets/img/s85-2.jpg",
         "w": 767,
         "h": 431
       }
