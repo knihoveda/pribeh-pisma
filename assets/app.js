@@ -9,7 +9,7 @@
   // ---------------------------------------------------------------------------
 
   var SLIDES = window.SLIDES || [];
-  var ASSET_VERSION = "20261013-1";
+  var ASSET_VERSION = "20261028-1";
 
   var W = 1920, H = 1080;
   var M = 96;              // vnější okraj
@@ -479,7 +479,7 @@
     body.style.columnCount = 2;
     body.style.columnGap = "72px";
     place(col, M, top);
-    var fit = fitText(slide, col, W - 2 * M, [30, 28, 27, 26, 25, 24, 23, 22, 21, 20], BOTTOM - top);
+    var fit = fitText(slide, col, W - 2 * M, [30, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18], BOTTOM - top);
     col.style.setProperty("--body-size", px(fit.size));
     return { nodes: [head, col], size: fit.size, ok: fit.ok };
   }
@@ -510,7 +510,8 @@
     var options = (hasText ? [560, 640, 720, 800, 880] : [400, 480, 560]).map(function (cw) { return { cw: cw, cols: 1 }; });
     // dlouhý text → dva sloupce sazby, aby řádky nebyly příliš dlouhé
     if (textLen > 1000) options.push({ cw: 1000, cols: 2 }, { cw: 1100, cols: 2 });
-    var sizes = [28, 27, 26, 25, 24, 23, 22];
+    // menší stupně jen pro nejdelší texty — skóre je penalizuje (textFactor)
+    var sizes = [28, 27, 26, 25, 24, 23, 22, 21, 20, 19];
     var best = null;
 
     function makeCol(cols) {
