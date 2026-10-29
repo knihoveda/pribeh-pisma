@@ -152,7 +152,7 @@ button { font: inherit; color: inherit; }
   hyphens: none; -webkit-hyphens: none;
   text-wrap: pretty;
 }
-.body p { margin: 0 0 .9em; }
+.body p { margin: 0 0 .9em; text-align: justify; hyphens: auto; -webkit-hyphens: auto; hyphenate-limit-chars: 7 3 3; }
 .body p:last-child { margin-bottom: 0; }
 .theme-night .body { color: rgba(243, 238, 228, .82); }
 
@@ -241,7 +241,7 @@ button { font: inherit; color: inherit; }
 .cover-text.is-wide .eyebrow { line-height: 1.7; }
 .cover-org { margin-top: 64px; font-family: var(--serif); font-style: italic; font-size: 40px; line-height: 1.2; color: rgba(243, 238, 228, .86); }
 .cover-org span { display: block; }
-.cover-intro { margin: 44px 0 0; max-width: 940px; padding-left: 28px; border-left: 1px solid var(--red); font-size: 24px; line-height: 1.5; color: rgba(243, 238, 228, .78); text-wrap: pretty; }
+.cover-intro { margin: 44px 0 0; text-align: justify; hyphens: auto; -webkit-hyphens: auto; max-width: 940px; padding-left: 28px; border-left: 1px solid var(--red); font-size: 24px; line-height: 1.5; color: rgba(243, 238, 228, .78); text-wrap: pretty; }
 .quote-text .cover-quote { margin-top: 52px; font-size: 46px; }
 
 /* ---------- Agenda ---------- */
