@@ -1673,7 +1673,7 @@ window.SLIDES = [
         "src": "assets/img/s100-2.jpg",
         "w": 777,
         "h": 1216,
-        "caption": "Nebeský budíček duše křesťanské, 1815\nNebeský budíček duše křesťanské v mrákotách hříchu hluboce spějící [!] hříšníci [!] budící, z nich ku povstání vzbuzující a následujícími vroucími modlitby [!] k svatému pokání a k světlu věčnému jednu každou osobu hříšnou vedoucí. – Jindřichův Hradec : Josef Landfras, 1815, s. (1)"
+        "caption": "Nebeský budíček duše křesťanské, 1815\nNebeský budíček duše křesťanské v mrákotách hříchu hluboce spějící [!] hříšníci [!] budící, z nich ku povstání vzbuzující a následujícími vroucími modlitby [!] k svatému pokání a k světlu věčnému jednu každou osobu hříšnou vedoucí. – Jindřichův Hradec : Josef Landfras, 1815, s. (1)\nKnihovna PNP, sign. L XVIII G 2."
       }
     ]
   },
@@ -2183,12 +2183,17 @@ window.SLIDES = [
     "paragraphs": [
       "Ukázka tisku prvního listu závěrečných rámcových částí faksimile, který obsahuje začátek doslovu Antonína Dolenského, a posledního potištěného listu, kde je kolofon s údajem o datu dokončení díla, pod nímž se nachází číslo výtisku"
     ],
+    "groupCaption": "GUIDO DELLE COLONNE: Kronika trojánská [typografické faksimile]. – Praha : Spolek faktorů knihtiskáren a písmolijen v Čechách, 1918 (Praha : Knihtiskárna „Politika“, 1918, 14. XI)\nKnihovna PNP, sign. S XXXVII e 5, list [196]a, list [198]b",
     "images": [
       {
         "src": "assets/img/s129-1.jpg",
         "w": 1013,
-        "h": 1489,
-        "caption": "GUIDO DELLE COLONNE: Kronika trojánská [typografické faksimile]. – Praha : Spolek faktorů knihtiskáren a písmolijen v Čechách, 1918 (Praha : Knihtiskárna „Politika“, 1918, 14. XI)\nKnihovna PNP, sign. S XXXVII e 5, list [196]a, list [198]b"
+        "h": 1489
+      },
+      {
+        "src": "assets/img/s129-2.jpg",
+        "w": 1010,
+        "h": 1500
       }
     ]
   },
@@ -2196,21 +2201,16 @@ window.SLIDES = [
     "id": 130,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Kronika trojánská",
+    "title": "Kronika trojánská, 1918 (faksimile)",
     "paragraphs": [
-      "Kronika trojánská, 1918 (faksimile): Vazba Ludvíka Bradáče s koženým hřbetem a prkénkovými deskami bez pokryvu, na nichž jsou aplikovány dřevěné nápodoby mosazných pukel"
+      "Vazba Ludvíka Bradáče s koženým hřbetem a prkénkovými deskami bez pokryvu, na nichž jsou aplikovány dřevěné nápodoby mosazných pukel"
     ],
-    "groupCaption": "Kronika trojánská, 1918 (faksimile)\nGUIDO DELLE COLONNE: Kronika trojánská [typografické faksimile]. – Praha : Spolek faktorů knihtiskáren a písmolijen v Čechách, 1918 (Praha : Knihtiskárna „Politika“, 1918, 14. XI)\nKnihovna PNP, sign. S XXXVII e 5\n\nKronika trojánská, 1968 (faksimile)\nPro porovnání je zařazena ukázka listu fotomechanického faksimile pořízeného při příležitosti údajného půltisíciletého výročí tisku na základě exempláře Národní knihovny (sign. 39 F 30). Na listu je v horním pravém rohu patrné latinské rukopisné ex libris jezuitské knihovny v Klementinu a na spodním okraji latinská rukopisná poznámka s názvem knihy „Přehled dějin Tróje“ a latinské verše shrnující obsah knihy ve smyslu „Láska spaluje Parida, ten unáší vdanou ženu; Atreovce ozbrojuje / pomsta! Bojuje se; staví se stroj; Trója je spálena.“\nGUIDO DELLE COLONNE: Kronika trojánská. Guidonis de Columna Historiae destructionis Troiae versio bohemica. Ed. Emma Urbánková [fotomechanické faksimile]. – (Editio Cimelia Bohemica : vol. IV.). – Praha : Pragopress, 1968\nKnihovna PNP, sign. S XXXVII b 14/1, list [1]a",
     "images": [
       {
         "src": "assets/img/s130-1.jpg",
-        "w": 1010,
-        "h": 1500
-      },
-      {
-        "src": "assets/img/s130-2.jpg",
         "w": 1067,
-        "h": 1500
+        "h": 1500,
+        "caption": "GUIDO DELLE COLONNE: Kronika trojánská [typografické faksimile]. – Praha : Spolek faktorů knihtiskáren a písmolijen v Čechách, 1918 (Praha : Knihtiskárna „Politika“, 1918, 14. XI)\nKnihovna PNP, sign. S XXXVII e 5"
       }
     ]
   },
