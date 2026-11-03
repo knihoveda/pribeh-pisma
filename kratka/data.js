@@ -1464,19 +1464,11 @@ window.SLIDES = [
   },
   {
     "id": 87,
-    "kind": "figure",
+    "kind": "text",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Kancionál, 1659",
+    "title": "Modlitební knihy",
     "paragraphs": [
       "Jako tiskové písmo pro souvislý český text se antikva začala objevovat od první poloviny 18. století v modlitebních knihách. Podle dosavadních znalostí ji poprvé takto použil roku 1719 ve svém prvním vydání knížky Nebeský budíček duše křesťanské Jan Václav Tybély v Hradci Králové a svůj pokus, který odborná literatura donedávna považovala za první, opakoval roku 1738. Tybélyho písmo bylo vyrobeno na matricích zahraničního původu postrádajících české akcenty, a tak chybějící háčky tiskař nahradil dvojtečkami, respektive německými umlauty, nebo tečkami připojenými dodatečně nad příslušná písmena. Podobně jako Tybély postupovali při tisku modlitebních knížek i další jednotlivci, za všechny lze zmínit aspoň Františka Václava Jeřábka v Praze, který vydal roku 1772 další z modlitebních knih s názvem Duchovní poklad, nicméně všichni tito tiskaři produkovali paralelně a ve větším množství stejné tituly tištěné novogotickými literami, přičemž tak zjevně vycházeli vstříc konzervativnímu čtenářskému vkusu. Přes zdánlivě slibný začátek se však antikva během 18. století v našem prostředí výrazněji neprosadila a praxe tisknout modlitební knihy a další tisky určené širším lidovým vrstvám švabachem a frakturou přetrvala hluboko do 19. století."
-    ],
-    "images": [
-      {
-        "src": "../assets/img/s99-1.jpg",
-        "w": 494,
-        "h": 873,
-        "caption": "Ukázka sazby včetně mensurální notace. Tištěno frakturou včetně záhlaví a typografických frakturových verzál „N“ a „O“, texty odkazující k biblickým veršům vysázeny italikou.\n[Komenský, Jan Amos]: Kancionál, to jest Kniha žalmů a písní duchovních … . – Amsterdam : Christoffel Kunrad, 1659\nNárodní knihovna ČR, sign. 54 F 242, s. 208"
-      }
     ]
   },
   {
