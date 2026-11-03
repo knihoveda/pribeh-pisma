@@ -17,6 +17,17 @@ UPRAVY = {
     99: {"title": "Modlitební knihy", "kind": "text", "images": None},  # bez ukázky Kancionálu 1659
 }
 
+# náhrady textu v odstavcích jen pro zkrácenou verzi: {slajd plné verze: [(původní, nový), …]}
+NAHRADIT = {
+    94: [(  # slajd se Zimmermannem (93) ve zkrácené verzi chybí
+        "přičemž hájí stávající monarchistický řád panující v německých zemích. Podobně jako Zimmermann "
+        "v předešlém případě pak varuje před vlivem Francie uplatňovaným prostřednictvím tajných jakobínů, "
+        "republikánů a vůbec protistátních buřičů",
+        "přičemž hájí stávající monarchistický řád panující v německých zemích a varuje před vlivem Francie "
+        "uplatňovaným prostřednictvím tajných jakobínů, republikánů a vůbec protistátních buřičů",
+    )],
+}
+
 root = Path(__file__).resolve().parent.parent
 src = (root / "assets" / "data.js").read_text(encoding="utf-8")
 slides = json.loads(src[src.index("["):src.rstrip().rindex("]") + 1])
@@ -30,6 +41,12 @@ for s in slides:
             s.pop(k, None)
         else:
             s[k] = v
+    for old, new in NAHRADIT.get(s["id"], []):
+        paras = s.get("paragraphs", [])
+        hits = [i for i, p in enumerate(paras) if old in p]
+        if len(hits) != 1:
+            raise SystemExit(f"slajd {s['id']}: nahrazovaný text nenalezen ({len(hits)}×) — zkontrolujte NAHRADIT")
+        paras[hits[0]] = paras[hits[0]].replace(old, new)
     s = dict(s, id=len(out) + 1)
     for im in s.get("images", []):
         im["src"] = "../" + im["src"]
