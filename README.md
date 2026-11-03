@@ -1,7 +1,7 @@
 # Příběh písma — interaktivní prezentace
 
 Statická webová aplikace bez závislostí (vanilla HTML/CSS/JS), vytvořená z obsahu
-prezentace v Canvě k 550. výročí českého knihtisku (151 slajdů). Texty a obrázky
+prezentace v Canvě k 550. výročí českého knihtisku (153 slajdů). Texty a obrázky
 jsou beze změny, pořadí slajdů odpovídá originální prezentaci.
 
 ## Vizuální systém „Rubrika“

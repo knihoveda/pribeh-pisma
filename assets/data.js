@@ -1,5 +1,5 @@
 // Obsahová data prezentace „Příběh písma“ — 550. výročí českého knihtisku.
-// Texty a obrázky převzaty z prezentace v Canvě (151 slajdů), pořadí zachováno.
+// Texty a obrázky převzaty z prezentace v Canvě (153 slajdů), pořadí zachováno.
 // Vygenerováno z exportu .pptx; upravujte volně — layout se dopočítá v app.js.
 window.SLIDES = [
   {
@@ -2041,26 +2041,36 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Příkladná píseň k spasitedlnému napravení ožralcův, 1863",
     "paragraphs": [
-      "Příkladná píseň k spasitedlnému napravení ožralcův, 1863: Tisk z roku 1863 je tištěn švabachem jako písmem textovým a frakturou coby písmem vyznačovacím, v tomto případě jde o název a impressum, incipit je tištěn švabachem. Na titulním listu je velmi hrubý ilustrační dřevořez. Celkové provedení tohoto tisku odkazuje někam na konec 18. století a nikoli na začátek 2. poloviny století 19.",
-      "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870: Píseň složená a vydaná známým pražským písničkářem Františkem Haisem roku 1870 je celá tištěna frakturou. Litografická titulní ilustrace zobrazující náhrobek s andělem se objevila ve více Haisových dílech. Na tento a všechny další následující tisky byl již použit nikoli ruční, nýbrž strojový papír vyrobený z dřevěného obrusu"
+      "Tisk z roku 1863 je tištěn švabachem jako písmem textovým a frakturou coby písmem vyznačovacím, v tomto případě jde o název a impressum, incipit je tištěn švabachem. Na titulním listu je velmi hrubý ilustrační dřevořez. Celkové provedení tohoto tisku odkazuje někam na konec 18. století a nikoli na začátek 2. poloviny století 19."
     ],
     "images": [
       {
         "src": "assets/img/s121-1.jpg",
         "w": 815,
         "h": 1024,
-        "caption": "Příkladná píseň k spasitedlnému napravení ožralcův, 1863\nRozvažujme křesťané lásku || Krista Pána, / jak pro nás hří=||šné lidi jeho svatá hlava jest || velmi zedraná, … Příkladná píseň k spasitedlnému napravení ožralcův na světlo vydaná. – Uherská Skalice : Josef Šnarnicl a František Xaver Škarnicl ml., 1863\nKnihovna PNP, sign. T 303, list [1]ab"
-      },
-      {
-        "src": "assets/img/s121-2.jpg",
-        "w": 825,
-        "h": 1038,
-        "caption": "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870\nAch poslyšte smutné pění, /|| moji rozmilí krajani, … HAIS, František: Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, měšťanu pražském a mistru řeznickém, dne 27. ledna v roku 1870. – Praha : František Hais, [1870] (Praha : Jan Spurný, [1870])\nKnihovna PNP, sign. T 116/41, list [1]a"
+        "caption": "Rozvažujme křesťané lásku || Krista Pána, / jak pro nás hří=||šné lidi jeho svatá hlava jest || velmi zedraná, … Příkladná píseň k spasitedlnému napravení ožralcův na světlo vydaná. – Uherská Skalice : Josef Šnarnicl a František Xaver Škarnicl ml., 1863\nKnihovna PNP, sign. T 303, list [1]ab"
       }
     ]
   },
   {
     "id": 122,
+    "kind": "figure",
+    "eyebrow": "Část I — Raný knihtisk",
+    "title": "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870",
+    "paragraphs": [
+      "Píseň složená a vydaná známým pražským písničkářem Františkem Haisem roku 1870 je celá tištěna frakturou. Litografická titulní ilustrace zobrazující náhrobek s andělem se objevila ve více Haisových dílech. Na tento a všechny další následující tisky byl již použit nikoli ruční, nýbrž strojový papír vyrobený z dřevěného obrusu"
+    ],
+    "images": [
+      {
+        "src": "assets/img/s122-1.jpg",
+        "w": 825,
+        "h": 1038,
+        "caption": "Ach poslyšte smutné pění, /|| moji rozmilí krajani, … HAIS, František: Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, měšťanu pražském a mistru řeznickém, dne 27. ledna v roku 1870. – Praha : František Hais, [1870] (Praha : Jan Spurný, [1870])\nKnihovna PNP, sign. T 116/41, list [1]a"
+      }
+    ]
+  },
+  {
+    "id": 123,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874",
@@ -2071,19 +2081,19 @@ window.SLIDES = [
     "groupCaption": "Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874\nAch ustrňte se krajané, vla-||stencové upřímní, / ať se hojné slze || roní, při verších těchto čtení, … HAIS, František: Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt na své manželce a dvou dítek [!] , posledně sám sobě život vzal dne 3. září 1874, u Prahy ve vsi Bubnech. – Praha : František Hais, [1874] (Praha : Jan Spurný, [1874])\nKnihovna PNP, sign. T 116/40, list [1]a\n\nTajůplná děsná vražda v Polné, 1899\nPozastavte se drazí křesťané / při || vyslechnutí zprávy ukrutné, … Tajůplná děsná vražda v Polné. – Praha : Julius Janů, [1899]. – Nápěv: „Harfenice“\nKnihovna PNP, sign. T 35/15, list [1]a",
     "images": [
       {
-        "src": "assets/img/s122-1.jpg",
+        "src": "assets/img/s123-1.jpg",
         "w": 784,
         "h": 1474
       },
       {
-        "src": "assets/img/s122-2.jpg",
+        "src": "assets/img/s123-2.jpg",
         "w": 960,
         "h": 1499
       }
     ]
   },
   {
-    "id": 123,
+    "id": 124,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Píseň o Anežce Hrůzové a Marii Klímové, 1900",
@@ -2093,19 +2103,19 @@ window.SLIDES = [
     "groupCaption": "Poslyšte, drazí, chviličku, /|| já vám zazpívám písničku, … SYFON, L. [pseud.]: Píseň o Anežce Hrůzové a Marii Klímové, jež byly zavražděny v lese u Polné 23letým izraelitou Leop[oldem]. Hilsnerem dvakrát odsouzeným k smrti provazem, nejprve v Kutné, [!] Hoře a pak v Písku. – Praha : Julius Janů, [1900]. – Nápěv: „Měsíc jde dál, on všechno ví“\nKnihovna PNP, sign. T 35/16, list [1]a",
     "images": [
       {
-        "src": "assets/img/s123-1.jpg",
+        "src": "assets/img/s124-1.jpg",
         "w": 953,
         "h": 1500
       },
       {
-        "src": "assets/img/s123-2.jpg",
+        "src": "assets/img/s124-2.jpg",
         "w": 933,
         "h": 1500
       }
     ]
   },
   {
-    "id": 124,
+    "id": 125,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Písně o loupežných vraždách v Krči spáchaných Aloisem Valešem, 1904-1905",
@@ -2114,7 +2124,7 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s124-1.jpg",
+        "src": "assets/img/s125-1.jpg",
         "w": 1500,
         "h": 1062,
         "caption": "Poslechněte lidé, paní i kuchařky, /|| jak je to s tou kostrou, u té vily „Flašky“, … LAŠTOVIČKA, Silvestr: Přeukrutná píseň o tej velkej vraždě v Krči, kterou spáchal zahradník Valeš, skrz svou ženu a nevlastní dceru Fany, kterou měl rád ještě s tou Ježkovou z Michle. – Praha : Silvestr Laštovička, [1904] (Praha : Julius Janů, [1904]). – Nápěv: „Poslyšte krajané něco pro zasmání“\nKnihovna PNP, sign. T 115/18, list [1]a\nNa světě se stanou všelijaké věci, /|| někdo peče ženský, jinej husy v peci, … ROURA, referent [pseud.? LAŠTOVIČKA, Silvestr?]: Jiná píseň o tom jak stál vražedník Valeš se svou ženou a nevlastní dcerou před pražskou porotou letos v masopustě skrz tu krutou vraždu v Krči. – Praha : [Silvestr Laštovička?], [1905] (Praha : Julius Janů, [1905]). – Nápěv: „Poslyšte krajané něco pro zasmání“\nKnihovna PNP, sign. T 49, list [1]a"
@@ -2122,7 +2132,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 125,
+    "id": 126,
     "kind": "text",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Typografické faksimile Kroniky trojánské z roku 1918",
@@ -2132,7 +2142,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 126,
+    "id": 127,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
@@ -2141,7 +2151,7 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s126-1.jpg",
+        "src": "assets/img/s127-1.jpg",
         "w": 1292,
         "h": 775,
         "caption": "Reprodukce z článku Rudolfa Samce O vzácném přetisku Letopisů trojánských, Ročenka československých knihtiskařů 1922, ročník 5., s. 67-72, s. 70\nKnihovna PNP, sign. C 12 b 8016"
@@ -2149,27 +2159,41 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 127,
+    "id": 128,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
+    "paragraphs": [
+      "Ukázka novotisku původního díla"
+    ],
     "images": [
       {
-        "src": "assets/img/s127-1.jpg",
+        "src": "assets/img/s128-1.jpg",
         "w": 1001,
         "h": 1500,
-        "caption": "Ukázka novotisku původního díla\nGUIDO DELLE COLONNE: Kronika trojánská [typografické faksimile]. – Praha : Spolek faktorů knihtiskáren a písmolijen v Čechách, 1918 (Praha : Knihtiskárna „Politika“, 1918, 14. XI)\nKnihovna PNP, sign. S XXXVII e 5, list [1]a"
-      },
-      {
-        "src": "assets/img/s127-2.jpg",
-        "w": 1013,
-        "h": 1489,
-        "caption": "Ukázka tisku prvního listu závěrečných rámcových částí faksimile, který obsahuje začátek doslovu Antonína Dolenského, a posledního potištěného listu, kde je kolofon s údajem o datu dokončení díla, pod nímž se nachází číslo výtisku\nGUIDO DELLE COLONNE: Kronika trojánská [typografické faksimile]. – Praha : Spolek faktorů knihtiskáren a písmolijen v Čechách, 1918 (Praha : Knihtiskárna „Politika“, 1918, 14. XI)\nKnihovna PNP, sign. S XXXVII e 5, list [196]a, list [198]b"
+        "caption": "GUIDO DELLE COLONNE: Kronika trojánská [typografické faksimile]. – Praha : Spolek faktorů knihtiskáren a písmolijen v Čechách, 1918 (Praha : Knihtiskárna „Politika“, 1918, 14. XI)\nKnihovna PNP, sign. S XXXVII e 5, list [1]a"
       }
     ]
   },
   {
-    "id": 128,
+    "id": 129,
+    "kind": "figure",
+    "eyebrow": "Část I — Raný knihtisk",
+    "title": "Kronika trojánská, 1918 (faksimile)",
+    "paragraphs": [
+      "Ukázka tisku prvního listu závěrečných rámcových částí faksimile, který obsahuje začátek doslovu Antonína Dolenského, a posledního potištěného listu, kde je kolofon s údajem o datu dokončení díla, pod nímž se nachází číslo výtisku"
+    ],
+    "images": [
+      {
+        "src": "assets/img/s129-1.jpg",
+        "w": 1013,
+        "h": 1489,
+        "caption": "GUIDO DELLE COLONNE: Kronika trojánská [typografické faksimile]. – Praha : Spolek faktorů knihtiskáren a písmolijen v Čechách, 1918 (Praha : Knihtiskárna „Politika“, 1918, 14. XI)\nKnihovna PNP, sign. S XXXVII e 5, list [196]a, list [198]b"
+      }
+    ]
+  },
+  {
+    "id": 130,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská",
@@ -2179,25 +2203,25 @@ window.SLIDES = [
     "groupCaption": "Kronika trojánská, 1918 (faksimile)\nGUIDO DELLE COLONNE: Kronika trojánská [typografické faksimile]. – Praha : Spolek faktorů knihtiskáren a písmolijen v Čechách, 1918 (Praha : Knihtiskárna „Politika“, 1918, 14. XI)\nKnihovna PNP, sign. S XXXVII e 5\n\nKronika trojánská, 1968 (faksimile)\nPro porovnání je zařazena ukázka listu fotomechanického faksimile pořízeného při příležitosti údajného půltisíciletého výročí tisku na základě exempláře Národní knihovny (sign. 39 F 30). Na listu je v horním pravém rohu patrné latinské rukopisné ex libris jezuitské knihovny v Klementinu a na spodním okraji latinská rukopisná poznámka s názvem knihy „Přehled dějin Tróje“ a latinské verše shrnující obsah knihy ve smyslu „Láska spaluje Parida, ten unáší vdanou ženu; Atreovce ozbrojuje / pomsta! Bojuje se; staví se stroj; Trója je spálena.“\nGUIDO DELLE COLONNE: Kronika trojánská. Guidonis de Columna Historiae destructionis Troiae versio bohemica. Ed. Emma Urbánková [fotomechanické faksimile]. – (Editio Cimelia Bohemica : vol. IV.). – Praha : Pragopress, 1968\nKnihovna PNP, sign. S XXXVII b 14/1, list [1]a",
     "images": [
       {
-        "src": "assets/img/s128-1.jpg",
+        "src": "assets/img/s130-1.jpg",
         "w": 1010,
         "h": 1500
       },
       {
-        "src": "assets/img/s128-2.jpg",
+        "src": "assets/img/s130-2.jpg",
         "w": 1067,
         "h": 1500
       }
     ]
   },
   {
-    "id": 129,
+    "id": 131,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1968 (faksimile)",
     "images": [
       {
-        "src": "assets/img/s129-1.jpg",
+        "src": "assets/img/s131-1.jpg",
         "w": 1051,
         "h": 1500,
         "caption": "Pro porovnání je zařazena ukázka listu fotomechanického faksimile pořízeného při příležitosti údajného půltisíciletého výročí tisku na základě exempláře Národní knihovny (sign. 39 F 30). Na listu je v horním pravém rohu patrné latinské rukopisné ex libris jezuitské knihovny v Klementinu a na spodním okraji latinská rukopisná poznámka s názvem knihy „Přehled dějin Tróje“ a latinské verše shrnující obsah knihy ve smyslu „Láska spaluje Parida, ten unáší vdanou ženu; Atreovce ozbrojuje / pomsta! Bojuje se; staví se stroj; Trója je spálena.“\nGUIDO DELLE COLONNE: Kronika trojánská. Guidonis de Columna Historiae destructionis Troiae versio bohemica. Ed. Emma Urbánková [fotomechanické faksimile]. – (Editio Cimelia Bohemica : vol. IV.). – Praha : Pragopress, 1968\nKnihovna PNP, sign. S XXXVII b 14/1, list [1]a"
@@ -2205,7 +2229,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 130,
+    "id": 132,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1968 (faksimile)",
@@ -2214,7 +2238,7 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s130-1.jpg",
+        "src": "assets/img/s132-1.jpg",
         "w": 1048,
         "h": 1500,
         "caption": "GUIDO DELLE COLONNE: Kronika trojánská. Guidonis de Columna Historiae destructionis Troiae versio bohemica. Ed. Emma Urbánková [fotomechanické faksimile]. – (Editio Cimelia Bohemica : vol. IV.). – Praha : Pragopress, 1968\nKnihovna PNP, sign. S XXXVII b 14/1"
@@ -2222,7 +2246,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 131,
+    "id": 133,
     "kind": "text",
     "eyebrow": "Část II — 20. století",
     "title": "Zrod moderního českého typografického písma",
@@ -2232,7 +2256,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 132,
+    "id": 134,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2241,7 +2265,7 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s132-1.jpg",
+        "src": "assets/img/s134-1.jpg",
         "w": 743,
         "h": 480,
         "caption": "Vojtěch Preissig\nAkcidenční písmo, nedatováno,\nIČ: 9/68-349"
@@ -2249,7 +2273,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 133,
+    "id": 135,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2258,7 +2282,7 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s133-1.jpg",
+        "src": "assets/img/s135-1.jpg",
         "w": 636,
         "h": 835,
         "caption": "Vojtěch Preissig\nOtisk Preissigova akcidenčního písma a zkušební sazba, nedatováno,\nIČ: 9/68-395"
@@ -2266,7 +2290,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 134,
+    "id": 136,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2275,7 +2299,7 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s134-1.jpg",
+        "src": "assets/img/s136-1.jpg",
         "w": 555,
         "h": 984,
         "caption": "Karel Svolinský\nAntikva pro výstavu v Paříži, 1924,\nPrůmyslová tiskárna\n\nSlavoboj Tusar\nAntikva s alternativními znaky, 1926,\nMonotype"
@@ -2283,7 +2307,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 135,
+    "id": 137,
     "kind": "text",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2292,7 +2316,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 136,
+    "id": 138,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Josef Váchal (1884–1969)",
@@ -2302,7 +2326,7 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s136-1.jpg",
+        "src": "assets/img/s138-1.jpg",
         "w": 277,
         "h": 376,
         "caption": "Josef Váchal\nKorčula (1927), kniha obsahující 52 barevných dřevorytů a 78 stran textu.\nVáchal pro tuto publikaci vyřezal 3 000 písmen a odlil 4 500 liter.\nVznikl tak soubor několika druhů písem bohaté rozmanitosti, od tučných až po slabé litery."
@@ -2310,7 +2334,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 137,
+    "id": 139,
     "kind": "table",
     "eyebrow": "Část II — 20. století",
     "title": "Chronologický přehled vývoje českých písem (1915–1940)",
@@ -2390,19 +2414,19 @@ window.SLIDES = [
     }
   },
   {
-    "id": 138,
+    "id": 140,
     "kind": "gallery",
     "eyebrow": "Část II — 20. století",
     "title": "Obrazové ukázky",
     "images": [
       {
-        "src": "assets/img/s138-1.jpg",
+        "src": "assets/img/s140-1.jpg",
         "w": 689,
         "h": 978,
         "caption": "Jean Cocteau: Chvála knihtisku\nPreissigovo písmo, 1930\nPNP/OK\nIČ AHO 675"
       },
       {
-        "src": "assets/img/s138-2.jpg",
+        "src": "assets/img/s140-2.jpg",
         "w": 717,
         "h": 1000,
         "caption": "Jaroslav Durych: Panenky\nPísmo Goudy s akcenty V. Preissiga, 1927\nPNP/OK\nIČ C12 d 64"
@@ -2410,7 +2434,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 139,
+    "id": 141,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
@@ -2420,19 +2444,19 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s139-1.jpg",
+        "src": "assets/img/s141-1.jpg",
         "w": 438,
         "h": 650,
         "caption": "Vojtěch Preissig\nAkcidenční písmo\nTisk\nIČ 9/68-395"
       },
       {
-        "src": "assets/img/s139-2.jpg",
+        "src": "assets/img/s141-2.jpg",
         "w": 773,
         "h": 545,
         "caption": "Vojtěch Preissig\nNávrh písma pro knihu The House, 1914\nTuš na papíře\nIČ 9/68-349"
       },
       {
-        "src": "assets/img/s139-3.jpg",
+        "src": "assets/img/s141-3.jpg",
         "w": 438,
         "h": 663,
         "caption": "Vojtěch Preissig\nStudie písma pro knihu The House, 1914\nTuš na papíře\nIČ 9/68-353"
@@ -2440,25 +2464,25 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 140,
+    "id": 142,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
     "images": [
       {
-        "src": "assets/img/s140-1.jpg",
+        "src": "assets/img/s142-1.jpg",
         "w": 526,
         "h": 791,
         "caption": "Vojtěch Preissig\nPreissigova antikva, pracovní verze, 1923–1925\nTisk\nIČ 9/68-360"
       },
       {
-        "src": "assets/img/s140-2.jpg",
+        "src": "assets/img/s142-2.jpg",
         "w": 624,
         "h": 930,
         "caption": "Vojtěch Preissig\nProspekt k vydání Slezských písní; Zprávy Spolku bibliofilů r. I. č. 2\nLept\nIČ 9/68-691"
       },
       {
-        "src": "assets/img/s140-3.jpg",
+        "src": "assets/img/s142-3.jpg",
         "w": 578,
         "h": 918,
         "caption": "Vojtěch Preissig\nPlakát k výstavě grafiky Wentworth Institute\nTisk\nIČ 9/68-746"
@@ -2466,86 +2490,28 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 141,
+    "id": 143,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
     "images": [
       {
-        "src": "assets/img/s141-1.jpg",
+        "src": "assets/img/s143-1.jpg",
         "w": 614,
         "h": 809,
         "caption": "Vojtěch Preissig\nStudie písma\nTuš na papíře\nIČ 9/68-844"
       },
       {
-        "src": "assets/img/s141-2.jpg",
+        "src": "assets/img/s143-2.jpg",
         "w": 608,
         "h": 944,
         "caption": "Vojtěch Preissig\nBarevný lept a barevná rytina, 1909\nTisk\nIČ ZD 1E/35"
       },
       {
-        "src": "assets/img/s141-3.jpg",
+        "src": "assets/img/s143-3.jpg",
         "w": 690,
         "h": 970,
         "caption": "Vojtěch Preissig\nAnatol France: Místodržitel judský, 1929\nPísmo vysazeno z původní Italiky Vojtěcha Preissiga, jež byla pantograficky vyryta a vylita Státní tiskárnou v Praze\nIČ VZinková 819"
-      }
-    ]
-  },
-  {
-    "id": 142,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Jaroslav Benda (1882–1965)",
-    "paragraphs": [
-      "Kreslíř, typograf a písmař. Už jako student VŠUP a AVU se podílel na zkvalitnění knižní produkce. Po vzniku samostatného Československa pracovali s Vratislavem Hugo Brunnerem a Františkem Kyselou na návrhu písma, jehož tvarosloví by reflektovalo národní charakter. Ačkoliv se návrhům písem věnoval po celou dobu svého profesního života, realizace jeho návrhů tiskového písma se uskutečnila až v 60. letech. Benda navrhl pouze čtyři písma pro ruční a řádkovou sazbu. Na knižním písmu začal pracovat v roce 1913, předlohy byly dokončeny v roce 1923, realizace se ale neuskutečnila."
-    ],
-    "images": [
-      {
-        "src": "assets/img/s142-1.jpg",
-        "w": 762,
-        "h": 1121,
-        "caption": "Jaroslav Benda\nNávrh typografického písma\nKresebné návrhy, akcenty VI\nlepená kompozice, korektury, tuš a běloba\nIČ 32/68-10"
-      },
-      {
-        "src": "assets/img/s142-2.jpg",
-        "w": 1091,
-        "h": 751,
-        "caption": "Jaroslav Benda\nNávrh typografického písma\nStrojová knižní Romana, pro srovnání uveden Plantin (Monotype), 1968\nIČ 32/68-11"
-      },
-      {
-        "src": "assets/img/s142-3.jpg",
-        "w": 1374,
-        "h": 981,
-        "caption": "Jaroslav Benda\nKresebný návrh Romany se dvěma alternativami akcentů, 1962, 1968\nIČ 32/68-12"
-      }
-    ]
-  },
-  {
-    "id": 143,
-    "kind": "figure",
-    "eyebrow": "Osobnosti",
-    "title": "Jaroslav Benda (1882–1965)",
-    "paragraphs": [
-      "V roce 1935 zaslal Benda návrhy písma do anglické firmy Monotype, kde byly objeveny v archivu až v roce 2013. Bendovy nerealizované návrhy písem se uplatnily v knižních grafických úpravách a rovněž v akcidenčních tiscích (např. plakátové písmo Mánes z r. 1919 vydané Grafií patří k jednomu z prvních písem kompletně provedených v Československu)."
-    ],
-    "images": [
-      {
-        "src": "assets/img/s143-1.jpg",
-        "w": 737,
-        "h": 1196,
-        "caption": "Jaroslav Benda\nNávrh obálky\nKamil Krofta: Naše staré legendy, 1947\nIČ 11/2018-102"
-      },
-      {
-        "src": "assets/img/s143-2.jpg",
-        "w": 895,
-        "h": 911,
-        "caption": "Jaroslav Benda\nNávrh obálky\nKarel Buchterla a Lubor Niederle: Příručka české archeologie, Umění a řemesla sv. 5, 1910, na rubu přípis Štencovi\nIČ 11/2018-20 (1,2)"
-      },
-      {
-        "src": "assets/img/s143-3.jpg",
-        "w": 916,
-        "h": 847,
-        "caption": "Jaroslav Benda\nNávrh obálky\nLuděk Bradáč: Knihvazačství, Umění a řemesla sv. 7, 1912, poznámky\nIČ 11/2018-67"
       }
     ]
   },
@@ -2554,21 +2520,79 @@ window.SLIDES = [
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Jaroslav Benda (1882–1965)",
+    "paragraphs": [
+      "Kreslíř, typograf a písmař. Už jako student VŠUP a AVU se podílel na zkvalitnění knižní produkce. Po vzniku samostatného Československa pracovali s Vratislavem Hugo Brunnerem a Františkem Kyselou na návrhu písma, jehož tvarosloví by reflektovalo národní charakter. Ačkoliv se návrhům písem věnoval po celou dobu svého profesního života, realizace jeho návrhů tiskového písma se uskutečnila až v 60. letech. Benda navrhl pouze čtyři písma pro ruční a řádkovou sazbu. Na knižním písmu začal pracovat v roce 1913, předlohy byly dokončeny v roce 1923, realizace se ale neuskutečnila."
+    ],
     "images": [
       {
         "src": "assets/img/s144-1.jpg",
+        "w": 762,
+        "h": 1121,
+        "caption": "Jaroslav Benda\nNávrh typografického písma\nKresebné návrhy, akcenty VI\nlepená kompozice, korektury, tuš a běloba\nIČ 32/68-10"
+      },
+      {
+        "src": "assets/img/s144-2.jpg",
+        "w": 1091,
+        "h": 751,
+        "caption": "Jaroslav Benda\nNávrh typografického písma\nStrojová knižní Romana, pro srovnání uveden Plantin (Monotype), 1968\nIČ 32/68-11"
+      },
+      {
+        "src": "assets/img/s144-3.jpg",
+        "w": 1374,
+        "h": 981,
+        "caption": "Jaroslav Benda\nKresebný návrh Romany se dvěma alternativami akcentů, 1962, 1968\nIČ 32/68-12"
+      }
+    ]
+  },
+  {
+    "id": 145,
+    "kind": "figure",
+    "eyebrow": "Osobnosti",
+    "title": "Jaroslav Benda (1882–1965)",
+    "paragraphs": [
+      "V roce 1935 zaslal Benda návrhy písma do anglické firmy Monotype, kde byly objeveny v archivu až v roce 2013. Bendovy nerealizované návrhy písem se uplatnily v knižních grafických úpravách a rovněž v akcidenčních tiscích (např. plakátové písmo Mánes z r. 1919 vydané Grafií patří k jednomu z prvních písem kompletně provedených v Československu)."
+    ],
+    "images": [
+      {
+        "src": "assets/img/s145-1.jpg",
+        "w": 737,
+        "h": 1196,
+        "caption": "Jaroslav Benda\nNávrh obálky\nKamil Krofta: Naše staré legendy, 1947\nIČ 11/2018-102"
+      },
+      {
+        "src": "assets/img/s145-2.jpg",
+        "w": 895,
+        "h": 911,
+        "caption": "Jaroslav Benda\nNávrh obálky\nKarel Buchterla a Lubor Niederle: Příručka české archeologie, Umění a řemesla sv. 5, 1910, na rubu přípis Štencovi\nIČ 11/2018-20 (1,2)"
+      },
+      {
+        "src": "assets/img/s145-3.jpg",
+        "w": 916,
+        "h": 847,
+        "caption": "Jaroslav Benda\nNávrh obálky\nLuděk Bradáč: Knihvazačství, Umění a řemesla sv. 7, 1912, poznámky\nIČ 11/2018-67"
+      }
+    ]
+  },
+  {
+    "id": 146,
+    "kind": "figure",
+    "eyebrow": "Osobnosti",
+    "title": "Jaroslav Benda (1882–1965)",
+    "images": [
+      {
+        "src": "assets/img/s146-1.jpg",
         "w": 1092,
         "h": 845,
         "caption": "Jaroslav Benda\nNávrh obálky\nJan Laichter: V žáru vzpoury, 1938\nIČ 11/2018-30"
       },
       {
-        "src": "assets/img/s144-2.jpg",
+        "src": "assets/img/s146-2.jpg",
         "w": 788,
         "h": 1040,
         "caption": "Jaroslav Benda\nNávrh obálky\nS. K. Neumann: Anti-Gide, 1950, Cicero\nIČ 70/57-1382 (1,2)"
       },
       {
-        "src": "assets/img/s144-3.jpg",
+        "src": "assets/img/s146-3.jpg",
         "w": 681,
         "h": 1017,
         "caption": "Jaroslav Benda\nTitulní list\nHonoré de Balzacc: Dívka se zlatýma očima, 1907\n(Přelom století – bezserifová písma kompaktních bloků v secesním stylu)\nIČ Hoffmeister 0376"
@@ -2576,7 +2600,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 145,
+    "id": 147,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
@@ -2585,12 +2609,12 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s145-1.jpg",
+        "src": "assets/img/s147-1.jpg",
         "w": 446,
         "h": 730
       },
       {
-        "src": "assets/img/s145-2.jpg",
+        "src": "assets/img/s147-2.jpg",
         "w": 456,
         "h": 627
       }
@@ -2598,23 +2622,23 @@ window.SLIDES = [
     "groupCaption": "Karel Dyrynk\nMalostranská antikva (1927) (2 obr.)\nAnatole France: Laeta Acilia, 1929\nPísmo: první, zkušební tisk Malostranskou antikvou, původním písmem navrženým, řezaným i vylitým slévárnou Státní tiskárny\nV návrhu z roku 1927 se Dyrynk přiblížil ke klasické antikvě aldinského typu.\nPoprvé byla aplikována k tisku členské prémie SČB (T. G. Masaryk: Vybrané eseje, 1930). Italiku nakreslil v roce 1928.\nIČ Topič 0340"
   },
   {
-    "id": 146,
+    "id": 148,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
     "images": [
       {
-        "src": "assets/img/s146-1.jpg",
+        "src": "assets/img/s148-1.jpg",
         "w": 568,
         "h": 780
       },
       {
-        "src": "assets/img/s146-2.jpg",
+        "src": "assets/img/s148-2.jpg",
         "w": 570,
         "h": 783
       },
       {
-        "src": "assets/img/s146-3.jpg",
+        "src": "assets/img/s148-3.jpg",
         "w": 598,
         "h": 977
       }
@@ -2622,28 +2646,28 @@ window.SLIDES = [
     "groupCaption": "Karel Dyrynk\nDyrynkova latinka (1929) (3 obr.)\nAnatole France: Dcera Lilitina, 1930\nPísmo: Dyrynkova latinka, řezaná ve Státní tiskárně pro Grégrovu slévárnu\nLatinka byla odlita v roce 1929 novou slévárnou Arnošta Grégra, která písmo rovněž uvedla na trh pro všechny domácí tiskárny.\nKurzíva byla Dyrynkem navržena rovněž v roce 1929.\nIČ Topič 0576"
   },
   {
-    "id": 147,
+    "id": 149,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
     "images": [
       {
-        "src": "assets/img/s147-1.jpg",
+        "src": "assets/img/s149-1.jpg",
         "w": 590,
         "h": 978
       },
       {
-        "src": "assets/img/s147-2.jpg",
+        "src": "assets/img/s149-2.jpg",
         "w": 600,
         "h": 972
       },
       {
-        "src": "assets/img/s147-3.jpg",
+        "src": "assets/img/s149-3.jpg",
         "w": 592,
         "h": 970
       },
       {
-        "src": "assets/img/s147-4.jpg",
+        "src": "assets/img/s149-4.jpg",
         "w": 595,
         "h": 974
       }
@@ -2651,7 +2675,7 @@ window.SLIDES = [
     "groupCaption": "Grégrova romana (1930) (2 obr.)\nDyrynkova romana III, později opravena na Grégrovu romanu, byla vytvořena v roce 1930. Písmo svými tvary bylo vhodné pro tisk bibliofilií. V roce 1931 byla vytvořena kurzíva\n\nNávrhy dalších písem (2 obr.):\n1. Písmo biblické (1934)\n2. Hetitské znaky (1932–1934)"
   },
   {
-    "id": 148,
+    "id": 150,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Oldřich Menhart (1897–1962)",
@@ -2660,19 +2684,19 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s148-1.jpg",
+        "src": "assets/img/s150-1.jpg",
         "w": 983,
         "h": 684,
         "caption": "Oldřich Menhart\nMenhartova antikva s kurzívou, 1932–1935, Bauersche Giesserei"
       },
       {
-        "src": "assets/img/s148-2.jpg",
+        "src": "assets/img/s150-2.jpg",
         "w": 1017,
         "h": 822,
         "caption": "Oldřich Menhart\nMenhartova romana s italikou, 1934–1936, Lanston Monotype"
       },
       {
-        "src": "assets/img/s148-3.jpg",
+        "src": "assets/img/s150-3.jpg",
         "w": 1156,
         "h": 639,
         "caption": "Oldřich Menhart\nMenhartův Figural romana, 1948–1949, Státní tiskárna a Grafotechna"
@@ -2680,7 +2704,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 149,
+    "id": 151,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Method Kaláb (1885–1963)",
@@ -2689,13 +2713,13 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s149-1.jpg",
+        "src": "assets/img/s151-1.jpg",
         "w": 546,
         "h": 976,
         "caption": "Method Kaláb\nNávrhy antikvy z pozůstalosti, 1930, Grafotechna"
       },
       {
-        "src": "assets/img/s149-2.jpg",
+        "src": "assets/img/s151-2.jpg",
         "w": 556,
         "h": 979,
         "caption": "Karel Svolinský\nWenceslas, 1934, Monotype"
@@ -2703,13 +2727,13 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 150,
+    "id": 152,
     "kind": "text",
     "eyebrow": "Závěr",
     "title": "Závěr"
   },
   {
-    "id": 151,
+    "id": 153,
     "kind": "closing",
     "eyebrow": "Děkujeme",
     "title": "Mgr. Alena Petruželková\nBc. Jan Kašpar",
@@ -2719,12 +2743,12 @@ window.SLIDES = [
     ],
     "images": [
       {
-        "src": "assets/img/s151-1.png",
+        "src": "assets/img/s153-1.png",
         "w": 297,
         "h": 64
       },
       {
-        "src": "assets/img/s151-2.jpg",
+        "src": "assets/img/s153-2.jpg",
         "w": 767,
         "h": 431
       }
