@@ -12,6 +12,11 @@ from pathlib import Path
 
 VYNECHAT = {7, 9, 12, 13, 14, 47, 51, 84, 90, 91, 92, 93, 102, 115, 118, 120, 124, 131, 132}
 
+# úpravy jen pro zkrácenou verzi, podle čísla slajdu plné verze; None pole odstraní
+UPRAVY = {
+    99: {"title": "Modlitební knihy", "kind": "text", "images": None},  # bez ukázky Kancionálu 1659
+}
+
 root = Path(__file__).resolve().parent.parent
 src = (root / "assets" / "data.js").read_text(encoding="utf-8")
 slides = json.loads(src[src.index("["):src.rstrip().rindex("]") + 1])
@@ -20,6 +25,11 @@ out = []
 for s in slides:
     if s["id"] in VYNECHAT:
         continue
+    for k, v in UPRAVY.get(s["id"], {}).items():
+        if v is None:
+            s.pop(k, None)
+        else:
+            s[k] = v
     s = dict(s, id=len(out) + 1)
     for im in s.get("images", []):
         im["src"] = "../" + im["src"]
