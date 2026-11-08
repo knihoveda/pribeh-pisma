@@ -2067,9 +2067,9 @@ window.SLIDES = [
     "id": 123,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Písně Františka Haise, 1870 a 1874",
+    "title": "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870",
     "paragraphs": [
-      "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870: Píseň složená a vydaná známým pražským písničkářem Františkem Haisem roku 1870 je celá tištěna frakturou. Litografická titulní ilustrace zobrazující náhrobek s andělem se objevila ve více Haisových dílech. Na tento a všechny další následující tisky byl již použit nikoli ruční, nýbrž strojový papír vyrobený z dřevěného obrusu",
+      "Píseň složená a vydaná známým pražským písničkářem Františkem Haisem roku 1870 je celá tištěna frakturou. Litografická titulní ilustrace zobrazující náhrobek s andělem se objevila ve více Haisových dílech. Na tento a všechny další následující tisky byl již použit nikoli ruční, nýbrž strojový papír vyrobený z dřevěného obrusu",
       "Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874: Další píseň Františka Haise roku 1874 je již celá tištěna antikvou. Litografická titulní ilustrace zobrazující náhrobek s andělem je stejná jako v předchozí písni"
     ],
     "groupCaption": "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870\nAch poslyšte smutné pění, /|| moji rozmilí krajani, … HAIS, František: Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, měšťanu pražském a mistru řeznickém, dne 27. ledna v roku 1870. – Praha : František Hais, [1870] (Praha : Jan Spurný, [1870])\nKnihovna PNP, sign. T 116/41, list [1]a\n\nTruchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874\nAch ustrňte se krajané, vla-||stencové upřímní, / ať se hojné slze || roní, při verších těchto čtení, … HAIS, František: Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt na své manželce a dvou dítek [!] , posledně sám sobě život vzal dne 3. září 1874, u Prahy ve vsi Bubnech. – Praha : František Hais, [1874] (Praha : Jan Spurný, [1874])\nKnihovna PNP, sign. T 116/40, list [1]a",
