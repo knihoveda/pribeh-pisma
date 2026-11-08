@@ -9,7 +9,7 @@
   // ---------------------------------------------------------------------------
 
   var SLIDES = window.SLIDES || [];
-  var ASSET_VERSION = "20261108-2";
+  var ASSET_VERSION = "20261108-3";
 
   var W = 1920, H = 1080;
   var M = 96;              // vnější okraj
