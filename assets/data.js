@@ -1,5 +1,5 @@
 // Obsahová data prezentace „Příběh písma“ — 550. výročí českého knihtisku.
-// Texty a obrázky převzaty z prezentace v Canvě (155 slajdů), pořadí zachováno.
+// Texty a obrázky převzaty z prezentace v Canvě (153 slajdů), pořadí zachováno.
 // Vygenerováno z exportu .pptx; upravujte volně — layout se dopočítá v app.js.
 window.SLIDES = [
   {
@@ -2067,16 +2067,22 @@ window.SLIDES = [
     "id": 123,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870",
+    "title": "Písně Františka Haise, 1870 a 1874",
     "paragraphs": [
-      "Píseň složená a vydaná známým pražským písničkářem Františkem Haisem roku 1870 je celá tištěna frakturou. Litografická titulní ilustrace zobrazující náhrobek s andělem se objevila ve více Haisových dílech. Na tento a všechny další následující tisky byl již použit nikoli ruční, nýbrž strojový papír vyrobený z dřevěného obrusu"
+      "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870: Píseň složená a vydaná známým pražským písničkářem Františkem Haisem roku 1870 je celá tištěna frakturou. Litografická titulní ilustrace zobrazující náhrobek s andělem se objevila ve více Haisových dílech. Na tento a všechny další následující tisky byl již použit nikoli ruční, nýbrž strojový papír vyrobený z dřevěného obrusu",
+      "Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874: Další píseň Františka Haise roku 1874 je již celá tištěna antikvou. Litografická titulní ilustrace zobrazující náhrobek s andělem je stejná jako v předchozí písni"
     ],
+    "groupCaption": "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870\nAch poslyšte smutné pění, /|| moji rozmilí krajani, … HAIS, František: Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, měšťanu pražském a mistru řeznickém, dne 27. ledna v roku 1870. – Praha : František Hais, [1870] (Praha : Jan Spurný, [1870])\nKnihovna PNP, sign. T 116/41, list [1]a\n\nTruchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874\nAch ustrňte se krajané, vla-||stencové upřímní, / ať se hojné slze || roní, při verších těchto čtení, … HAIS, František: Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt na své manželce a dvou dítek [!] , posledně sám sobě život vzal dne 3. září 1874, u Prahy ve vsi Bubnech. – Praha : František Hais, [1874] (Praha : Jan Spurný, [1874])\nKnihovna PNP, sign. T 116/40, list [1]a",
     "images": [
       {
         "src": "assets/img/s123-1.jpg",
         "w": 784,
-        "h": 1474,
-        "caption": "Ach poslyšte smutné pění, /|| moji rozmilí krajani, … HAIS, František: Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, měšťanu pražském a mistru řeznickém, dne 27. ledna v roku 1870. – Praha : František Hais, [1870] (Praha : Jan Spurný, [1870])\nKnihovna PNP, sign. T 116/41, list [1]a"
+        "h": 1474
+      },
+      {
+        "src": "assets/img/s123-2.jpg",
+        "w": 960,
+        "h": 1499
       }
     ]
   },
@@ -2084,55 +2090,27 @@ window.SLIDES = [
     "id": 124,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874",
+    "title": "Písně o vraždě v Polné, 1899 a 1900",
     "paragraphs": [
-      "Další píseň Františka Haise roku 1874 je již celá tištěna antikvou. Litografická titulní ilustrace zobrazující náhrobek s andělem je stejná jako v předchozí písni"
+      "Tajůplná děsná vražda v Polné, 1899: Kramářská píseň se zmocnila i tématu proslulé vraždy v Polné, která vyvolala tzv. hilsneriádu, stejným způsobem jako všech ostatních případů vražd. Tento tisk lze dle kontextu přibližně datovat druhou polovinou roku 1899. Je v něm zmínka o odsouzení Leopolda Hilsnera v Kutné Hoře, k němuž došlo 16. září 1899. Antikvová sazba byla v této době již zcela běžnou",
+      "Píseň o Anežce Hrůzové a Marii Klímové, 1900: Další z písní věnovaných případu Leopolda Hilsnera je z pozdější doby, podle údaje o rozsudku nad Hilsnerem před soudem v Písku ze 14. listopadu 1900 je možno tento tisk klást zhruba do závěru téhož roku. Očividně pseudonymního autora se zatím nepodařilo identifikovat"
     ],
+    "groupCaption": "Tajůplná děsná vražda v Polné, 1899\nPozastavte se drazí křesťané / při || vyslechnutí zprávy ukrutné, … Tajůplná děsná vražda v Polné. – Praha : Julius Janů, [1899]. – Nápěv: „Harfenice“\nKnihovna PNP, sign. T 35/15, list [1]a\n\nPíseň o Anežce Hrůzové a Marii Klímové, 1900\nPoslyšte, drazí, chviličku, /|| já vám zazpívám písničku, … SYFON, L. [pseud.]: Píseň o Anežce Hrůzové a Marii Klímové, jež byly zavražděny v lese u Polné 23letým izraelitou Leop[oldem]. Hilsnerem dvakrát odsouzeným k smrti provazem, nejprve v Kutné, [!] Hoře a pak v Písku. – Praha : Julius Janů, [1900]. – Nápěv: „Měsíc jde dál, on všechno ví“\nKnihovna PNP, sign. T 35/16, list [1]a",
     "images": [
       {
-        "src": "assets/img/s123-2.jpg",
-        "w": 960,
-        "h": 1499,
-        "caption": "Ach ustrňte se krajané, vla-||stencové upřímní, / ať se hojné slze || roní, při verších těchto čtení, … HAIS, František: Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt na své manželce a dvou dítek [!] , posledně sám sobě život vzal dne 3. září 1874, u Prahy ve vsi Bubnech. – Praha : František Hais, [1874] (Praha : Jan Spurný, [1874])\nKnihovna PNP, sign. T 116/40, list [1]a"
+        "src": "assets/img/s124-1.jpg",
+        "w": 953,
+        "h": 1500
+      },
+      {
+        "src": "assets/img/s124-2.jpg",
+        "w": 933,
+        "h": 1500
       }
     ]
   },
   {
     "id": 125,
-    "kind": "figure",
-    "eyebrow": "Část I — Raný knihtisk",
-    "title": "Tajůplná děsná vražda v Polné, 1899",
-    "paragraphs": [
-      "Kramářská píseň se zmocnila i tématu proslulé vraždy v Polné, která vyvolala tzv. hilsneriádu, stejným způsobem jako všech ostatních případů vražd. Tento tisk lze dle kontextu přibližně datovat druhou polovinou roku 1899. Je v něm zmínka o odsouzení Leopolda Hilsnera v Kutné Hoře, k němuž došlo 16. září 1899. Antikvová sazba byla v této době již zcela běžnou"
-    ],
-    "images": [
-      {
-        "src": "assets/img/s124-1.jpg",
-        "w": 953,
-        "h": 1500,
-        "caption": "Pozastavte se drazí křesťané / při || vyslechnutí zprávy ukrutné, … Tajůplná děsná vražda v Polné. – Praha : Julius Janů, [1899]. – Nápěv: „Harfenice“\nKnihovna PNP, sign. T 35/15, list [1]a"
-      }
-    ]
-  },
-  {
-    "id": 126,
-    "kind": "figure",
-    "eyebrow": "Část I — Raný knihtisk",
-    "title": "Píseň o Anežce Hrůzové a Marii Klímové, 1900",
-    "paragraphs": [
-      "Další z písní věnovaných případu Leopolda Hilsnera je z pozdější doby, podle údaje o rozsudku nad Hilsnerem před soudem v Písku ze 14. listopadu 1900 je možno tento tisk klást zhruba do závěru téhož roku. Očividně pseudonymního autora se zatím nepodařilo identifikovat"
-    ],
-    "images": [
-      {
-        "src": "assets/img/s124-2.jpg",
-        "w": 933,
-        "h": 1500,
-        "caption": "Poslyšte, drazí, chviličku, /|| já vám zazpívám písničku, … SYFON, L. [pseud.]: Píseň o Anežce Hrůzové a Marii Klímové, jež byly zavražděny v lese u Polné 23letým izraelitou Leop[oldem]. Hilsnerem dvakrát odsouzeným k smrti provazem, nejprve v Kutné, [!] Hoře a pak v Písku. – Praha : Julius Janů, [1900]. – Nápěv: „Měsíc jde dál, on všechno ví“\nKnihovna PNP, sign. T 35/16, list [1]a"
-      }
-    ]
-  },
-  {
-    "id": 127,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Písně o loupežných vraždách v Krči spáchaných Aloisem Valešem, 1904-1905",
@@ -2149,7 +2127,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 128,
+    "id": 126,
     "kind": "text",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Typografické faksimile Kroniky trojánské z roku 1918",
@@ -2159,7 +2137,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 129,
+    "id": 127,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
@@ -2176,7 +2154,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 130,
+    "id": 128,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
@@ -2193,7 +2171,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 131,
+    "id": 129,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
@@ -2215,7 +2193,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 132,
+    "id": 130,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
@@ -2232,7 +2210,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 133,
+    "id": 131,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1968 (faksimile)",
@@ -2246,7 +2224,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 134,
+    "id": 132,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1968 (faksimile)",
@@ -2263,7 +2241,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 135,
+    "id": 133,
     "kind": "text",
     "eyebrow": "Část II — 20. století",
     "title": "Zrod moderního českého typografického písma",
@@ -2273,7 +2251,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 136,
+    "id": 134,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2290,7 +2268,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 137,
+    "id": 135,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2307,7 +2285,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 138,
+    "id": 136,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2324,7 +2302,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 139,
+    "id": 137,
     "kind": "text",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2333,7 +2311,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 140,
+    "id": 138,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Josef Váchal (1884–1969)",
@@ -2351,7 +2329,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 141,
+    "id": 139,
     "kind": "table",
     "eyebrow": "Část II — 20. století",
     "title": "Chronologický přehled vývoje českých písem (1915–1940)",
@@ -2431,7 +2409,7 @@ window.SLIDES = [
     }
   },
   {
-    "id": 142,
+    "id": 140,
     "kind": "gallery",
     "eyebrow": "Část II — 20. století",
     "title": "Obrazové ukázky",
@@ -2451,7 +2429,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 143,
+    "id": 141,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
@@ -2481,7 +2459,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 144,
+    "id": 142,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
@@ -2507,7 +2485,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 145,
+    "id": 143,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
@@ -2533,7 +2511,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 146,
+    "id": 144,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Jaroslav Benda (1882–1965)",
@@ -2562,7 +2540,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 147,
+    "id": 145,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Jaroslav Benda (1882–1965)",
@@ -2591,7 +2569,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 148,
+    "id": 146,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Jaroslav Benda (1882–1965)",
@@ -2617,7 +2595,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 149,
+    "id": 147,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
@@ -2639,7 +2617,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 150,
+    "id": 148,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
@@ -2663,7 +2641,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 151,
+    "id": 149,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
@@ -2692,7 +2670,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 152,
+    "id": 150,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Oldřich Menhart (1897–1962)",
@@ -2721,7 +2699,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 153,
+    "id": 151,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Method Kaláb (1885–1963)",
@@ -2744,13 +2722,13 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 154,
+    "id": 152,
     "kind": "text",
     "eyebrow": "Závěr",
     "title": "Závěr"
   },
   {
-    "id": 155,
+    "id": 153,
     "kind": "closing",
     "eyebrow": "Děkujeme",
     "title": "Mgr. Alena Petruželková\nBc. Jan Kašpar",
