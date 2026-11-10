@@ -2412,12 +2412,6 @@ window.SLIDES = [
   },
   {
     "id": 132,
-    "kind": "text",
-    "eyebrow": "Závěr",
-    "title": "Závěr"
-  },
-  {
-    "id": 133,
     "kind": "closing",
     "eyebrow": "Děkujeme",
     "title": "Mgr. Alena Petruželková\nBc. Jan Kašpar",
