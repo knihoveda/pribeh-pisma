@@ -1792,12 +1792,17 @@ window.SLIDES = [
     "paragraphs": [
       "Tisk z roku 1863 je tištěn švabachem jako písmem textovým a frakturou coby písmem vyznačovacím, v tomto případě jde o název a impressum, incipit je tištěn švabachem. Na titulním listu je velmi hrubý ilustrační dřevořez. Celkové provedení tohoto tisku odkazuje někam na konec 18. století a nikoli na začátek 2. poloviny století 19."
     ],
+    "groupCaption": "Rozvažujme křesťané lásku || Krista Pána, / jak pro nás hří=||šné lidi jeho svatá hlava jest || velmi zedraná, … Příkladná píseň k spasitedlnému napravení ožralcův na světlo vydaná. – Uherská Skalice : Josef Škarnicl a František Xaver Škarnicl ml., 1863\nKnihovna PNP, sign. T 303, list [1]ab",
     "images": [
       {
         "src": "../assets/img/s121-1.jpg",
         "w": 815,
-        "h": 1024,
-        "caption": "Rozvažujme křesťané lásku || Krista Pána, / jak pro nás hří=||šné lidi jeho svatá hlava jest || velmi zedraná, … Příkladná píseň k spasitedlnému napravení ožralcův na světlo vydaná. – Uherská Skalice : Josef Šnarnicl a František Xaver Škarnicl ml., 1863\nKnihovna PNP, sign. T 303, list [1]ab"
+        "h": 1024
+      },
+      {
+        "src": "../assets/img/s122-1.jpg",
+        "w": 825,
+        "h": 1038
       }
     ]
   },
@@ -1807,27 +1812,10 @@ window.SLIDES = [
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870",
     "paragraphs": [
-      "Píseň složená a vydaná známým pražským písničkářem Františkem Haisem roku 1870 je celá tištěna frakturou. Litografická titulní ilustrace zobrazující náhrobek s andělem se objevila ve více Haisových dílech. Na tento a všechny další následující tisky byl již použit nikoli ruční, nýbrž strojový papír vyrobený z dřevěného obrusu"
+      "Píseň složená a vydaná známým pražským písničkářem Františkem Haisem roku 1870 je celá tištěna frakturou. Litografická titulní ilustrace zobrazující náhrobek s andělem se objevila ve více Haisových dílech. Na tento a všechny další následující tisky byl již použit nikoli ruční, nýbrž strojový papír vyrobený z dřevěného obrusu",
+      "Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874: Další píseň Františka Haise roku 1874 je již celá tištěna antikvou. Litografická titulní ilustrace zobrazující náhrobek s andělem je stejná jako v předchozí písni"
     ],
-    "images": [
-      {
-        "src": "../assets/img/s122-1.jpg",
-        "w": 825,
-        "h": 1038,
-        "caption": "Ach poslyšte smutné pění, /|| moji rozmilí krajani, … HAIS, František: Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, měšťanu pražském a mistru řeznickém, dne 27. ledna v roku 1870. – Praha : František Hais, [1870] (Praha : Jan Spurný, [1870])\nKnihovna PNP, sign. T 116/41, list [1]a"
-      }
-    ]
-  },
-  {
-    "id": 107,
-    "kind": "figure",
-    "eyebrow": "Část I — Raný knihtisk",
-    "title": "Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874",
-    "paragraphs": [
-      "Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874: Další píseň Františka Haise roku 1874 je již celá tištěna antikvou. Litografická titulní ilustrace zobrazující náhrobek s andělem je stejná jako v předchozí písni",
-      "Tajůplná děsná vražda v Polné, 1899: Kramářská píseň se zmocnila i tématu proslulé vraždy v Polné, která vyvolala tzv. hilsneriádu, stejným způsobem jako všech ostatních případů vražd. Tento tisk lze dle kontextu přibližně datovat druhou polovinou roku 1899. Je v něm zmínka o odsouzení Leopolda Hilsnera v Kutné Hoře, k němuž došlo 16. září 1899. Antikvová sazba byla v této době již zcela běžnou"
-    ],
-    "groupCaption": "Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874\nAch ustrňte se krajané, vla-||stencové upřímní, / ať se hojné slze || roní, při verších těchto čtení, … HAIS, František: Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt na své manželce a dvou dítek [!] , posledně sám sobě život vzal dne 3. září 1874, u Prahy ve vsi Bubnech. – Praha : František Hais, [1874] (Praha : Jan Spurný, [1874])\nKnihovna PNP, sign. T 116/40, list [1]a\n\nTajůplná děsná vražda v Polné, 1899\nPozastavte se drazí křesťané / při || vyslechnutí zprávy ukrutné, … Tajůplná děsná vražda v Polné. – Praha : Julius Janů, [1899]. – Nápěv: „Harfenice“\nKnihovna PNP, sign. T 35/15, list [1]a",
+    "groupCaption": "Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, 1870\nAch poslyšte smutné pění, /|| moji rozmilí krajani, … HAIS, František: Truchlivá píseň o loupežné vraždě, která spáchána byla na panu Antonínu Kommovi, měšťanu pražském a mistru řeznickém, dne 27. ledna v roku 1870. – Praha : František Hais, [1870] (Praha : Jan Spurný, [1870])\nKnihovna PNP, sign. T 116/41, list [1]a\n\nTruchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt, 1874\nAch ustrňte se krajané, vla-||stencové upřímní, / ať se hojné slze || roní, při verších těchto čtení, … HAIS, František: Truchlivá píseň o hrozné vraždě, kterou spáchal Josef Diedt na své manželce a dvou dítek [!] , posledně sám sobě život vzal dne 3. září 1874, u Prahy ve vsi Bubnech. – Praha : František Hais, [1874] (Praha : Jan Spurný, [1874])\nKnihovna PNP, sign. T 116/40, list [1]a",
     "images": [
       {
         "src": "../assets/img/s123-1.jpg",
@@ -1842,7 +1830,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 108,
+    "id": 107,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Písně o loupežných vraždách v Krči spáchaných Aloisem Valešem, 1904-1905",
@@ -1859,7 +1847,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 109,
+    "id": 108,
     "kind": "text",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Typografické faksimile Kroniky trojánské z roku 1918",
@@ -1869,7 +1857,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 110,
+    "id": 109,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
@@ -1886,7 +1874,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 111,
+    "id": 110,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
@@ -1903,7 +1891,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 112,
+    "id": 111,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
@@ -1925,7 +1913,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 113,
+    "id": 112,
     "kind": "figure",
     "eyebrow": "Část I — Raný knihtisk",
     "title": "Kronika trojánská, 1918 (faksimile)",
@@ -1942,7 +1930,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 114,
+    "id": 113,
     "kind": "text",
     "eyebrow": "Část II — 20. století",
     "title": "Zrod moderního českého typografického písma",
@@ -1952,7 +1940,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 115,
+    "id": 114,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -1969,7 +1957,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 116,
+    "id": 115,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -1986,7 +1974,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 117,
+    "id": 116,
     "kind": "figure",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2003,7 +1991,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 118,
+    "id": 117,
     "kind": "text",
     "eyebrow": "Část II — 20. století",
     "title": "Z historie prvních pokusů",
@@ -2012,7 +2000,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 119,
+    "id": 118,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Josef Váchal (1884–1969)",
@@ -2030,7 +2018,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 120,
+    "id": 119,
     "kind": "table",
     "eyebrow": "Část II — 20. století",
     "title": "Chronologický přehled vývoje českých písem (1915–1940)",
@@ -2110,7 +2098,7 @@ window.SLIDES = [
     }
   },
   {
-    "id": 121,
+    "id": 120,
     "kind": "gallery",
     "eyebrow": "Část II — 20. století",
     "title": "Obrazové ukázky",
@@ -2130,7 +2118,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 122,
+    "id": 121,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
@@ -2160,7 +2148,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 123,
+    "id": 122,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
@@ -2186,7 +2174,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 124,
+    "id": 123,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Vojtěch Preissig (1873–1944)",
@@ -2212,7 +2200,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 125,
+    "id": 124,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Jaroslav Benda (1882–1965)",
@@ -2241,7 +2229,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 126,
+    "id": 125,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Jaroslav Benda (1882–1965)",
@@ -2270,7 +2258,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 127,
+    "id": 126,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Jaroslav Benda (1882–1965)",
@@ -2296,7 +2284,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 128,
+    "id": 127,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
@@ -2318,7 +2306,7 @@ window.SLIDES = [
     "groupCaption": "Karel Dyrynk\nMalostranská antikva (1927) (2 obr.)\nAnatole France: Laeta Acilia, 1929\nPísmo: první, zkušební tisk Malostranskou antikvou, původním písmem navrženým, řezaným i vylitým slévárnou Státní tiskárny\nV návrhu z roku 1927 se Dyrynk přiblížil ke klasické antikvě aldinského typu.\nPoprvé byla aplikována k tisku členské prémie SČB (T. G. Masaryk: Vybrané eseje, 1930). Italiku nakreslil v roce 1928.\nIČ Topič 0340"
   },
   {
-    "id": 129,
+    "id": 128,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
@@ -2342,7 +2330,7 @@ window.SLIDES = [
     "groupCaption": "Karel Dyrynk\nDyrynkova latinka (1929) (3 obr.)\nAnatole France: Dcera Lilitina, 1930\nPísmo: Dyrynkova latinka, řezaná ve Státní tiskárně pro Grégrovu slévárnu\nLatinka byla odlita v roce 1929 novou slévárnou Arnošta Grégra, která písmo rovněž uvedla na trh pro všechny domácí tiskárny.\nKurzíva byla Dyrynkem navržena rovněž v roce 1929.\nIČ Topič 0576"
   },
   {
-    "id": 130,
+    "id": 129,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Karel Dyrynk (1876–1949)",
@@ -2371,7 +2359,7 @@ window.SLIDES = [
     "groupCaption": "Grégrova romana (1930) (2 obr.)\nDyrynkova romana III, později opravena na Grégrovu romanu, byla vytvořena v roce 1930. Písmo svými tvary bylo vhodné pro tisk bibliofilií. V roce 1931 byla vytvořena kurzíva\n\nNávrhy dalších písem (2 obr.):\n1. Písmo biblické (1934)\n2. Hetitské znaky (1932–1934)"
   },
   {
-    "id": 131,
+    "id": 130,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Oldřich Menhart (1897–1962)",
@@ -2400,7 +2388,7 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 132,
+    "id": 131,
     "kind": "figure",
     "eyebrow": "Osobnosti",
     "title": "Method Kaláb (1885–1963)",
@@ -2423,13 +2411,13 @@ window.SLIDES = [
     ]
   },
   {
-    "id": 133,
+    "id": 132,
     "kind": "text",
     "eyebrow": "Závěr",
     "title": "Závěr"
   },
   {
-    "id": 134,
+    "id": 133,
     "kind": "closing",
     "eyebrow": "Děkujeme",
     "title": "Mgr. Alena Petruželková\nBc. Jan Kašpar",
