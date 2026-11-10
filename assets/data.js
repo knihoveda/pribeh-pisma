@@ -1,5 +1,5 @@
 // Obsahová data prezentace „Příběh písma“ — 550. výročí českého knihtisku.
-// Texty a obrázky převzaty z prezentace v Canvě (154 slajdů), pořadí zachováno.
+// Texty a obrázky převzaty z prezentace v Canvě (153 slajdů), pořadí zachováno.
 // Vygenerováno z exportu .pptx; upravujte volně — layout se dopočítá v app.js.
 window.SLIDES = [
   {
@@ -2049,7 +2049,7 @@ window.SLIDES = [
     "paragraphs": [
       "Tisk z roku 1863 je tištěn švabachem jako písmem textovým a frakturou coby písmem vyznačovacím, v tomto případě jde o název a impressum, incipit je tištěn švabachem. Na titulním listu je velmi hrubý ilustrační dřevořez. Celkové provedení tohoto tisku odkazuje někam na konec 18. století a nikoli na začátek 2. poloviny století 19."
     ],
-    "groupCaption": "Rozvažujme křesťané lásku || Krista Pána, / jak pro nás hří=||šné lidi jeho svatá hlava jest || velmi zedraná, … Příkladná píseň k spasitedlnému napravení ožralcův na světlo vydaná. – Uherská Skalice : Josef Šnarnicl a František Xaver Škarnicl ml., 1863\nKnihovna PNP, sign. T 303, list [1]ab",
+    "groupCaption": "Rozvažujme křesťané lásku || Krista Pána, / jak pro nás hří=||šné lidi jeho svatá hlava jest || velmi zedraná, … Příkladná píseň k spasitedlnému napravení ožralcův na světlo vydaná. – Uherská Skalice : Josef Škarnicl a František Xaver Škarnicl ml., 1863\nKnihovna PNP, sign. T 303, list [1]ab",
     "images": [
       {
         "src": "assets/img/s121-1.jpg",
@@ -2734,12 +2734,6 @@ window.SLIDES = [
   },
   {
     "id": 153,
-    "kind": "text",
-    "eyebrow": "Závěr",
-    "title": "Závěr"
-  },
-  {
-    "id": 154,
     "kind": "closing",
     "eyebrow": "Děkujeme",
     "title": "Mgr. Alena Petruželková\nBc. Jan Kašpar",
