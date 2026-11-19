@@ -64,7 +64,7 @@ window.SLIDES = [
     "id": 5,
     "kind": "text",
     "eyebrow": "Část I — Raný knihtisk",
-    "title": "Rukopisný kodex a tištěná kniha. Vývoj čtenářského aparátu",
+    "title": "Rukopisný kodex a tištěná kniha",
     "paragraphs": [
       "Pro období raného knihtisku druhé poloviny 15. století obecně platí, že tištěná kniha ve snaze vyhovět konzervativnímu čtenářskému vkusu svým vzhledem napodobovala knihu rukopisnou, a to jak co do vzhledu tisku, tak i způsobem výzdoby. Pro prvotisky bývá typická dvousloupcová sazba odvozená od rukopisné podoby s vynechanými místy pro iniciály, které tak jako v rukopisech doplňoval iluminátor, stejně tak jako bordury a drolerie na volných okrajích počátečních listů. Aby iluminátoři nebyli nuceni číst celý řádek, nezřídka jim tiskaři uprostřed volného místa vyznačili písmeno k doplnění malou, většinou minuskulní reprezentantou, která se pak ztratila pod nánosem barvy. K následnému kolorování byly také určeny první ilustrace, představované hrubými konturovými dřevořezy, aby tak lépe vynikly barevné plochy. Text, který byl sázen rozčleněný pouze do kapitol, ale nikoli již do odstavců, často za pomoci šablony ručně dělil rubrikátor, jenž tradiční červenou barvou vpisoval na konce odstavců, souvětí a někdy i jednotlivých vět typické nepřehlédnutelné rubriky (¶), nebo v horším případě alespoň svislé čáry."
     ]
