@@ -38,11 +38,13 @@ window.SLIDES = [
     "title": "Obsah",
     "items": [
       {
-        "label": "Část I · s. 4–112",
+        "label": "Část I",
+        "pages": "s. 4–112",
         "text": "Ukázky písma z období, kdy se tiskové písmo postupně odpoutalo od svých rukopisných předloh a položilo základy typografického písma"
       },
       {
-        "label": "Část II · s. 113–131",
+        "label": "Část II",
+        "pages": "s. 113–131",
         "text": "Ukázky písma z 20. století, kdy vzniklo původní typografické písmo pro tisk češtiny"
       }
     ]

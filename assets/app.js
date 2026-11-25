@@ -9,7 +9,7 @@
   // ---------------------------------------------------------------------------
 
   var SLIDES = window.SLIDES || [];
-  var ASSET_VERSION = "20261119-1";
+  var ASSET_VERSION = "20261125-1";
 
   var W = 1920, H = 1080;
   var M = 96;              // vnější okraj
@@ -411,7 +411,9 @@
       var num = it.label.split(/\s+/).pop();
       var row = el("div", "agenda-item",
         '<div class="agenda-num">' + esc(num) + "</div>" +
-        '<div><div class="agenda-label">' + esc(it.label) + "</div><p>" + esc(it.text) + "</p></div>");
+        '<div><div class="agenda-label">' + esc(it.label) +
+        (it.pages ? ' · <span class="agenda-pages">' + esc(it.pages) + "</span>" : "") +
+        "</div><p>" + esc(it.text) + "</p></div>");
       list.appendChild(rv(row, 2 + i));
     });
     place(list, listX, TOP, W - M - listX, CONTENT_H);

@@ -251,6 +251,7 @@ button { font: inherit; color: inherit; }
 .agenda-item:last-child { padding-bottom: 0; }
 .agenda-num { font-family: var(--serif); font-size: 160px; line-height: .8; letter-spacing: -.02em; color: var(--red); }
 .agenda-label { font-family: var(--mono); font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: var(--graphite); margin-bottom: 18px; }
+.agenda-pages { text-transform: none; }
 .agenda-item p { margin: 0; font-family: var(--serif); font-size: 46px; line-height: 1.15; color: var(--ink); text-wrap: pretty; }
 .cover-quote cite { display: block; margin-top: 22px; font-family: var(--mono); font-style: normal; font-size: 15px; letter-spacing: .14em; text-transform: uppercase; color: var(--on-night-mute); }
 
